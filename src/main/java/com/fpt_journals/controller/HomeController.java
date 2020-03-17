@@ -25,6 +25,5 @@ public class HomeController {
 	public String ViewElements() {
 		return "elements";
 	}
-
 	
 }

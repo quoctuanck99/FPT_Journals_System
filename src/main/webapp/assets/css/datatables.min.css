@@ -2727,7 +2727,7 @@ a img {
 	border: 0
 }
 
-hr {
+/* hr {
 	clear: both;
 	max-width: 75rem;
 	height: 0;
@@ -2736,7 +2736,7 @@ hr {
 	border-right: 0;
 	border-bottom: 1px solid #cacaca;
 	border-left: 0
-}
+} */
 
 dl, ol, ul {
 	margin-bottom: 1rem;
