@@ -11,7 +11,7 @@
 						placeholder="Tiêu đề" value="">
 				</div>
 				<div class="col-md-2">
-					<input class="search-input" type="text" id="name" name="s"
+					<input class="search-input" type="text" id="" name="s"
 						placeholder="Tác giả" value="">
 				</div>
 				<div class="col-md-2">

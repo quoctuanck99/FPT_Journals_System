@@ -2968,7 +2968,7 @@ ol.no-bullet, ul.no-bullet {
 	}
 }
 
-[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email],
+/* [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email],
 	[type=month], [type=number], [type=password], [type=search], [type=tel],
 	[type=text], [type=time], [type=url], [type=week], textarea {
 	display: block;
@@ -2997,7 +2997,7 @@ ol.no-bullet, ul.no-bullet {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none
-}
+} */
 
 [type=color]:focus, [type=date]:focus, [type=datetime-local]:focus, [type=datetime]:focus,
 	[type=email]:focus, [type=month]:focus, [type=number]:focus, [type=password]:focus,
@@ -3214,7 +3214,7 @@ legend {
 	padding: 0 .1875rem
 }
 
-select {
+/* select {
 	height: 2.4375rem;
 	margin: 0 0 1rem;
 	padding: .5rem;
@@ -3244,7 +3244,7 @@ select {
 	transition: box-shadow .5s, border-color .25s ease-in-out;
 	transition: box-shadow .5s, border-color .25s ease-in-out,
 		-webkit-box-shadow .5s
-}
+} */
 
 @media screen and (min-width:0\0) {
 	select {

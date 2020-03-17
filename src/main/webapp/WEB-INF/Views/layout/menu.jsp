@@ -41,9 +41,9 @@
 		<ul>
 			<li><a href="single-course.html"><img
 					src="https://www.mdpi.com/img/journals/sensors-logo-sq.png"
-					width="70px"></a> <span>#01</span> <a href="single-course.html">
-					<h6>Computer Science</h6>
-			</a>
+					width="70px"></a> <span>#01</span><h6> <a href="single-course.html">
+					Computer Science
+			</a></h6>
 				<p>
 					Tổng số bài viết: <em>100</em>
 				</p></li>

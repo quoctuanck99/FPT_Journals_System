@@ -570,6 +570,12 @@ nav.responsive-menu a {
 	transition: transform 0.5s;
 }
 
+.slide-from-left.sidebar-menu-open .slide-from-left.sidebar-menu {
+    visibility: visible !important;
+    -webkit-transition: -webkit-transform 0s;
+    transition: transform 0s !important;
+}
+
 .sidebar-menu-overlay {
 	position: absolute;
 	z-index: 9999;
@@ -3951,7 +3957,7 @@ section.single-teacher .single-teacher-item .description ul li:last-child
 }
 
 .related-courses {
-	margin-top: 40px;
+	margin-top: 30px;
 	border: 2px solid #f2f5f6;
 }
 
