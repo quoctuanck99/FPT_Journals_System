@@ -1,0 +1,41 @@
+#search-bar {
+    width: 100%;
+    height: 90px;
+    border-bottom: 0.5px solid lightgray;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.search-input {
+    width: 100%;
+    min-height: 30px;
+    border: 0.5px solid lightgray;
+    font-size: 13px;
+    color: gray;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    border: none;
+    font-size: 13px;
+    background-color: #f27228;
+    color: white;
+    min-height: 30px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    #search-bar {
+        display: none;
+    }
+}
+.single-course .row{
+    background-color: white;
+}
+.single-course{
+    background-color:#f6f6f6;
+}
