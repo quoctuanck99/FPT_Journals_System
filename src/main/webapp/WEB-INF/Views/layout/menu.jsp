@@ -7,14 +7,14 @@
 	}
 	.author{
 		font-weight: bold;
-		color: blue;
+		color: #2fa2e5;
 		line-height: inherit;
 		font-weight: 700;
 		cursor: pointer;
 	}
 	.title{
 		font-size: 15px;
-		color: black;
+		color: #2e373c;
 		font-weight: 700;
 		cursor: pointer;
 	}
@@ -74,44 +74,44 @@
 		</div>
 		<div class="widget-body" style="padding: 0px 15px">
 			<div class="article">
-				<p style="color:black;font-size: 13px">3 tháng 3 2020</p>
+				<p style="color:#2e373c;font-size: 13px">3 tháng 3 2020</p>
 				<a class="title" alt="">FPT University prepares for ACBSB on-site</a>
 			</div>
 			<hr>
 			<div class="article">
-				<p style="color:black;font-size: 13px">2 tháng 3 2020</p>
+				<p style="color:#2e373c;font-size: 13px">2 tháng 3 2020</p>
 				<a class="title" alt="">New Registered Report : New Article Type</a>
 			</div>
 			<hr>
 			<div class="article">
-				<p style="color:black;font-size: 13px">1 tháng 3 2020</p>
+				<p style="color:#2e373c;font-size: 13px">1 tháng 3 2020</p>
 				<a class="title" alt="">New Registered Report : New Article Type</a>
 			</div>
 		</div>
 		<div class="widget-footer">
 			<div align="center">
-				<span><a style="color:blue;cursor: pointer;" alt="">More News & Announcements...</a></span>
+				<span><a style="cursor: pointer;" alt="">More News & Announcements...</a></span>
 			</div>
 		</div>
 
 	</div>	
 	
-	<div class="course-information" style="background-color: white;border: 2px solid #f2f5f6;padding: 0px 0px">
+	<div class="course-information" style="background-color: white;border: 2px solid #f2f5f6;padding: 0px 0px;margin-top:40px">
 		<div class="widget-heading" style="padding: 0px 0px 0px;background-color: #f2f5f6;padding: 10px 0px 5px 35px">
 			<h4>Các bài viết nổi bật</h4>
 		</div>
 		<div class="widget-body" style="padding: 0px 15px">
 			<div class="article">
-				<p style="color:red">Article</p>
+				<p style="color:#d91655">Article</p>
 				<a class="title" alt="">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
-				<p>by <a class="author" alt="">Thomas Edison</a> , <a class="author" alt="">Valyria</a></p>
-				<p style="color:black;font-size: 13px">Published: 3 tháng 3 2020</p>
+				<p style="margin-top:5px">by <a class="author" alt="">Thomas Edison</a> , <a class="author" alt="">Valyria</a></p>
+				<p style="color:#2e373c;font-size: 13px">Published: 3 tháng 3 2020</p>
 			</div>
 			<div class="article">
-				<p style="color:red">Article</p>
+				<p style="color:#d91655">Article</p>
 				<a class="title" alt="">The Soundscape Hackathon as a Methodology to Accelerate Co-Creation of the Urban Public Space</a>
-				<p>by <a class="author" alt="">anonymous</a> , <a class="author" alt="">P-san</a></p>
-				<p style="color:black;font-size: 13px">Published: 2 tháng 3 2020</p>
+				<p style="margin-top:5px">by <a class="author" alt="">anonymous</a> , <a class="author" alt="">P-san</a></p>
+				<p style="color:#2e373c;font-size: 13px">Published: 2 tháng 3 2020</p>
 			</div>
 		</div>
 	</div>
