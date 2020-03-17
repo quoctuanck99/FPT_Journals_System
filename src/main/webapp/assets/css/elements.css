@@ -1,0 +1,90 @@
+.fjs-btn a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.428571429;
+	box-sizing: border-box;
+	background: transparent;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: inline-block;
+	color: #ffffff;
+}
+
+.fjs-btn.orange a {
+	background-color: #f27228;
+}
+
+.fjs-btn.orange a:hover {
+	background-color: #bd4500;
+}
+
+.fjs-btn.green a {
+	background-color: #277927;
+}
+
+.fjs-btn.green a:hover {
+	background-color: #074807;
+}
+
+.fjs-btn.red a {
+	background-color: #c32a12;
+}
+
+.fjs-btn.red a:hover {
+	background-color: #811302;
+}
+
+.fjs-btn.blue a {
+	background-color: #0098f1;
+}
+
+.fjs-btn.blue a:hover {
+	background-color: #074366;
+}
+
+input[type="text"] {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+	font: inherit;
+	margin: 0;
+	line-height: inherit;
+	cursor: text;
+	padding: 0px 10px;
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid lightgray;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: gray;
+	outline: none;
+	font-size: 13px;
+}
+
+input[type="text"]:focus {
+	border: 1px solid #f27228;
+}
+
+.p-1 {
+	font-size: 14px;
+}
+
+.p-2 {
+	font-size: 17px;
+}
+
+.modal {
+	padding: 10px 10px 10px 10px;
+}
+
+.modaal-wrapper {
+	z-index: 999999 !important;
+}
+
+.modaal-overlay {
+	z-index: 9999 !important;
+}

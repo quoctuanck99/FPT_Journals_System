@@ -21,4 +21,10 @@ public class HomeController {
 	public String ViewTinTuc() {
 		return "tintuc";
 	}
+	@RequestMapping("/elements")
+	public String ViewElements() {
+		return "elements";
+	}
+
+	
 }

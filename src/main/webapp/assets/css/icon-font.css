@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?litblh');
-	src:url('../fonts/icomoon.eot?#iefixlitblh') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?litblh') format('woff'),
-		url('../fonts/icomoon.ttf?litblh') format('truetype'),
+	src: url('../fonts/icomoon.eot?litblh');
+	src: url('../fonts/icomoon.eot?#iefixlitblh')
+		format('embedded-opentype'), url('../fonts/icomoon.woff?litblh')
+		format('woff'), url('../fonts/icomoon.ttf?litblh') format('truetype'),
 		url('../fonts/icomoon.svg?litblh#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -17,7 +17,6 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -16594,4 +16593,3 @@
 .icon-home14:before {
 	content: "\f4fc";
 }
-

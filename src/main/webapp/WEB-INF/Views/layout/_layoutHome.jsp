@@ -7,6 +7,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
+<tiles:importAttribute name="javascripts"/>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport"
@@ -23,6 +24,7 @@
 
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/bootstrap.css'/>" />
+
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/animate.css'/>" />
 <link rel="stylesheet" type="text/css"
@@ -39,12 +41,16 @@
 	href="<c:url value='/assets/rs-plugin/css/settings.css'/>" />
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/layout.css'/>" />
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/datatables.min.css'/>" />
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/modaal.min.css'/>" />
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/elements.css'/>" />
 
 </head>
 
 <body>
-
-
 	<div class="sidebar-menu-cocontextntainer" id="sidebar-menu-container">
 
 		<div class="sidebar-menu-push">
@@ -66,7 +72,9 @@
 								<div class="item course-item">
 									<div class="up-content">
 										<a href="single-course.html">
-											<h4><tiles:insertAttribute name="title"/></h4>
+											<h4>
+												<tiles:insertAttribute name="title" />
+											</h4>
 										</a>
 									</div>
 								</div>
@@ -128,21 +136,13 @@
 				</div>
 			</div>
 		</nav>
-
 	</div>
 
 
+	<c:forEach var="script" items="${javascripts}">
+		<script src="<c:url value="${script}"/>"></script>
+	</c:forEach>
 
-
-	<!-- 	<script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	SLIDER REVOLUTION 4.x SCRIPTS 
-	<script src="assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-	<script src="assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-	<script type="text/javascript" src="assets/js/plugins.js"></script>
-	<script type="text/javascript" src="assets/js/custom.js"></script>
- -->
 </body>
 
 </html>

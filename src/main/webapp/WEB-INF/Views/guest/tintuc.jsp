@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <div class="description">
 	<h4>Description</h4>
-	<p>
-		Nội dung trang tin tức
-	</p>
+	<p>Nội dung trang tin tức</p>
 </div>
