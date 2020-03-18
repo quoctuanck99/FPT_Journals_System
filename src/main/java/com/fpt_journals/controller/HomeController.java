@@ -25,11 +25,11 @@ public class HomeController {
 	public String ViewElements() {
 		return "elements";
 	}
-	@RequestMapping("/trang-chu/chinh-sua-profile")
+	@RequestMapping("/chinh-sua-profile")
 	public String ViewChinhSuaProfile() {
 		return "chinhsuaprofile";
 	}
-	@RequestMapping("/trang-chu/doi-mat-khau")
+	@RequestMapping("/doi-mat-khau")
 	public String ViewDoiMatKhau() {
 		return "doimatkhau";
 	}
