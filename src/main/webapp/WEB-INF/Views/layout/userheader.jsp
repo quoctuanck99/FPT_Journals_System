@@ -1,9 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <header class="site-header">
 	<div id="main-header" class="main-header header-sticky">
 		<div class="inner-header container clearfix">
 			<div class="logo">
-				<a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+				<a href="index.html"><img src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/logo.png" alt=""></a>
 			</div>
 			<div class="header-right-toggle pull-right hidden-md hidden-lg">
 				<a href="javascript:void(0)" class="side-menu-button"><i
@@ -38,8 +39,8 @@
 			</div>
 			<nav class="main-navigation text-left hidden-xs hidden-sm">
 				<ul>
-					<li><a href="home">Trang chủ</a></li>
-					<li><a href="gioithieu" class="has-submenu">GIỚI THIỆU</a>
+					<li><a href="<c:out value="${pageContext.servletContext.contextPath}"/>/home">Trang chủ</a></li>
+					<li><a href="<c:out value="${pageContext.servletContext.contextPath}" />/home/gioithieu" class="has-submenu">GIỚI THIỆU</a>
 						<ul class="sub-menu">
 							<li><a href="courses-grid.html">Courses Grids</a></li>
 							<li><a href="courses-list.html">Courses List</a></li>
@@ -51,7 +52,7 @@
 							<li><a href="calendar-events.html">Calendar Events</a></li>
 							<li><a href="single-event.html">Single Event</a></li>
 						</ul></li>
-					<li><a href="#" class="has-submenu">TIN TỨC</a>
+					<li><a href="<c:out value="${pageContext.servletContext.contextPath}"/>/home/tintuc" class="has-submenu">TIN TỨC</a>
 						<ul class="sub-menu">
 							<li><a href="about.html">About Us</a></li>
 							<li><a href="our-teachers.html">Our Teachers</a></li>
