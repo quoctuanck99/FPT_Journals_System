@@ -32,6 +32,9 @@
 		margin-top:15px;
 		margin-bottom: 15px; */
 	}
+	a:hover{
+		color:#f5a425;
+	}
 	</style>
 	
 	<div class="related-courses">
@@ -75,22 +78,22 @@
 		<div class="widget-body" style="padding: 0px 15px">
 			<div class="article">
 				<p style="color:#2e373c;font-size: 13px">3 tháng 3 2020</p>
-				<a class="title" alt="">FPT University prepares for ACBSB on-site</a>
+				<a class="title">FPT University prepares for ACBSB on-site</a>
 			</div>
 			<hr>
 			<div class="article">
 				<p style="color:#2e373c;font-size: 13px">2 tháng 3 2020</p>
-				<a class="title" alt="">New Registered Report : New Article Type</a>
+				<a class="title">New Registered Report : New Article Type</a>
 			</div>
 			<hr>
 			<div class="article">
 				<p style="color:#2e373c;font-size: 13px">1 tháng 3 2020</p>
-				<a class="title" alt="">New Registered Report : New Article Type</a>
+				<a class="title">New Registered Report : New Article Type</a>
 			</div>
 		</div>
 		<div class="widget-footer">
 			<div align="center">
-				<span><a style="cursor: pointer;" alt="">More News & Announcements...</a></span>
+				<span><a style="cursor: pointer;">More News & Announcements...</a></span>
 			</div>
 		</div>
 
@@ -103,14 +106,14 @@
 		<div class="widget-body" style="padding: 0px 15px">
 			<div class="article">
 				<p style="color:#d91655">Article</p>
-				<a class="title" alt="">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
-				<p style="margin-top:5px">by <a class="author" alt="">Thomas Edison</a> , <a class="author" alt="">Valyria</a></p>
+				<a class="title">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
+				<p style="margin-top:5px">by <a class="author">Thomas Edison</a> , <a class="author">Valyria</a></p>
 				<p style="color:#2e373c;font-size: 13px">Published: 3 tháng 3 2020</p>
 			</div>
 			<div class="article">
 				<p style="color:#d91655">Article</p>
-				<a class="title" alt="">The Soundscape Hackathon as a Methodology to Accelerate Co-Creation of the Urban Public Space</a>
-				<p style="margin-top:5px">by <a class="author" alt="">anonymous</a> , <a class="author" alt="">P-san</a></p>
+				<a class="title">The Soundscape Hackathon as a Methodology to Accelerate Co-Creation of the Urban Public Space</a>
+				<p style="margin-top:5px">by <a class="author">anonymous</a> , <a class="author">P-san</a></p>
 				<p style="color:#2e373c;font-size: 13px">Published: 2 tháng 3 2020</p>
 			</div>
 		</div>
