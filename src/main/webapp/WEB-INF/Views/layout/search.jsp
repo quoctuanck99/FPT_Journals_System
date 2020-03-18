@@ -3,8 +3,8 @@
 	<div id="search-bar">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
-					<h5>Tìm kiếm bài viết:</h5>
+				<div class="col-md-2" style="color:gray">
+					<h6>Tìm kiếm bài viết:</h6>
 				</div>
 				<div class="col-md-2">
 					<input class="search-input" type="text" id="name" name="s"

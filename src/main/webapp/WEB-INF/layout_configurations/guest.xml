@@ -18,8 +18,8 @@
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
-			<add-attribute
-				value="/assets/js/jquery-1.11.1.min.js" />
+			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
+			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
 			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
 			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
