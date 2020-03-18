@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+<!-- ///////////////////////////////////////////GUEST/////////////////////////////////// -->
+<definition name="editor"
+		template="">
+	<!-- 	<put-attribute name="userheader"
+			value="/WEB-INF/Views/layout/userheader.jsp" />
+		<put-attribute name="search"
+			value="/WEB-INF/Views/layout/search.jsp" />
+		<put-attribute name="title" value="" />
+		<put-attribute name="menu"
+			value="/WEB-INF/Views/layout/menu.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/Views/guest/home.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/Views/layout/footer.jsp" />
+		<put-list-attribute name="javascripts">
+			<add-attribute
+				value="/assets/js/jquery-1.11.1.min.js" />
+			<add-attribute value="/assets/js/bootstrap.min.js" />
+			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
+		</put-list-attribute> -->
+	</definition>
+</tiles-definitions>
