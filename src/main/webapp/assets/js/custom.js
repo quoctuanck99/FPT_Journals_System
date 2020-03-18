@@ -446,7 +446,7 @@ jQuery( document ).ready(function( $ ) {
 		if( $(this).scrollTop() > offset_opacity ) { 
 			$back_to_top.addClass('go-top-fade-out');
 		}
-	});*/
+	});
 
 	//smooth scroll to top
 	$back_to_top.on('click', function(event){
@@ -456,7 +456,7 @@ jQuery( document ).ready(function( $ ) {
 		 	}, scroll_top_duration
 		);
 	});
-
+*/
 	$('.courses-slider').flexslider({
 	    animation: "slide",
 	    controlNav: "thumbnails"
