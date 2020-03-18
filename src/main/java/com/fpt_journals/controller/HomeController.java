@@ -7,21 +7,21 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 	
 	
-	@RequestMapping("/home")
+	@RequestMapping("/trang-chu")
 	public String ViewHome() {
 		return "home";
 	}
 	
-	@RequestMapping("/home/gioithieu")
+	@RequestMapping("/trang-chu/gioi-thieu")
 	public String ViewGioiThieu() {
 		return "gioithieu";
 	}
 	
-	@RequestMapping("/home/tintuc")
+	@RequestMapping("/trang-chu/tin-tuc")
 	public String ViewTinTuc() {
 		return "tintuc";
 	}
-	@RequestMapping("/home/elements")
+	@RequestMapping("/trang-chu/elements")
 	public String ViewElements() {
 		return "elements";
 	}
