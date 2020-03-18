@@ -1,9 +1,4 @@
 jQuery( document ).ready(function( $ ) {
-
-
-	"use strict";
-
-
 	$(".count-number").appear(function(){
       var datacount = $(this).attr('data-count');
       $(this).find('.count-focus').delay(6000).countTo({
@@ -159,7 +154,7 @@ jQuery( document ).ready(function( $ ) {
     });
 
 	// Animation on scroll 
-	new WOW().init();
+  	new WOW().init();
 
 
 
@@ -338,8 +333,8 @@ jQuery( document ).ready(function( $ ) {
 		$(".sidebar-menu").addClass("open");
 		$("body").addClass("offcanvas_open offcanvas_from_left");
 
-		$(".nano").nanoScroller();
-		
+	$(".nano").nanoScroller();
+ 
 	}
 
 	function offcanvas_close() {
@@ -390,7 +385,7 @@ jQuery( document ).ready(function( $ ) {
 						.children(".sub-menu").toggleClass("open");
 						
 		$(this).html($(this).html() == '<i class="fa fa-chevron-circle-down"></i>' ? '<i class="fa fa-chevron-circle-up"></i>' : '<i class="fa fa-chevron-circle-down"></i>');
-		$(".nano").nanoScroller();
+	$(".nano").nanoScroller();
 	});
 
 	$(".responsive-menu").on("click", "a", function(e) {
