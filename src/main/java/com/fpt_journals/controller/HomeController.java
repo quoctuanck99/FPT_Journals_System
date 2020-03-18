@@ -30,4 +30,9 @@ public class HomeController {
 	public String ViewReviewer() {
 		return "quanlybaiviet";
 	}
+	
+	@RequestMapping("/admin")
+	public String ViewAdminDashboard() {
+		return "admin";
+	}
 }

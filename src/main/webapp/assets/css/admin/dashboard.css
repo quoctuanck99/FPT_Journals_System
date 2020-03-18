@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.single-course .course-item .up-content h4{
+	margin-left: 30px !important;
+	font-weight: 700;
+	color:#5f686c; 
+	font-size : 30px !important;
+	margin-bottom: 40px !important;
+}
+.nav-tabs>li.active>a{
+	border-radius: 5px;
+}
+.nav-tabs>li>a:hover{
+	background-color: #e58827;
+}
