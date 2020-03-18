@@ -12,6 +12,7 @@
 	letter-spacing: 2px;
 	display: inline-block;
 	color: #ffffff;
+	    
 }
 
 .fjs-btn.orange a {
@@ -63,6 +64,7 @@ input[type="text"] {
 	color: gray;
 	outline: none;
 	font-size: 13px;
+	min-height: 30px;
 }
 
 input[type="text"]:focus {
