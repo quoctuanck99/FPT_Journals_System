@@ -10,7 +10,7 @@ jQuery( document ).ready(function( $ ) {
     });
 
 
-	$(document).on('scroll', function () {
+/*	$(document).on('scroll', function () {
 	    // if the scroll distance is greater than 100px
 	    if ($(window).scrollTop() > 42) {
 	      // do something
@@ -20,7 +20,7 @@ jQuery( document ).ready(function( $ ) {
 	    	$('.site-header').removeClass('scrolled-header');
 	    }
 	});
-
+*/
 	$(window).load(function() {
 	  $('.flexslider').flexslider({
 	    animation: "slide",
@@ -154,7 +154,7 @@ jQuery( document ).ready(function( $ ) {
     });
 
 	// Animation on scroll 
-  	new WOW().init();
+/*  	new WOW().init();*/
 
 
 
@@ -333,7 +333,7 @@ jQuery( document ).ready(function( $ ) {
 		$(".sidebar-menu").addClass("open");
 		$("body").addClass("offcanvas_open offcanvas_from_left");
 
-	$(".nano").nanoScroller();
+	/*$(".nano").nanoScroller();*/
  
 	}
 
@@ -385,7 +385,7 @@ jQuery( document ).ready(function( $ ) {
 						.children(".sub-menu").toggleClass("open");
 						
 		$(this).html($(this).html() == '<i class="fa fa-chevron-circle-down"></i>' ? '<i class="fa fa-chevron-circle-up"></i>' : '<i class="fa fa-chevron-circle-down"></i>');
-	$(".nano").nanoScroller();
+/*	$(".nano").nanoScroller();*/
 	});
 
 	$(".responsive-menu").on("click", "a", function(e) {
@@ -431,7 +431,7 @@ jQuery( document ).ready(function( $ ) {
 
 
 
-	//  go to top
+/*	//  go to top
   	var offset = 1000,
 	//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
 	offset_opacity = 1200,
@@ -446,7 +446,7 @@ jQuery( document ).ready(function( $ ) {
 		if( $(this).scrollTop() > offset_opacity ) { 
 			$back_to_top.addClass('go-top-fade-out');
 		}
-	});
+	});*/
 
 	//smooth scroll to top
 	$back_to_top.on('click', function(event){
