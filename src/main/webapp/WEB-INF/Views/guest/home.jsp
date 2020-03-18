@@ -102,19 +102,16 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 	<div class="mySlides fade">
-	  <div class="numbertext">1 / 3</div>
 	  <img src="https://www.mdpi.com/title_story/title_story_15831365463405.jpg" style="width:100%">
 	  <div class="text">Caption Text</div>
 	</div>
 	
 	<div class="mySlides fade">
-	  <div class="numbertext">2 / 3</div>
 	  <img src="https://www.mdpi.com/title_story/title_story_15815616601471.jpg" style="width:100%">
 	  <div class="text">Caption Two</div>
 	</div>
 	
 	<div class="mySlides fade">
-	  <div class="numbertext">3 / 3</div>
 	  <img src="https://www.mdpi.com/title_story/title_story_15795914608688.jpg" style="width:100%">
 	  <div class="text">Caption Three</div>
 	</div>
@@ -132,20 +129,53 @@ img {vertical-align: middle;}
 
 <div class="item course-item">
 	<div class="up-content">
-		<a href="single-course.html">
 			<h4 style="font-weight: 700;color:#2e373c">Các bài đăng gần đây</h4>
-		</a>
 
 	</div>
 </div>
 <div class="description">
 			<div class="article">
 				<p style="color:#d91655">Article</p>
-				<a class="title" style="font-size:16px" alt="">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
-				<p style="margin-top:5px">by <a class="author" alt="">Thomas Edison</a> , <a class="author" alt="">Valyria</a></p>
-				<a class="author" alt="">Abstract: </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<a class="title" style="font-size:16px">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
+				<p style="margin-top:5px">by <a class="author">Thomas Edison</a> , <a class="author">Valyria</a></p>
+				<a class="author">Abstract: </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				<p style="color:#2e373c;font-size: 13px">Published: 3 tháng 3 2020</p>
 			</div>
+			<hr>
+			<div class="article">
+				<p style="color:#d91655">Article</p>
+				<a class="title" style="font-size:16px">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
+				<p style="margin-top:5px">by <a class="author">Thomas Edison</a> , <a class="author">Valyria</a></p>
+				<a class="author">Abstract: </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p style="color:#2e373c;font-size: 13px">Published: 3 tháng 3 2020</p>
+			</div>
+			<hr>
+			<div class="article">
+				<p style="color:#d91655">Article</p>
+				<a class="title" style="font-size:16px">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
+				<p style="margin-top:5px">by <a class="author">Thomas Edison</a> , <a class="author">Valyria</a></p>
+				<a class="author">Abstract: </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p style="color:#2e373c;font-size: 13px">Published: 3 tháng 3 2020</p>
+			</div>
+			<hr>
+			<div class="article">
+				<p style="color:#d91655">Article</p>
+				<a class="title" style="font-size:16px">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
+				<p style="margin-top:5px">by <a class="author">Thomas Edison</a> , <a class="author">Valyria</a></p>
+				<a class="author">Abstract: </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p style="color:#2e373c;font-size: 13px">Published: 3 tháng 3 2020</p>
+			</div>
+			<hr>
+			<div class="article">
+				<p style="color:#d91655">Article</p>
+				<a class="title" style="font-size:16px">Thermal Behavior of Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a>
+				<p style="margin-top:5px">by <a class="author">Thomas Edison</a> , <a class="author">Valyria</a></p>
+				<a class="author">Abstract: </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p style="color:#2e373c;font-size: 13px">Published: 3 tháng 3 2020</p>
+			</div>
+			<hr>
+			<span><a>More Articles...</a></span>
+			
 </div>
 
 <script>
