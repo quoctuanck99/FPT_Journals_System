@@ -134,8 +134,10 @@
 			</div>
 		</nav>
 	</div>
-	
-	
+
+	<script src="<c:url value="/assets/js/guest/ideal-image-slider.js"/>"></script>
+	<script src="<c:url value="/assets/js/guest/iis-captions.js"/>"></script>
+	<script src="<c:url value="/assets/js/guest/iis-bullet-nav.js"/>"></script>
 	<c:forEach var="script" items="${javascripts}">
 		<script src="<c:url value="${script}"/>"></script>
 	</c:forEach>
