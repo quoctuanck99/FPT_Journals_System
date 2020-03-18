@@ -25,4 +25,9 @@ public class HomeController {
 	public String ViewElements() {
 		return "elements";
 	}
+	
+	@RequestMapping("/quanlybaiviet")
+	public String ViewReviewer() {
+		return "quanlybaiviet";
+	}
 }

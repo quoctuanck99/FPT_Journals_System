@@ -12,7 +12,7 @@
 
 
 	<!-- <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
-		<property name="prefix" value="/WEB-INF/Views/" /> <property name="suffix" 
+		<property name="prefix" value="/WEB-INF/layout_configurations/Views/" /> <property name="suffix" 
 		value=".jsp" /> </bean> -->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
@@ -25,7 +25,12 @@
 		<property name="definitions">
 			<list>
 				<!-- khai báo các file định nghĩa layout -->
-				<value>/WEB-INF/tiles.xml</value>
+				<value>/WEB-INF/layout_configurations/guest.xml</value>
+				<value>/WEB-INF/layout_configurations/reviewer.xml</value>
+				<value>/WEB-INF/layout_configurations/author.xml</value>
+				<value>/WEB-INF/layout_configurations/admin.xml</value>
+				<value>/WEB-INF/layout_configurations/chief-editor.xml</value>
+				<value>/WEB-INF/layout_configurations/editor.xml</value>
 			</list>
 		</property>
 	</bean>
