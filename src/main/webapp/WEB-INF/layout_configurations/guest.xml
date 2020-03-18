@@ -54,4 +54,17 @@
 		</put-list-attribute>
 	</definition>
 	
+	<definition name="chinhsuaprofile" extends="home">
+		<put-attribute name="title" value="Quản lý cá nhân" />
+		<put-attribute name="body" value="/WEB-INF/Views/guest/chinhsuaprofile.jsp" />
+		<put-attribute name="search" value="" />
+		<put-attribute name="menu" value="/WEB-INF/Views/layout/menuauthor.jsp" />
+	</definition>
+	
+	<definition name="doimatkhau" extends="home">
+		<put-attribute name="title" value="Quản lý cá nhân" />
+		<put-attribute name="body" value="/WEB-INF/Views/guest/doimatkhau.jsp" />
+		<put-attribute name="search" value="" />
+		<put-attribute name="menu" value="/WEB-INF/Views/layout/menuauthor.jsp" />
+	</definition>
 </tiles-definitions>

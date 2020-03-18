@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+.author-container{
+	font-family: 'Montserrat', sans-serif;
+}
+.description {
+	padding: 0px 15px;
+}
+.edit-form .row{
+	margin: 0px !important;
+}
+
+table.breadcrumb tr td {
+	background: white;
+	padding: 0px 3px;
+	width: 25%;
+}
+
+table.breadcrumb tr td.active {
+	background: #F5A425;
+	color: white;
+}
+
+.breadcrumb {
+	cursor: pointer;
+	text-align: center;
+}
+
+.title-box {
+	background: #F5A425;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.edit-form .row input, .edit-form .row select, .edit-form .row textarea
+	{
+	margin-bottom: 25px;
+}
+
+.edit-form .row b {
+	display: block;
+	margin-bottom: 3px;
+}
+
+span.require-field {
+	color: #c32a12;
+}
+
+.margin-20 {
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+<!--Gui bai buoc 2 -->
+.panel-collapse.collapse{
+	padding: 20px;
+}
