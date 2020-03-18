@@ -12,27 +12,18 @@ public class HomeController {
 		return "home";
 	}
 	
-	@RequestMapping("/gioithieu")
+	@RequestMapping("/home/gioithieu")
 	public String ViewGioiThieu() {
 		return "gioithieu";
 	}
 	
-	@RequestMapping("/tintuc")
+	@RequestMapping("/home/tintuc")
 	public String ViewTinTuc() {
 		return "tintuc";
 	}
-	@RequestMapping("/elements")
+	@RequestMapping("/home/elements")
 	public String ViewElements() {
 		return "elements";
 	}
 	
-	@RequestMapping("/quanlybaiviet")
-	public String ViewReviewer() {
-		return "quanlybaiviet";
-	}
-	
-	@RequestMapping("/admin")
-	public String ViewAdminDashboard() {
-		return "admin";
-	}
 }
