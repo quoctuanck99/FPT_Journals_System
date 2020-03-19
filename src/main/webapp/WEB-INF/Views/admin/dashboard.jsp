@@ -32,7 +32,15 @@
 		  		</div>
 		  		<div class="col-md-4" align="center">
 			  		<i class="fa fa-check-square-o rs"></i>
-			  		<p><em class="numbercount">56</em>bài viết được xác nhận</p>
+			  		<p><em class="numbercount">56</em>bài viết được phê duyệt</p>
+		  		</div>
+		  		<div class="col-md-12">
+			  		<div class="canvas-hd">
+			  			<canvas id="myChart"></canvas>
+			  		</div>
+		  		</div>
+		  		<div class="col-md-12">
+		  			
 		  		</div>
 		  	</div>
 		  </div>
@@ -49,3 +57,40 @@
 
 	</div>
 </div>
+<script>
+var config = {
+		type: 'pie',
+		data: {
+			datasets: [{
+				data: [10,20,30],
+				backgroundColor: [
+					'rgb(255, 99, 132)',
+					'rgb(255, 159, 64)',
+					'rgb(255, 205, 86)'
+				],
+			}],
+			labels: [
+				'Lượt truy cập',
+				'Bài viết mới',
+				'Bài viết được phê duyệt'
+			]
+		},
+	    options: {
+			responsive: true,
+			tooltips : {
+				bodyFontSize: 24
+			},
+	        legend: {
+	            display: true,
+	            labels: {
+	            	fontSize: 24
+	            }
+	        }
+	    }
+
+};
+window.onload = function() {
+	var ctx = document.getElementById('myChart').getContext('2d');
+	window.myPie = new Chart(ctx, config);
+};
+</script>
