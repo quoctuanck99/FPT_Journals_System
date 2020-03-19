@@ -44,7 +44,7 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/modaal.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/elements.css'/>" /> 
+	href="<c:url value='/assets/css/elements.css'/>" />
 </head>
 
 <body>
@@ -61,7 +61,7 @@
 
 				<section class="single-course" style="padding-bottom: 50px;">
 					<div class="container">
-						<div class="row" style="padding-bottom: 50px;">
+						<div class="row" id="main-container" style="padding-bottom: 50px;">
 							<div class="col-md-4">
 								<tiles:insertAttribute name="menu" />
 							</div>
@@ -134,8 +134,8 @@
 			</div>
 		</nav>
 	</div>
-	
-	
+
+
 
 
 </body>
