@@ -14,8 +14,14 @@
 
 .single-course .row {
 	background-color: white;
+	border-radius: 0px 0px 10px 10px;
 }
 
 .single-course {
-	background-color: #f6f6f6;
+	    background: transparent url(../images/background.png) repeat 0% 0%;
+}
+#main-container{
+	border-left: 0.5px solid #e6e6e6;
+	border-right: 0.5px solid #e6e6e6;
+	border-bottom: 0.5px solid #e6e6e6;
 }

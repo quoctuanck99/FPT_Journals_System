@@ -48,6 +48,7 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/reviewer/reviewer.css'/>" />
 
+
 <body>
 	<div class="sidebar-menu-container" id="sidebar-menu-container">
 
@@ -62,7 +63,7 @@
 
 				<section class="single-course" style="padding-bottom: 50px;">
 					<div class="container">
-						<div class="row" style="padding-bottom: 50px;">
+						<div class="row" id="main-container" style="padding-bottom: 50px;">
 							<div class="col-md-4">
 								<tiles:insertAttribute name="menu" />
 							</div>
@@ -139,6 +140,7 @@
 	<c:forEach var="script" items="${javascripts}">
 		<script src="<c:url value="${script}"/>"></script>
 	</c:forEach>
+
 
 
 </body>

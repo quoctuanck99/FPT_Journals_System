@@ -18,8 +18,8 @@
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
-			<add-attribute
-				value="/assets/js/jquery-1.11.1.min.js" />
+			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
+			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
 			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
 			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
@@ -54,4 +54,17 @@
 		</put-list-attribute>
 	</definition>
 	
+	<definition name="chinhsuaprofile" extends="home">
+		<put-attribute name="title" value="Quản lý cá nhân" />
+		<put-attribute name="body" value="/WEB-INF/Views/guest/chinhsuaprofile.jsp" />
+		<put-attribute name="search" value="" />
+		<put-attribute name="menu" value="/WEB-INF/Views/layout/menuauthor.jsp" />
+	</definition>
+	
+	<definition name="doimatkhau" extends="home">
+		<put-attribute name="title" value="Quản lý cá nhân" />
+		<put-attribute name="body" value="/WEB-INF/Views/guest/doimatkhau.jsp" />
+		<put-attribute name="search" value="" />
+		<put-attribute name="menu" value="/WEB-INF/Views/layout/menuauthor.jsp" />
+	</definition>
 </tiles-definitions>

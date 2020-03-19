@@ -1,9 +1,4 @@
 jQuery( document ).ready(function( $ ) {
-
-
-	"use strict";
-
-
 	$(".count-number").appear(function(){
       var datacount = $(this).attr('data-count');
       $(this).find('.count-focus').delay(6000).countTo({
@@ -15,7 +10,7 @@ jQuery( document ).ready(function( $ ) {
     });
 
 
-	$(document).on('scroll', function () {
+/*	$(document).on('scroll', function () {
 	    // if the scroll distance is greater than 100px
 	    if ($(window).scrollTop() > 42) {
 	      // do something
@@ -25,7 +20,7 @@ jQuery( document ).ready(function( $ ) {
 	    	$('.site-header').removeClass('scrolled-header');
 	    }
 	});
-
+*/
 	$(window).load(function() {
 	  $('.flexslider').flexslider({
 	    animation: "slide",
@@ -159,7 +154,7 @@ jQuery( document ).ready(function( $ ) {
     });
 
 	// Animation on scroll 
-	new WOW().init();
+/*  	new WOW().init();*/
 
 
 
@@ -338,8 +333,8 @@ jQuery( document ).ready(function( $ ) {
 		$(".sidebar-menu").addClass("open");
 		$("body").addClass("offcanvas_open offcanvas_from_left");
 
-		$(".nano").nanoScroller();
-		
+	/*$(".nano").nanoScroller();*/
+ 
 	}
 
 	function offcanvas_close() {
@@ -390,7 +385,7 @@ jQuery( document ).ready(function( $ ) {
 						.children(".sub-menu").toggleClass("open");
 						
 		$(this).html($(this).html() == '<i class="fa fa-chevron-circle-down"></i>' ? '<i class="fa fa-chevron-circle-up"></i>' : '<i class="fa fa-chevron-circle-down"></i>');
-		$(".nano").nanoScroller();
+/*	$(".nano").nanoScroller();*/
 	});
 
 	$(".responsive-menu").on("click", "a", function(e) {
@@ -436,7 +431,7 @@ jQuery( document ).ready(function( $ ) {
 
 
 
-	//  go to top
+/*	//  go to top
   	var offset = 1000,
 	//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
 	offset_opacity = 1200,
@@ -461,7 +456,7 @@ jQuery( document ).ready(function( $ ) {
 		 	}, scroll_top_duration
 		);
 	});
-
+*/
 	$('.courses-slider').flexslider({
 	    animation: "slide",
 	    controlNav: "thumbnails"

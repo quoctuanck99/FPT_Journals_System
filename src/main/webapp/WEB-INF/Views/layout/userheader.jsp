@@ -4,7 +4,7 @@
 	<div id="main-header" class="main-header header-sticky">
 		<div class="inner-header container clearfix">
 			<div class="logo">
-				<a href="index.html"><img src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/logo.png" alt=""></a>
+				<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/trang-chu"><img src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/logo.png" alt=""></a>
 			</div>
 			<div class="header-right-toggle pull-right hidden-md hidden-lg">
 				<a href="javascript:void(0)" class="side-menu-button"><i

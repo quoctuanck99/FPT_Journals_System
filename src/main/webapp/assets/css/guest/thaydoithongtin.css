@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+.title-box {
+	background: #F5A425;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.description{
+	padding: 0px 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+.sub-title {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #F27228;
+	font-style: italic;
+}
+.edit-form{
+	font-family: 'Montserrat', sans-serif;
+}
+.edit-form .row input,.edit-form .row select {
+	margin-bottom: 25px;
+}
+
+.edit-form .row b {
+	display: block;
+	margin-bottom: 3px;
+}
+
+
+span.require-field{
+	color: #c32a12;
+}
+.margin-20{
+	margin-bottom: 20px;
+}
