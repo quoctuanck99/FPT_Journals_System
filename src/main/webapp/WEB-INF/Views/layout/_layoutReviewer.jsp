@@ -7,7 +7,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
-
+<tiles:importAttribute name="javascripts" />
 <head>
 <meta charset="UTF-8">
 <meta name="viewport"
@@ -45,7 +45,9 @@
 	href="<c:url value='/assets/css/modaal.min.css'/>" />
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/elements.css'/>" />
-</head>
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/reviewer/reviewer.css'/>" />
+
 
 <body>
 	<div class="sidebar-menu-container" id="sidebar-menu-container">
@@ -135,6 +137,9 @@
 		</nav>
 	</div>
 
+	<c:forEach var="script" items="${javascripts}">
+		<script src="<c:url value="${script}"/>"></script>
+	</c:forEach>
 
 
 
