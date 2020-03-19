@@ -60,9 +60,9 @@
 
 				<tiles:insertAttribute name="userheader" />
 
- 				<section class="single-course" style="padding-bottom: 50px;">
+ 				<section class="single-course"style="padding-bottom: 50px;">
 					<div class="container">
-						<div class="row" style="padding-bottom: 50px;">
+						<div class="row"  id="main-container"   style="padding-bottom: 50px;">
 							<div class="col-md-12">
 								<div class="item course-item">
 									<div class="up-content">

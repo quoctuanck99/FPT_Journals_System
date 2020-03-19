@@ -59,9 +59,9 @@
 				<tiles:insertAttribute name="userheader" />
 				<tiles:insertAttribute name="search" />
 
-				<section class="single-course" style="padding-bottom: 50px;">
+				<section class="single-course"style="padding-bottom: 50px;">
 					<div class="container">
-						<div class="row" style="padding-bottom: 50px;">
+						<div class="row" id="main-container"  style="padding-bottom: 50px;">
 							<div class="col-md-4">
 								<tiles:insertAttribute name="menu" />
 							</div>

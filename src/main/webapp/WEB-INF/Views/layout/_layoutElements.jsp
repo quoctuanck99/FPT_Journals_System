@@ -59,7 +59,7 @@
 
 				<section class="single-course" style="padding-bottom: 50px;">
 					<div class="container">
-						<div class="row" style="padding-bottom: 50px;">
+						<div class="row"  id="main-container"  style="padding-bottom: 50px;">
 							<div class="col-md-12">
 								<tiles:insertAttribute name="body" />
 							</div>
