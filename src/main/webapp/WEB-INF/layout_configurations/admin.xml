@@ -14,13 +14,14 @@
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
-			<add-attribute
-				value="/assets/js/jquery-1.11.1.min.js" />
+			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
 			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
 			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
+			<add-attribute value="/assets/js/Chart.bundle.js" />
+			<add-attribute value="/assets/js/Chart.bundle.min.js" />
 		</put-list-attribute>
 	</definition>
 	<!-- /////////////////////////////////// -->

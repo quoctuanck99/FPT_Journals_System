@@ -48,6 +48,12 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/elements.css'/>" /> 
 </head>
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/Chart.css'/>" /> 
+</head>
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/Chart.min.css'/>" /> 
+</head>
 
 <body>
 	<div class="sidebar-menu-container" id="sidebar-menu-container">

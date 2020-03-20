@@ -36,3 +36,12 @@ a{
 	font-size:7em !important;
 	color:#3f454e;
 }
+.canvas-hd{
+	margin-top:20px ;
+ 	text-align: center;
+}
+canvas{
+	margin: 0 auto;
+	width: 60% !important;
+	height: 60% !important;
+}
