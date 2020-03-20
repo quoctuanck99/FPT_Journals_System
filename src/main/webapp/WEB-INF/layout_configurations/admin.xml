@@ -22,6 +22,7 @@
 			<add-attribute value="/assets/js/plugins.js" />
 			<add-attribute value="/assets/js/Chart.bundle.js" />
 			<add-attribute value="/assets/js/Chart.bundle.min.js" />
+			<add-attribute value="/assets/js/Chart.min.js" />
 		</put-list-attribute>
 	</definition>
 	<!-- /////////////////////////////////// -->

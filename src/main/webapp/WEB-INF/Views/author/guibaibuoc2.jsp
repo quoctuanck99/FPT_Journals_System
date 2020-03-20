@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
 <head>
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/author/guibai.css'/>" />
@@ -9,24 +10,7 @@
 <div class="author-container">
 
 	<div class="description">
-		<div class="row">
-			<table class="breadcrumb">
-				<tbody>
-					<tr>
-						<td>Bước 1</td>
-						<td class="active">Bước 2</td>
-						<td>Bước 3</td>
-						<td>Bước 4</td>
-					</tr>
-					<tr>
-						<td>Bản thảo</td>
-						<td class="active">Thông tin tác giả</td>
-						<td>Đính kèm bản thảo</td>
-						<td>Xác nhận và gửi đi</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+		<tiles:insertAttribute name="authorstep" />
 		<div class="row">
 			<div class="col-md-12 title-box">Nhập chi tiết thông tin tác
 				giả ...</div>
@@ -35,9 +19,8 @@
 			<div class="panel-group">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4 class="">
-							<a data-toggle="collapse" href="#author1">Thông tin tác giả
-								thứ nhất</a>
+						<h4 class="author-title">
+							<a data-toggle="collapse" href="#author1" >Tác giả 1</a>
 						</h4>
 					</div>
 					<div id="author1" class="panel-collapse collapse">
@@ -68,7 +51,7 @@
 									</div>
 
 									<div class="col-md-10 col-md-push-1">
-										<select class="form-control" id="title" name="title">
+										<select class="form-control" name="title">
 											<option>Dr.</option>
 											<option>Mrs.</option>
 											<option>Mr.</option>
@@ -125,16 +108,16 @@
 											aria-required="true">
 									</div>
 								</div>
-								
+
 								<div class="row">
 									<div class="col-md-10 col-md-push-1">
 										<b>Giới tính <span class="require-field">(*)</span></b>
 									</div>
 									<div class="col-md-10 col-md-push-1">
 										<input id="male" type="radio" name="gender" value="1">
-    									<label for="male">Male</label>
-										<input id="female" type="radio" name="gender" value="0">
-    									<label for="female">Female</label>
+										<label for="male">Male</label> 
+										<input id="female" type="radio"
+											name="gender" value="0"> <label for="female">Female</label>
 									</div>
 								</div>
 
@@ -145,9 +128,33 @@
 											bắt buộc</b>
 									</div>
 								</div>
+								<div class="row">
+									<div class="col-md-4 col-md-push-4">
+										<div class="fjs-btn green">
+											<button type="submit" class="btn btn-block">Lưu</button>
+										</div>
+									</div>
+								</div>
 							</form>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row clear-padding margin-20">
+			<div class="fjs-btn green">
+				<a href="#">Thêm tác giả</a>
+			</div>
+		</div>
+		<div class="row clear-padding" style="text-align: center;">
+			<div class="col-xs-3 col-sm-push-1">
+				<div class="fjs-btn blue">
+					<a href="#" class="">Quay về</a>
+				</div>
+			</div>
+			<div class="col-xs-7 col-xs-push-2">
+				<div class="fjs-btn orange">
+					<a href="#" class="">Xác nhận và tiếp tục</a>
 				</div>
 			</div>
 		</div>
