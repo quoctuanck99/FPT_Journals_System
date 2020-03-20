@@ -3,8 +3,11 @@
 .title{
 	font-size: 15px;
 	color: #2e373c;
-	font-weight: 700;
 	cursor: pointer;
+	color: #24292e;
+}
+.title.active{
+	font-weight: 700;
 }
 .article{
 	padding: 20px 8px;

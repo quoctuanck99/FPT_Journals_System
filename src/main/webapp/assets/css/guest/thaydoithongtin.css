@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 .title-box {
-	background: #F5A425;
+	background: #f27228;
 	color: white;
 	padding: 10px 20px;
 	font-size: 16px;
@@ -16,11 +16,11 @@
 	font-weight: bold;
 	font-size: 16px;
 	margin-bottom: 20px;
-	color: #F27228;
-	font-style: italic;
+	color: #f27228;
 }
 .edit-form{
 	font-family: 'Montserrat', sans-serif;
+	color: #24292e;
 }
 .edit-form .row input,.edit-form .row select {
 	margin-bottom: 25px;
@@ -32,7 +32,7 @@
 }
 
 
-span.require-field{
+span.require-field,.suggestion{
 	color: #c32a12;
 }
 .margin-20{
