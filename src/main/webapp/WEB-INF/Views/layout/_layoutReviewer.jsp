@@ -64,10 +64,10 @@
 				<section class="single-course" style="padding-bottom: 50px;">
 					<div class="container">
 						<div class="row" id="main-container" style="padding-bottom: 50px;">
-							<div class="col-md-4">
+							<div class="col-md-3">
 								<tiles:insertAttribute name="menu" />
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-9">
 								<div class="item course-item">
 									<div class="up-content">
 										<a href="single-course.html">
