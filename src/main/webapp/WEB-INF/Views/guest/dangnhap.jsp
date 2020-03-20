@@ -20,12 +20,7 @@
 <body>
 <div class="login-form">
     <form action="/examples/actions/confirmation.php" method="post">	
-        <div class="text-center social-btn">
-            <a href="#" class="btn btn-info btn-block"><i class="fa fa-facebook"></i> Đăng nhập với <b>Facebook</b></a>
-			<a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i> Đăng nhập với <b>Google</b></a>
-        </div>
-		<div class="or-seperator"><i>or</i></div>
-        <div class="form-group">
+            <div class="form-group">
         	<div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
                 <input type="text" class="form-control" name="username" placeholder="Tên đăng nhập" required="required">
@@ -37,12 +32,18 @@
                 <input type="password" class="form-control" name="password" placeholder="Mật khẩu" required="required">
             </div>
         </div>        
-        <div class="form-group">
-            <button type="submit" class="btn btn-success btn-block login-btn">Đăng ký</button>
+                <div class="form-group">
+            <button type="submit" class="btn btn-success btn-block login-btn">Đăng Nhập</button>
         </div>
         <div class="clearfix">
             <a href="#" class="pull-right text-success">Quên mật khẩu?</a>
         </div>  
+
+		<div class="or-seperator"><i>or</i></div>
+		 <div class="text-center social-btn">
+            <a href="#" class="btn btn-info btn-block"><i class="fa fa-facebook"></i> Đăng nhập với <b>Facebook</b></a>
+			<a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i> Đăng nhập với <b>Google</b></a>
+        </div>
         
     </form>
     <div class="hint-text small">Bạn chưa có tài khoản? <a href="#" class="text-success">Đăng ký ngay!</a></div>

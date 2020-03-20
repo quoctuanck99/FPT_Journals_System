@@ -15,69 +15,117 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-6">
-            <form action="" method="post" id="fileForm" role="form">
-            <fieldset><legend class="text-center">Cần nhập thông tin chính xác khi đăng ký <span class="req"><small> (*) bắt buộc</small></span></legend>
-			<div class="title-box"> Thông tin của chủ tài khoản</div>
-
-            <div class="form-group"> 	 
-                <div class="sub-title"><span class="req">* </span> Tên đầy đủ </div>
-                    <input class="form-control" type="text" name="f" id = "txt" onkeyup = "Validate(this)" required /> 
-                        <div id="errFirst"></div>    
-            </div>
-
-            <div class="form-group">
-                <div class="sub-title"> Ngày sinh </div>
-                    <input type="date" name="dob" id="dob" class="form-control">
-                        <div id="errLast"></div>
-            </div>
-            
-            <div class="form-group"> 	 
-                <div class="sub-title"><span class="req">* </span> Chức vụ </div>
-                    <input class="form-control" type="text" name="job" id = "txt" onkeyup = "Validate(this)" required /> 
-                        <div id="errFirst"></div>    
-            </div>
-            
-           	<div class="form-group"> 	 
-                <div class="sub-title"> Nơi làm việc </div>
-                    <input class="form-control" type="text" name="placework" id = "txt" onkeyup = "Validate(this)"/> 
-                        <div id="errFirst"></div>    
-            </div>
-			<div class="form-group">
-				<div class="sub-title">Giới tính</div>
-					<select name="gender" id="gender" class="form-control">
-						<option selected>Male</option>
-						<option>Female</option>
-						<option>Other</option>
-					</select>
+ 	<div class="edit-form">
+<form action="" method="post" id="fileForm" role="form">
+            <fieldset><legend class="text-center">Cần nhập thông tin chính xác khi đăng ký <span class="require-field"><small> (*) bắt buộc</small></span></legend>
+		<div class="row">
+			<div class="col-md-12 title-box">Thông tin chủ tài khoản</div>
+		</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sub-title">Tên đầy đủ <span class="require-field">(*)</span></div>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="fname" class="form-control"
+						aria-required="true" id="issue">
+				</div>
 			</div>
 
-            <div class="form-group">
-                <div class="sub-title"><span class="req">* </span> Địa chỉ email </div> 
-                    <input class="form-control" required type="text" name="email" id = "email"  onchange="email_validate(this.value);" />   
-                        <div class="status" id="status"></div>
-            </div>
+			<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Ngày sinh <span class="require-field">(*)</span></div>
+				</div>
+				<div class="col-md-12">
+					<input type="date" name="dob" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
             
-            <div class="form-group">
-            	<div class="sub-title"> Số điện thoại </div>
-                    <input required type="text" name="phonenumber" id="phone" class="form-control phone" maxlength="28" onkeyup="validatephone(this);" placeholder="not used for marketing"/> 
-            </div>
+           	<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Chức vụ <span class="require-field">(*)</span></div>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="role" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
             
-            <div class="title-box"> Thông tin tài khoản</div>
+           	<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Nơi làm việc</div>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="placework" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Giới tính<span class="require-field">(*)</span></div>
+				</div>
+				<div class="col-md-12">
+				    <input id="c1" type="checkbox">
+				    <label for="c1">Nam</label>
+				    <input id="c2" type="checkbox" checked>
+				    <label for="c2">Nữ</label>
+				</div>
+			</div>
+            
 
-            <div class="form-group">
-                <div class="sub-title"><span class="req">* </span> Tên đăng nhập </div>
-                    <input class="form-control" type="text" name="username" id = "txt" onkeyup = "Validate(this)" placeholder="minimum 6 letters" required />  
-                        <div id="errLast"></div>
-            </div>
+           	<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Địa chỉ email<span class="require-field">(*)</span></div>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="email" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
+            
+           <div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Số điện thoại</div>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="phonenum" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
+			<br>
+            
+            <div class="col-md-12 title-box">Thông tin chủ tài khoản</div>
 
-            <div class="form-group">
-                <div class="sub-title"><span class="req">* </span> Mật khẩu </div>
-                    <input required name="password" type="password" class="form-control inputpass" minlength="4" maxlength="16"  id="pass1" /> </p>
+            <div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Tên đăng nhập<span class="require-field">(*)</span></div>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="username" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
 
-               	<div class="sub-title"><span class="req">* </span> Nhập lại mật khẩu </div>
-                    <input required name="password" type="password" class="form-control inputpass" minlength="4" maxlength="16" placeholder="Enter again to validate"  id="pass2" onkeyup="checkPass(); return false;" />
-                        <span id="confirmMessage" class="confirmMessage"></span>
-            </div>
+            <div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Mật khẩu<span class="require-field">(*)</span></div>>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="password" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-10 col-md-push-1">
+					<div class="sub-title">Nhập lại mật khẩu<span class="require-field">(*)</span></div>>
+				</div>
+				<div class="col-md-12">
+					<input type="text" name="repassword" class="form-control"
+						aria-required="true" id="issue">
+				</div>
+			</div>
 
             <div class="form-group">
             
@@ -97,10 +145,8 @@
 
             </fieldset>
             </form><!-- ends register form -->
+	</div>
 
-<script type="text/javascript">
-  document.getElementById("field_terms").setCustomValidity("Please indicate that you accept the Terms and Conditions");
-</script>
         </div><!-- ends col-6 -->
    
             <div class="col-md-6">
