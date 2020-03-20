@@ -1,22 +1,30 @@
 @charset "ISO-8859-1";
 .author-container{
 	font-family: 'Montserrat', sans-serif;
+	color: #24292e;
 }
+
 .description {
 	padding: 0px 15px;
 }
-.edit-form .row{
-	margin: 0px !important;
+.edit-form{
+	padding: 20px 0px;
 }
-
+.edit-form .row,.article-info .row{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+/*Css step breadcrumb*/
 table.breadcrumb tr td {
 	background: white;
 	padding: 0px 3px;
 	width: 25%;
 }
 
-table.breadcrumb tr td.active {
-	background: #F5A425;
+table.breadcrumb tr td.active{
+	background: #f27228;
+}
+table.breadcrumb tr td.active a{
 	color: white;
 }
 
@@ -24,18 +32,26 @@ table.breadcrumb tr td.active {
 	cursor: pointer;
 	text-align: center;
 }
-
+.breadcrumb a{
+	color:#586069;
+}
+/*------*/
 .title-box {
-	background: #F5A425;
+	background: #f27228;
 	color: white;
 	padding: 10px 20px;
 	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-
-.edit-form .row input, .edit-form .row select, .edit-form .row textarea
-	{
+.sub-title {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #F27228;
+}
+.edit-form .row input, .edit-form .row select, .edit-form .row textarea,.article-info .row
+{
 	margin-bottom: 25px;
 }
 
@@ -50,10 +66,45 @@ span.require-field {
 
 .margin-20 {
 	margin-bottom: 20px;
-	margin-top: 25px;
 }
 
-<!--Gui bai buoc 2 -->
-.panel-collapse.collapse{
-	padding: 20px;
+
+h4.author-title a{
+	font-family: 'Montserrat', sans-serif !important;
+	color: #f27228;
+	font-size: 14px;
+	text-transform: uppercase;
 }
+.clear-padding{
+	padding-left: 0px;
+}
+
+.suggestion{
+	color: #c32a12;
+}
+
+.fjs-btn.green.add-to-list button {
+    background: white;
+	color: #24292e;
+    border: #f27228 1px solid;
+    padding: 9px 30px;
+}
+.fjs-btn.green.add-to-list button:hover{
+	color: white;
+    background: #f27228;
+}
+/* Css for guibaibuoc4 */
+.article-info{
+	padding: 20px 0px 10px 0px;
+	margin : 0px 0px 20px 0px;
+	border-radius: 0px;
+}
+
+.over-x{
+	overflow-x:scroll;
+}
+/*Css for upload file*/
+#real-file{
+	display: none;
+}
+
