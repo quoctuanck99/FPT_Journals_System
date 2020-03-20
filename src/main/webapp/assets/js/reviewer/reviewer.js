@@ -2,5 +2,10 @@
  * 
  */
 $(document).ready(function(){
-	$('#table').DataTable();
+	$('#table').DataTable({reponsive:true});
+	$('.modaal').modaal();
+	
+	
+
 })
+
