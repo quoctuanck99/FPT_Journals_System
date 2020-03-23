@@ -1,12 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="footer-widget">
 					<div class="educa-info">
-						<img src="assets/images/logo-2.png" alt="">
+						<img src="<c:out value="${pageContext.servletContext.contextPath}"/>/assets/images/logo-2.png" alt="">
 						<div class="line-dec"></div>
 						<p>Viral megings photo booth farm tab McSweeney's Thundercats
 							til typewrite PBR food truck Kickstarter mumb ennui Tumblr. Jean
