@@ -16,5 +16,21 @@ public class AuthorController {
 		return "guibaibuoc2";
 	}
 	
+	@RequestMapping("/tac-gia/gui-bai-buoc-3")
+	public String ViewGuiBaiBuoc3() {
+		return "guibaibuoc3";
+	}
+	@RequestMapping("/tac-gia/gui-bai-buoc-4")
+	public String ViewGuiBaiBuoc4() {
+		return "guibaibuoc4";
+	}
+	@RequestMapping("/tac-gia/trang-thai-bai-dang")
+	public String ViewTrangThaiBaiDang() {
+		return "trangthaibaidang";
+	}
+	@RequestMapping("/tac-gia/theo-doi-phan-bien")
+	public String ViewTheoDoiPhanBien() {
+		return "theodoiphanbien";
+	}
 }
 	

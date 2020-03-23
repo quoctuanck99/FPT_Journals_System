@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8"%>
+﻿<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <header class="site-header">
 	<div id="main-header" class="main-header header-sticky">
@@ -34,7 +34,7 @@
 							</form>
 						</div>
 					</li>
-					<li><a href="#">ĐĂNG NHẬP</a></li>
+					<li><a href="<c:out value="${pageContext.servletContext.contextPath}"/>/dang-nhap">ĐĂNG NHẬP</a></li>
 				</ul>
 			</div>
 			<nav class="main-navigation text-left hidden-xs hidden-sm">
@@ -60,7 +60,7 @@
 							<li><a href="gallery-4.html">Gallery 4 Columns</a></li>
 							<li><a href="gallery-3.html">Gallery 3 Columns</a></li>
 						</ul></li>
-					<li><a href="contact.html" class="has-submenu">DÀNH CHO
+					<li><a href="<c:out value="${pageContext.servletContext.contextPath}"/>/tac-gia/trang-thai-bai-dang" class="has-submenu">DÀNH CHO
 							TÁC GIẢ</a></li>
 					<li><a href="#search"><i class="fa fa-search"></i></a></li>
 				</ul>

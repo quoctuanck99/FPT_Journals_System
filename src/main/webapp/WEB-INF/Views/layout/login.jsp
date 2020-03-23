@@ -26,8 +26,6 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/animate.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/admin/dashboard.css'/>" />
-<link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/jquery-ui.css'/>" />
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/simple-line-icons.css'/>" />
@@ -48,12 +46,6 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/elements.css'/>" /> 
 </head>
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/Chart.css'/>" /> 
-</head>
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/Chart.min.css'/>" /> 
-</head>
 
 <body>
 	<div class="sidebar-menu-container" id="sidebar-menu-container">
@@ -66,17 +58,15 @@
 
 				<tiles:insertAttribute name="userheader" />
 
- 				<section class="single-course"style="padding-bottom: 50px;">
+				<section class="single-course"style="padding-bottom: 50px;">
 					<div class="container">
-						<div class="row"  id="main-container"   style="padding-bottom: 50px;">
-							<div class="col-md-12">
+						<div class="row" id="main-container"  style="padding-bottom: 50px;">
+							<div class="col-md-20" style="text-align:center;">
 								<div class="item course-item">
 									<div class="up-content">
-										<a href="single-course.html">
 											<h4>
 												<tiles:insertAttribute name="title" />
 											</h4>
-										</a>
 									</div>
 								</div>
 								<tiles:insertAttribute name="body" />
@@ -92,10 +82,56 @@
 				<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
 
 			</div>
+
 		</div>
+
+		<nav class="sidebar-menu slide-from-left">
+			<div class="nano">
+				<div class="content">
+					<nav class="responsive-menu">
+						<ul>
+							<li class="menu-item-has-children"><a href="#">Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Homepage 1</a></li>
+									<li><a href="homepage-2.html">Homepage 2</a></li>
+								</ul></li>
+							<li class="menu-item-has-children"><a href="#">Courses</a>
+								<ul class="sub-menu">
+									<li><a href="courses-grid.html">Courses Grids</a></li>
+									<li><a href="courses-list.html">Courses List</a></li>
+									<li><a href="single-course.html">Single Course</a></li>
+								</ul></li>
+							<li class="menu-item-has-children"><a href="#">Events</a>
+								<ul class="sub-menu">
+									<li><a href="classic-events.html">Classic Events</a></li>
+									<li><a href="calendar-events.html">Calendar Events</a></li>
+									<li><a href="single-event.html">Single Event</a></li>
+								</ul></li>
+							<li class="menu-item-has-children"><a href="#">Pages</a>
+								<ul class="sub-menu">
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="our-teachers.html">Our Teachers</a></li>
+									<li><a href="single-teacher.html">Single Teacher</a></li>
+									<li><a href="gallery-4.html">Gallery 4 Columns</a></li>
+									<li><a href="gallery-3.html">Gallery 3 Columns</a></li>
+								</ul></li>
+							<li class="menu-item-has-children"><a href="#">News</a>
+								<ul class="sub-menu">
+									<li><a href="classic-news.html">Classic News</a></li>
+									<li><a href="grid-news.html">Grid News</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</nav>
 	</div>
-	
-	
+
+	<script src="<c:url value="/assets/js/guest/ideal-image-slider.js"/>"></script>
+	<script src="<c:url value="/assets/js/guest/iis-captions.js"/>"></script>
+	<script src="<c:url value="/assets/js/guest/iis-bullet-nav.js"/>"></script>
 	<c:forEach var="script" items="${javascripts}">
 		<script src="<c:url value="${script}"/>"></script>
 	</c:forEach>

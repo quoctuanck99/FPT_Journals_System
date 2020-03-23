@@ -1,16 +1,14 @@
 @charset "ISO-8859-1";
-.author-container{
+.container{
 	font-family: 'Montserrat', sans-serif;
 	color: #24292e;
 }
 
-.description {
-	padding: 0px 15px;
-}
-.edit-form{
+
+.signup-form{
 	padding: 20px 0px;
 }
-.edit-form .row,.article-info .row{
+.signup-form .row,.article-info .row{
 	margin-right: 0px !important;
 	margin-left: 0px !important;
 }
@@ -46,9 +44,9 @@ table.breadcrumb tr td.active a{
 }
 .sub-title {
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 	margin-bottom: 20px;
-	color: #F27228;
+	color: #000;
 }
 .edit-form .row input, .edit-form .row select, .edit-form .row textarea,.article-info .row
 {
