@@ -72,3 +72,16 @@ canvas{
 .pad{
 	margin-top: 40px;
 }
+.float-left{
+	float: left;
+}
+.float-margin{
+	float: left;
+	margin-top: 20px;
+}
+.white-color{
+	background-color: #ffffff;
+}
+.white-text{
+	color: #ffffff !important;
+}
