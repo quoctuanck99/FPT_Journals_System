@@ -7,6 +7,7 @@
 			style="width: 100%; line-height: 30px;">
 			<thead>
 				<tr>
+					<th><input id="c1" type="checkbox"></th>
 					<th>Tiêu đề</th>
 					<th>Tác giả</th>
 					<th>Danh mục</th>
@@ -17,7 +18,8 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Công nghệ đã thay đổi cuộc sống con người như thế nào?</a></td>
+					<td><input id="c1" type="checkbox"></td>
+					<td>Công nghệ đã thay đổi cuộc sống con người như thế nào?</td>
 					<td>Tác giả 1</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -25,7 +27,8 @@
 					<td>Chưa đánh giá</td>
 				</tr>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<td><input id="c1" type="checkbox"></td>
+					<td>Công nghệ nano và những ứng dụng trong thực tiễn</td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -33,7 +36,8 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
+					<td><input id="c1" type="checkbox"></td>
+					<td>Việt Nam nghiên cứu vũ khí nguyên tử</td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -41,7 +45,8 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<td><input id="c1" type="checkbox"></td>
+					<td>Công nghệ nano và những ứng dụng trong thực tiễn</td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -49,7 +54,8 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
+					<td><input id="c1" type="checkbox"></td>
+					<td>Việt Nam nghiên cứu vũ khí nguyên tử</td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -61,6 +67,33 @@
 		</table>
 	</div>
 </div>
+
+<div class="row">
+	<div class="col-md-9">
+		<div class="fjs-btn blue" >
+			
+			<a href="#xuatbanchuyensan" class="xuatbanchuyensan" data-toggle="modal"
+				data-target="#xuatbanchuyensan">Xuất bản chuyên san</a>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="xuatbanchuyensan">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">Đồng ý xuất bản chuyên san</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+				<button type="button" class="btn btn-danger">Đồng ý</button>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
 
 
 
