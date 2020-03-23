@@ -3,8 +3,7 @@
 
 <div class="row">
 	<div class="col-md-12">
-		<table id="table" class="display table-striped table-bordered"
-			style="width: 100%; line-height: 30px;">
+		<table id="table" class="display table-striped table-bordered">
 			<thead>
 				<tr>
 					<th><input id="c1" type="checkbox"></th>
