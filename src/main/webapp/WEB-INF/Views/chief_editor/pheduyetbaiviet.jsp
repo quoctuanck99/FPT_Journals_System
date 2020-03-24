@@ -3,7 +3,7 @@
 
 <div class="row">
 	<div class="col-md-12">
-		<table id="table" class="display table-striped table-bordered"
+		<table id="tablepheduyet" class="display table-striped table-bordered"
 			style="width: 100%; line-height: 30px;">
 			<!-- 			<thead>
 				<tr>
@@ -17,7 +17,7 @@
 					<th>Nhận xét</th>
 				</tr>
 			</thead> -->
-			<tbody style="text-align:center;">
+			<tbody>
 				<tr>
 					<td>Mã bản thảo</td>
 					<td>Bài viết 1</td>
@@ -67,13 +67,37 @@
 					<td><a>script.pdf</a></td>
 				</tr>
 				<tr>
-					<td colspan="2"><a>Chi tiết phản biện</a></td>
+					<td colspan="2"><a>Đánh giá của người phản biện</a></td>
 				</tr>
 			</tbody>
-
 		</table>
+
+		<br>
+		<div class="aprroval">
+			<div class="col-md-6">
+				<b>Xác nhận xuất bản bài viết</b>
+			</div>
+			<div class="col-md-3">
+				<div class="fjs-btn blue " id="btn-send">
+					<a href="#pheduyet" class="btn btn-primary" data-toggle="modal"
+						data-target="#guitongbientap">Đồng ý</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="fjs-btn red" id="btn-send">
+					<a href="#pheduyet" class="btn btn-primary" data-toggle="modal"
+						data-target="#guitongbientap">Reject</a>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </div>
+
+
+
+
+
 
 
 

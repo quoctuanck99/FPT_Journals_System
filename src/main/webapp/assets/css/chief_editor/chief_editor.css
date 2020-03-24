@@ -8,6 +8,15 @@
 		font-size: 11px
 	}
 }
-.article-content{
+
+.article-content {
 	text-align: justify;
+}
+
+#tablepheduyet tbody tr td:nth-child(2) {
+	font-weight: bold !important;
+}
+
+.aprroval{
+	text-align: end;
 }

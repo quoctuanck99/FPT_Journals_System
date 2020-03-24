@@ -29,7 +29,7 @@
 			<add-attribute value="/assets/js/chief_editor/chief_editor.js" />
 		</put-list-attribute>
 	</definition>
-	<definition name="pheduyetbaiviet" extends="quanlybaiviet">
+	<definition name="pheduyetbaiviet" template="/WEB-INF/Views/layout/_layoutChiefEditor.jsp" extends="quanlybaiviet">
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/pheduyetbaiviet.jsp" />
 	</definition>
