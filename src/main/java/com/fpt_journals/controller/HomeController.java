@@ -42,6 +42,11 @@ public class HomeController {
 		return "dangky";
 	}
 	
+	@RequestMapping("/ket-qua-tim-kiem")
+	public String ViewKetQuaTimKiem() {
+		return "ketquatimkiem";
+	}
+	
 	
 }
 

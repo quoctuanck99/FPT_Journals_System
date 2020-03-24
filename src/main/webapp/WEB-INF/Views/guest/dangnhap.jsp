@@ -46,7 +46,7 @@
         </div>
         
     </form>
-    <div class="hint-text small">Bạn chưa có tài khoản? <a href="#" class="text-success">Đăng ký ngay!</a></div>
+    <div class="hint-text small">Bạn chưa có tài khoản? <a href="<c:out value="${pageContext.servletContext.contextPath}"/>/dang-ky" class="text-success">Đăng ký ngay!</a></div>
 </div>
 </body>
 </html>                            
