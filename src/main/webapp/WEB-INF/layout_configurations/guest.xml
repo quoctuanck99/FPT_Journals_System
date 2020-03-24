@@ -108,4 +108,8 @@
 		</put-list-attribute>
 	</definition>
 	
+	<definition name="ketquatimkiem" extends="home">
+	<put-attribute name="body" value="/WEB-INF/Views/guest/ketquatimkiem.jsp"/>
+	</definition>
+	
 </tiles-definitions>

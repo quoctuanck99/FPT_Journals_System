@@ -74,6 +74,8 @@ h4.author-title a{
 	color: #f27228;
 	font-size: 14px;
 	text-transform: uppercase;
+	display: block;
+    margin-right: 5%;
 }
 .clear-padding{
 	padding-left: 0px;
@@ -107,4 +109,15 @@ h4.author-title a{
 #real-file{
 	display: none;
 }
-
+/*Css for clear author*/
+.panel-heading{
+	position: relative;
+}
+.btn-close i{
+	position: absolute;
+	right: 3%;
+	top:50%;
+	margin-top: -15px;
+	color: red;
+	cursor: pointer;
+}

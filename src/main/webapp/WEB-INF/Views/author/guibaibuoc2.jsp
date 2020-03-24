@@ -15,7 +15,7 @@
 			<div class="col-md-12 title-box">Nhập chi tiết thông tin tác
 				giả ...</div>
 		</div>
-		<div class="row">
+		<div class="row" id="authorgroup">
 			<div class="panel-group">
 				<div class="panel panel-default">
 					<div class="panel-heading">
@@ -114,9 +114,9 @@
 										<b>Giới tính <span class="require-field">(*)</span></b>
 									</div>
 									<div class="col-md-10 col-md-push-1">
-										<input id="male" type="radio" name="gender" value="1">
+										<input type="radio" name="gender" value="1">
 										<label for="male">Male</label> 
-										<input id="female" type="radio"
+										<input type="radio"
 											name="gender" value="0"> <label for="female">Female</label>
 									</div>
 								</div>
@@ -143,7 +143,7 @@
 		</div>
 		<div class="row clear-padding margin-20">
 			<div class="fjs-btn green">
-				<a href="#">Thêm tác giả</a>
+				<a href="#" id="addauthor">Thêm tác giả</a>
 			</div>
 		</div>
 		<div class="row clear-padding" style="text-align: center;">
@@ -161,3 +161,6 @@
 	</div>
 
 </div>
+<c:forEach var="script" items="${javascripts}">
+	<script src="<c:url value="${script}"/>"></script>
+</c:forEach>
