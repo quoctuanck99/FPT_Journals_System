@@ -16,7 +16,7 @@
 <div class="edit-form">
 	<form method="" action="">
 		<div class="row">
-			<div class="col-md-12 sub-title">Bạn nên sử dụng mật khẩu mạnh mà mình chưa sử dụng ở đâu khác</div>
+			<div class="col-md-12 sub-title"></div>
 		</div>
 
 		<div class="row">
@@ -34,9 +34,8 @@
 				<b>Mật khẩu mới <span class="require-field">(*)</span></b>
 			</div>
 			<div class="col-md-8 col-md-push-2">
-				<input type="text" name="new-password" class="form-control"
-					aria-required="true">
-			</div>
+				<input type="password" name="new-password" class="form-control"
+					aria-required="true"></div>
 		</div>
 		
 		<div class="row">
@@ -44,17 +43,22 @@
 				<b>Nhập lại mật khẩu mới <span class="require-field">(*)</span></b>
 			</div>
 			<div class="col-md-8 col-md-push-2">
-				<input type="text" name="confirm-password" class="form-control"
+				<input type="password" name="confirm-password" class="form-control"
 					aria-required="true" >
 			</div>
 		</div>
-		
+			
+		<div class="row margin-20">
+			<div class="col-md-10 col-md-push-2">
+				<small class="suggestion">Bạn nên sử dụng mật khẩu mạnh mà mình chưa sử dụng ở đâu khác</small>
+			</div>
+		</div>	
+			
 		<div class="row margin-20">
 			<div class="col-md-10 col-md-push-2">
 				<b><span class="require-field">(*)</span> Những thông tin bắt buộc</b>
 			</div>
 		</div>
-		
 		
 		<div class="row">
 			<div class="col-md-4 col-md-push-4">

@@ -33,4 +33,20 @@ public class HomeController {
 	public String ViewDoiMatKhau() {
 		return "doimatkhau";
 	}
+	@RequestMapping("/dang-nhap")
+	public String ViewDangNhap() {
+		return "dangnhap";
+	}
+	@RequestMapping("/dang-ky")
+	public String ViewDangKy() {
+		return "dangky";
+	}
+	
+	@RequestMapping("/ket-qua-tim-kiem")
+	public String ViewKetQuaTimKiem() {
+		return "ketquatimkiem";
+	}
+	
+	
 }
+

@@ -7,7 +7,7 @@
 	margin-bottom: 40px !important;
 }
 .nav-tabs>li.active>a{
-	border-radius: 6px;
+/* 	border-radius: 6px; */
 /* 	border-top: 1px solid #ffa042 !important;
 	border-right: 1px solid #ffa042 !important; */
 }
@@ -44,4 +44,123 @@ canvas{
 	margin: 0 auto;
 	width: 60% !important;
 	height: 60% !important;
+}
+.button-tab-admin{
+	color:#ffffff;
+	cursor: pointer;
+	padding: 12px 45px;
+/* 	border: 2px solid #ffa042; */
+	background-color: #ffa042
+}
+.border-around{
+	border: 1px solid #3f454e;
+	border-radius: 6px !important;
+	padding: 20px 5px;
+}
+.border-left-ad{
+	border-left: 2px solid #ffa042;
+}
+.big-text{
+	font-size: 19px;
+	padding: 8px 15px;
+	color:#3f454e;
+	
+}
+.nav-tabs .nav-item{
+	background-color: #cdcdcd;
+}
+.pad{
+	margin-top: 40px;
+}
+.float-left{
+	float: left;
+}
+.float-margin{
+	float: left;
+	margin-top: 20px;
+}
+.white-color{
+	background-color: #ffffff;
+}
+.white-text{
+	color: #ffffff !important;
+}
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.btn-img{
+	color: #1682ed;
+	cursor: pointer;
+	font-size: 15px;
+	margin-top: 10px;
+}
+button:focus{
+	outline-color: white;
+}
+button:hover{
+	color:#ffa042;
+}
+.border-img{
+
+}
+.mar-top{
+	margin-top: 20px;
+}
+.btn-orange{
+	padding: 12px 24px;
+	background-color: #ffa042;
+	color: #ffffff;
+	cursor: pointer;
+}
+.btn-orange:hover{
+	color: #ffffff;
+	
 }

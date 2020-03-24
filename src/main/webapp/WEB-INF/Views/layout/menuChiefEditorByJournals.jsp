@@ -9,15 +9,15 @@
 
 <div class="categories">
 	<div class="widget-heading">
-		<h4>Quản lý bài viết</h4>
+		<h4>Quản lý bài viết đã được xuất bản</h4>
 	</div>
 	<div class="widget-body">
 		<div class="article-reviewer">
-			<a href="../phan-bien-vien/quan-ly-bai-viet-duoc-chi-dinh" class="title-reviewer">Quản lý bài viết được chỉ định</a>
+			<a href="#" class="title-reviewer"></a>
 		</div>
 		<hr>
 		<div class="article-reviewer">
-			<a class="title-reviewer" alt="">Đánh giá bài viết được chỉ định</a>
+			<a class="title-reviewer" alt=""></a>
 		</div>
 	</div>
 </div>

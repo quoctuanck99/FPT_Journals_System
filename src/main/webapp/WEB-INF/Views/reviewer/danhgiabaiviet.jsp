@@ -5,9 +5,15 @@
 	<div class="up-content">
 		<h4 class="review-title">Công nghệ đã thay đổi cuộc sống của con
 			người như thế nào?</h4>
-		<p>Tác giả: <a href="#">Tác giả 1</a></p>
-		<p>Tạp chí: <a href="#">Khoa học - công nghệ</a></p>
-		<p>Ngày nhận bài: <a href="#">13/03/2020</a></p>
+		<p>
+			Tác giả: <a href="#">Tác giả 1</a>
+		</p>
+		<p>
+			Tạp chí: <a href="#">Khoa học - công nghệ</a>
+		</p>
+		<p>
+			Ngày nhận bài: <a href="#">13/03/2020</a>
+		</p>
 
 	</div>
 </div>
@@ -113,8 +119,7 @@
 <div class="row">
 	<div class="col-md-8">
 		<div class="fjs-btn blue " id="btn-send">
-			<!-- <a href="#myModal" class="modaal">Gửi tổng
-				biên tập</a> -->
+
 			<a href="#guitongbientap" class="btn btn-primary" data-toggle="modal"
 				data-target="#guitongbientap">Gửi tổng biên tập</a>
 		</div>
@@ -147,7 +152,7 @@
 		<div class="modal-content">
 			<div class="modal-body">Gửi bài viết cho tổng biên tập</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
 				<button type="button" class="btn btn-danger">Đồng ý</button>
 			</div>
 

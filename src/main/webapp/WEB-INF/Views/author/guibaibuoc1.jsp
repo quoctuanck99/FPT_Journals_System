@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
 <head>
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/author/guibai.css'/>" />
@@ -9,24 +10,7 @@
 
 <div class="author-container">
 	<div class="description">
-		<div class="row">
-			<table class="breadcrumb">
-				<tbody>
-					<tr>
-						<td class="active">Bước 1</td>
-						<td>Bước 2</td>
-						<td>Bước 3</td>
-						<td>Bước 4</td>
-					</tr>
-					<tr>
-						<td class="active">Bản thảo</td>
-						<td>Thông tin tác giả</td>
-						<td>Đính kèm bản thảo</td>
-						<td>Xác nhận và gửi đi</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+		<tiles:insertAttribute name="authorstep" />
 		<div class="row">
 			<div class="col-md-12 title-box">Nhập thông tin bài viết</div>
 		</div>
@@ -163,7 +147,7 @@
 				</div>
 			</div>
 
-			<div class="row margin-20">
+			<div class="row margin-20" style="margin-top: 25px">
 				<div class="col-md-10 col-md-push-1">
 					<b><span class="require-field">(*)</span> Những thông tin bắt
 						buộc</b>
@@ -171,7 +155,6 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-md-push-4">
-
 					<div class="fjs-btn orange">
 						<a href="#" class="btn btn-block">Tiếp tục</a>
 					</div>
