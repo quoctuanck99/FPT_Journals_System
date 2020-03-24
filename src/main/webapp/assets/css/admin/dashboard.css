@@ -151,3 +151,16 @@ button:hover{
 .border-img{
 
 }
+.mar-top{
+	margin-top: 20px;
+}
+.btn-orange{
+	padding: 12px 24px;
+	background-color: #ffa042;
+	color: #ffffff;
+	cursor: pointer;
+}
+.btn-orange:hover{
+	color: #ffffff;
+	
+}
