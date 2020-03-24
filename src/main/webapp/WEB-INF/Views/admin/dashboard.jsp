@@ -61,9 +61,36 @@
 
 		<div class="tab-pane fade" id="account" role="tabpanel"
 			aria-labelledby="account-tab">
-			<div class="col-md-12" style="margin-top: 10px">
-				<div class="row">
+				<div class="row" style="margin-top: 10px">
 					<div class="col-md-12">
+						<div class="col-md-3">
+							<input type="text" id="name" placeholder="Name" value="">
+						</div>
+						<div class="col-md-3">
+							<select>
+								<option>Chức vụ</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
+							</select>
+						</div>
+						<div class="col-md-3">
+							<select>
+								<option>Trạng thái</option>
+								<option>Hoạt động</option>
+								<option>Ngừng hoạt động</option>
+							</select>
+						</div>
+						<div class="col-md-3">
+							<button type="button" class="btn-orange">Tìm</button>
+						</div>
+					</div>
+					<div class="col-md-4 col-md-offset-8 mar-top" align="center">
+						<button type="button" class="btn-orange" data-toggle="modal" data-target="#new-account">Thêm tài khoản</button>
+					</div>
+					<div class="col-md-12 mar-top">
 						<table id="table" class="display table-striped table-bordered"
 							style="width: 100%; line-height: 30px;">
 							<thead>
@@ -79,22 +106,10 @@
 									<td>duongpl</td>
 									<td>Tác giả</td>
 									<td>Hoạt động</td>
-									<td>Chỉnh sửa</td>
-									<td>Xóa</td>
-								</tr>
-								<tr>
-									<td>duongpl</td>
-									<td>Tác giả</td>
-									<td>Hoạt động</td>
-									<td>Chỉnh sửa</td>
-									<td>Xóa</td>
-								</tr>
-								<tr>
-									<td>duongpl</td>
-									<td>Tác giả</td>
-									<td>Hoạt động</td>
-									<td>Chỉnh sửa</td>
-									<td>Xóa</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
 								</tr>
 								<tr>
 									<td>duongpl</td>
@@ -109,15 +124,35 @@
 									<td>duongpl</td>
 									<td>Tác giả</td>
 									<td>Hoạt động</td>
-									<td>Chỉnh sửa</td>
-									<td>Xóa</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
 								</tr>
 							</tbody>
 				
 						</table>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 
 		<div class="tab-pane fade" id="web" role="tabpanel"
@@ -332,15 +367,101 @@
 		</div>
 	</div>
 </div>
-<div class="modal fade" id="edit-account">
+<div class="modal fade" id="edit-account" style="">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-body">
-				
+				Cập nhật thông tin
 			</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Tên tài khoản</span>
+					</div>
+					<div class="col-md-8">
+						<input type="text" id="name" placeholder="Full Name" value="">
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Quyền truy cập</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Quyền truy cập</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Trạng thái</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Hoạt động</option>
+								<option>Ngừng hoạt động</option>
+							</select>
+					</div>
+				</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-danger">Xóa</button>
-				<button type="button" class="btn btn-info" data-dismiss="modal">Đóng</button>
+				<div class="col-md-12  mar-top">
+					<button type="button" class="btn btn-info" data-dismiss="modal">Hủy</button>
+					<button type="button" class="btn btn-warning">Cập nhật</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="new-account" style="">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				Thêm tài khoản mới
+			</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Tên tài khoản</span>
+					</div>
+					<div class="col-md-8">
+						<input type="text" id="name" placeholder="Full Name" value="">
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Quyền truy cập</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Quyền truy cập</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Trạng thái</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Hoạt động</option>
+								<option>Ngừng hoạt động</option>
+							</select>
+					</div>
+				</div>
+			<div class="modal-footer">
+				<div class="col-md-12  mar-top">
+					<button type="button" class="btn btn-info" data-dismiss="modal">Hủy</button>
+					<button type="button" class="btn btn-warning">Lưu</button>
+				</div>
 			</div>
 
 		</div>
