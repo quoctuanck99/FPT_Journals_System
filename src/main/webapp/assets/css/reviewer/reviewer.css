@@ -117,13 +117,13 @@ ul {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 300px) {
 	.comments-container {
-		width: 480px;
+		width: 100%;
 	}
 }
 
-/* modal thêm nội dung phản luận*/
+/* modal */
 #sendComment {
 	float: right;
 }

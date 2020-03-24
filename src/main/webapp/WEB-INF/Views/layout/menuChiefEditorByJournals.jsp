@@ -13,11 +13,11 @@
 	</div>
 	<div class="widget-body">
 		<div class="article-reviewer">
-			<a href="#" class="title-reviewer"></a>
+			<a href="../tong-bien-tap-theo-chuyen-san/quan-ly-bai-viet-da-duoc-xuat-ban" class="title-reviewer">Xem bài viết đã được xuất bản</a>
 		</div>
 		<hr>
 		<div class="article-reviewer">
-			<a class="title-reviewer" alt=""></a>
+			<a class="title-reviewer" alt="">Biên tập chuyên san</a>
 		</div>
 	</div>
 </div>

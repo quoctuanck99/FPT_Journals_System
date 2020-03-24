@@ -18,7 +18,7 @@
 			<tbody>
 				<tr>
 					<td><input id="c1" type="checkbox"></td>
-					<td>Công nghệ đã thay đổi cuộc sống con người như thế nào?</td>
+					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" > nghệ đã thay đổi cuộc sống con người như thế nào?</a></td>
 					<td>Tác giả 1</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -27,7 +27,7 @@
 				</tr>
 				<tr>
 					<td><input id="c1" type="checkbox"></td>
-					<td>Công nghệ nano và những ứng dụng trong thực tiễn</td>
+					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -36,7 +36,7 @@
 				</tr>
 				<tr>
 					<td><input id="c1" type="checkbox"></td>
-					<td>Việt Nam nghiên cứu vũ khí nguyên tử</td>
+					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -45,7 +45,7 @@
 				</tr>
 				<tr>
 					<td><input id="c1" type="checkbox"></td>
-					<td>Công nghệ nano và những ứng dụng trong thực tiễn</td>
+					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -54,7 +54,7 @@
 				</tr>
 				<tr>
 					<td><input id="c1" type="checkbox"></td>
-					<td>Việt Nam nghiên cứu vũ khí nguyên tử</td>
+					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
