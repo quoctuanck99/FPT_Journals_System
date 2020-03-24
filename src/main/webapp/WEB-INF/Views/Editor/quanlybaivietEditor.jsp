@@ -1,5 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<h3>Thống kê</h3>
+<table>
+	<tr>
+		<th>Chưa hoàn thành:0</th>
+		<th>Đang xử lý:0</th>
+		<th>Đã xử lý:0</th>
+		<th>Bị từ chối:0</th>
+	</tr>
+</table>
+
 
 <div class="row">
 	<div class="col-md-12">
@@ -17,7 +27,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Công nghệ đã thay đổi cuộc sống con người như thế nào?</a></td>
+					<td>Công nghệ đã thay đổi cuộc sống con người như thế nào?</td>
 					<td>Tác giả 1</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -25,7 +35,7 @@
 					<td>Chưa đánh giá</td>
 				</tr>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<td>Công nghệ nano và những ứng dụng trong thực tiễn</td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -33,15 +43,15 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
+					<td>Việt Nam nghiên cứu vũ khí nguyên tử</td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
 					<td>2009/01/12</td>
 					<td>Đã đánh giá</td>
 				</tr>
-				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<tr>
+					<td>Công nghệ nano và những ứng dụng trong thực tiễn</td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -49,7 +59,7 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><a href="../phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh">Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
+					<td>Việt Nam nghiên cứu vũ khí nguyên tử</td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -61,6 +71,7 @@
 		</table>
 	</div>
 </div>
+
 
 
 

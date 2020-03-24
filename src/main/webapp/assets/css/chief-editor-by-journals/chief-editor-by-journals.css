@@ -1,0 +1,161 @@
+@charset "ISO-8859-1";
+
+.title {
+	font-size: 15px;
+	color: #2e373c;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.article {
+	padding: 20px 8px;
+	text-align: center;
+}
+
+hr {
+	margin: 0;
+}
+
+.review-title {
+	font-weight: 700;
+	color: #2e373c;
+}
+
+.col-md-12>p {
+	font-size: 16px
+}
+
+.up-content>h5 {
+	font-size: 17px;
+	margin-left: 30px;
+}
+/* menu reviewer css */
+.title-reviewer {
+	font-size: 15px;
+	color: #2e373c;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.article-reviewer {
+	padding: 20px 2px;
+	margin-left: 20px;
+}
+
+hr {
+	margin: 0;
+}
+
+/* ÄÃ¡nh giÃ¡ cá»§a ngÆ°á»i pháº£n biá»n css */
+ul {
+	list-style-type: none;
+}
+
+.comments-container {
+	width: 830px;
+}
+
+/* .comments-container h4 {
+	font-size: 36px;
+	color: #283035;
+	font-weight: 400;
+}  */
+/* 
+.comments-container h1 a {
+	font-size: 18px;
+	font-weight: 700;
+}
+ */
+
+/* .comment-main-level:after {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
+ */
+.comment-box .comment-head {
+	background: #FCFCFC;
+	padding: 10px 12px;
+	border-bottom: 1px solid #E5E5E5;
+	overflow: hidden;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.comment-box .comment-head i:hover {
+	color: #03658c;
+}
+
+.comment-box .comment-name {
+	color: #283035;
+	font-size: 14px;
+	font-weight: 700;
+	float: left;
+	margin-right: 10px;
+}
+/* 
+.comment-box .comment-name a {
+	color: #283035;
+}
+.comment-box .comment-name a {
+	color: #283035;
+} */
+.comment-box .comment-content {
+	background: #FFF;
+	padding: 12px;
+	font-size: 15px;
+	color: #595959;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	margin-left: 30px;
+}
+
+/** =====================
+ * Responsive
+ ========================*/
+@media only screen and (max-width: 766px) {
+	.comments-container {
+		width: 480px;
+	}
+}
+
+/* modal thÃªm ná»i dung pháº£n luáº­n*/
+#sendComment {
+	float: right;
+}
+
+
+
+#btn-comment {
+	float: right;
+	padding-right: 20px;
+}
+
+.row{
+	
+}
+#btn-send{
+	padding-left: 300px;
+}
+
+
+#c1{
+	min-height: 21px;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.xuatbanchuyensan{
+	margin-left: 300px;
+}
+
+#main-chiefeditorbyjournals{
+	padding-bottom: 50px;
+}
+
+#main-container{
+	padding-bottom: 50px;
+}
