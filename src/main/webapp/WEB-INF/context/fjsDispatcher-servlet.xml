@@ -31,6 +31,8 @@
 				<value>/WEB-INF/layout_configurations/admin.xml</value>
 				<value>/WEB-INF/layout_configurations/chief-editor.xml</value>
 				<value>/WEB-INF/layout_configurations/editor.xml</value>
+				<value>/WEB-INF/layout_configurations/chief-editor-by-journals.xml</value>
+				
 			</list>
 		</property>
 	</bean>

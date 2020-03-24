@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="item course-item">
 	<div class="up-content">
 		<h4>QUẢN TRỊ TRANG</h4>
@@ -10,12 +11,12 @@
 		<li class="nav-item active"><a class="nav-link white-text"
 			id="dashboard-tab" data-toggle="tab" href="#dashboard" role="tab"
 			aria-controls="dashboard" aria-selected="true" aria-expanded="true">Dashboard</a></li>
-		<li class="nav-item"><a class="nav-link white-text" id="account-tab"
-			data-toggle="tab" href="#account" role="tab" aria-controls="account"
-			aria-selected="false">Quản lí
-				tài khoản</a></li>
-		<li class="nav-item"><a class="nav-link white-text" id="" data-toggle="tab"
-			href="#web" role="tab" aria-controls="web" aria-selected="false">Cài đặt trang web</a></li>
+		<li class="nav-item"><a class="nav-link white-text"
+			id="account-tab" data-toggle="tab" href="#account" role="tab"
+			aria-controls="account" aria-selected="false">Quản lí tài khoản</a></li>
+		<li class="nav-item"><a class="nav-link white-text" id="web-tab"
+			data-toggle="tab" href="#web" role="tab" aria-controls="web"
+			aria-selected="false">Cài đặt trang web</a></li>
 	</ul>
 	<div class="tab-content" id="myTabContent">
 		<div class="tab-pane fade active in" id="dashboard" role="tabpanel"
@@ -57,25 +58,115 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="tab-pane fade" id="account" role="tabpanel"
 			aria-labelledby="account-tab">
-			<div class="col-md-12" style="margin-top: 10px">
+				<div class="row" style="margin-top: 10px">
+					<div class="col-md-12">
+						<div class="col-md-3">
+							<input type="text" id="name" placeholder="Name" value="">
+						</div>
+						<div class="col-md-3">
+							<select>
+								<option>Chức vụ</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
+							</select>
+						</div>
+						<div class="col-md-3">
+							<select>
+								<option>Trạng thái</option>
+								<option>Hoạt động</option>
+								<option>Ngừng hoạt động</option>
+							</select>
+						</div>
+						<div class="col-md-3">
+							<button type="button" class="btn-orange">Tìm</button>
+						</div>
+					</div>
+					<div class="col-md-4 col-md-offset-8 mar-top" align="center">
+						<button type="button" class="btn-orange" data-toggle="modal" data-target="#new-account">Thêm tài khoản</button>
+					</div>
+					<div class="col-md-12 mar-top">
+						<table id="table" class="display table-striped table-bordered"
+							style="width: 100%; line-height: 30px;">
+							<thead>
+								<tr>
+									<th>Tên tài khoản</th>
+									<th>Quyển truy cập</th>
+									<th>Trạng thái</th>
+									<th colspan="2">Tác vụ</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+							</tbody>
+				
+						</table>
+					</div>
+				</div>
 			
-			</div>
 		</div>
 
 		<div class="tab-pane fade" id="web" role="tabpanel"
 			aria-labelledby="web-tab">
 			<div class="col-md-12" style="margin-top: 10px">
 				<div class="col-md-3" style="text-align: center">
-				<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+					<ul class="nav nav-tabs nav-justified" id="myTab2" role="tablist">
 						<div class="float-left">
 							<li class="nav-item active white-color">
 								<div class="fjs-btn orange">
-									<a class="nav-link white-text" id="system-tab" data-toggle="tab"
-										href="#system" role="tab" aria-controls="system"
-										aria-selected="true" aria-expanded="true">Cài đặt hệ thống</a>
+									<a class="nav-link white-text" id="system-tab"
+										data-toggle="tab" href="#system" role="tab"
+										aria-controls="system" aria-selected="true"
+										aria-expanded="true">Cài đặt hệ thống</a>
 								</div>
 							</li>
 						</div>
@@ -111,13 +202,269 @@
 						</div>
 						<div class="tab-pane fade" id="front" role="tabpanel"
 							aria-labelledby="front-tab">
-							<div class="col-md-12" style="margin-top: 10px">sadasa</div>
+							<ul class="nav nav-tabs nav-justified" id="myTab3" role="tablist">
+								<li class="nav-item active"><a class="nav-link white-text"
+									id="logo-tab" data-toggle="tab" href="#logo" role="tab"
+									aria-controls="logo" aria-selected="true" aria-expanded="true">Logo</a></li>
+								<li class="nav-item"><a class="nav-link white-text"
+									id="banner-tab" data-toggle="tab" href="#banner" role="tab"
+									aria-controls="banner" aria-selected="false">Banner</a></li>
+								<li class="nav-item"><a class="nav-link white-text"
+									id="footer-tab" data-toggle="tab" href="#footer" role="tab"
+									aria-controls="footer" aria-selected="false">Footer</a></li>
+							</ul>
+							<div class="tab-content" id="myTabContent3">
+								<div class="tab-pane fade active in" id="logo" role="tabpanel"
+									aria-labelledby="logo-tab">
+									<div class="row">
+										<div class="gallery col-md-12"
+											style="padding-right: 0px; padding-left: 0px">
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+									                <div align="center">
+									                	<p style="font-size: 16px;color: #2c2538;">Thêm logo</p>
+									                	<input type="file" accept="image/*" value="Thêm logo"/>
+									                </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="banner" role="tabpanel"
+									aria-labelledby="banner-tab">
+									<div class="row">
+										<div class="gallery col-md-12"
+											style="padding-right: 0px; padding-left: 0px">
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+									                <div align="center">
+									                	<p style="font-size: 16px;color: #2c2538;">Thêm banner</p>
+									                	<input type="file" accept="image/*" value="Thêm banner"/>
+									                </div>
+											</div>
+										</div>
+									</div>
+									</div>
+								<div class="tab-pane fade" id="footer" role="tabpanel"
+									aria-labelledby="footer-tab">
+									<div class="row">
+										<div class="gallery col-md-12"
+											style="padding-right: 0px; padding-left: 0px">
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+												<img src="<c:url value='/assets/images/logo.png'/>"
+													class="img-responsive">
+												<div align="center">
+													<button type="button" class="btn-img">Chọn</button>
+													<button type="button" class="btn-img">Xóa</button>
+												</div>
+											</div>
+											<div
+												class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 border-img">
+									                <div align="center">
+									                	<p style="font-size: 16px;color: #2c2538;">Thêm footer</p>
+									                	<input type="file" accept="image/*" value="Thêm footer"/>
+									                </div>
+											</div>
+										</div>
+									</div>
+									</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
+	</div>
+</div>
+<div class="modal fade" id="delete-account">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">Xóa người dùng này</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger">Xóa</button>
+				<button type="button" class="btn btn-info" data-dismiss="modal">Đóng</button>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="edit-account" style="">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				Cập nhật thông tin
+			</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Tên tài khoản</span>
+					</div>
+					<div class="col-md-8">
+						<input type="text" id="name" placeholder="Full Name" value="">
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Quyền truy cập</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Quyền truy cập</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Trạng thái</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Hoạt động</option>
+								<option>Ngừng hoạt động</option>
+							</select>
+					</div>
+				</div>
+			<div class="modal-footer">
+				<div class="col-md-12  mar-top">
+					<button type="button" class="btn btn-info" data-dismiss="modal">Hủy</button>
+					<button type="button" class="btn btn-warning">Cập nhật</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="new-account" style="">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				Thêm tài khoản mới
+			</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Tên tài khoản</span>
+					</div>
+					<div class="col-md-8">
+						<input type="text" id="name" placeholder="Full Name" value="">
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Quyền truy cập</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Quyền truy cập</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-12 mar-top">
+					<div class="col-md-4">
+						<span>Trạng thái</span>
+					</div>
+					<div class="col-md-8">
+							<select>
+								<option>Hoạt động</option>
+								<option>Ngừng hoạt động</option>
+							</select>
+					</div>
+				</div>
+			<div class="modal-footer">
+				<div class="col-md-12  mar-top">
+					<button type="button" class="btn btn-info" data-dismiss="modal">Hủy</button>
+					<button type="button" class="btn btn-warning">Lưu</button>
+				</div>
+			</div>
+
+		</div>
 	</div>
 </div>
 <script>
