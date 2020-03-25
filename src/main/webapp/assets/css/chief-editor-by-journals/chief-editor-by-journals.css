@@ -55,8 +55,21 @@ hr {
 @media only screen and (max-width: 300px) {
   .comments-chief {
     width: 100%;
+  }
+#main-xuatbanchuyensan{
+	width: 100%;
 }
+
+.xuatbanchuyensan{
+    float: right;
+    margin-right: 30%;
 }
+    
+
+}
+
+
+	}
 
 /* modal */
 #sendComment {
@@ -85,6 +98,7 @@ hr {
 }
 .xuatbanchuyensan{
 	margin-left: 300px;
+	margin-top: 100px;
 }
 
 #main-chiefeditorbyjournals{

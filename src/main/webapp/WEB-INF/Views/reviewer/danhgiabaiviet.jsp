@@ -117,18 +117,19 @@
 </div>
 
 <div class="row">
-	<div class="col-md-8">
+	<div class="col-md-2" id="btn-comment">
+		<div class="" >
+			<a href="#themphanbien" class="modaal">Thêm phản biện</a>
+		</div>
+	</div>
+	<div class="col-md-10">
 		<div class="fjs-btn blue " id="btn-send">
 
 			<a href="#guitongbientap" class="btn btn-primary" data-toggle="modal"
 				data-target="#guitongbientap">Gửi tổng biên tập</a>
 		</div>
 	</div>
-	<div class="col-md-4">
-		<div class="" id="btn-comment">
-			<a href="#themphanbien" class="modaal">Thêm phản biện</a>
-		</div>
-	</div>
+
 </div>
 
 <div id="themphanbien" hidden>

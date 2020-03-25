@@ -67,10 +67,9 @@
 	</div>
 </div>
 
-<div class="row">
+<div class="row" id="main-xuatbanchuyensan">
 	<div class="col-md-9">
 		<div class="fjs-btn blue" >
-			
 			<a href="#xuatbanchuyensan" class="xuatbanchuyensan" data-toggle="modal"
 				data-target="#xuatbanchuyensan">Xuất bản chuyên san</a>
 		</div>

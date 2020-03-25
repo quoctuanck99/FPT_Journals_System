@@ -13,8 +13,8 @@ public class ChiefEditorByJournalsController {
 		return "xembaivietdaduocxuatban";
 	}
 	
-	@RequestMapping("/tong-bien-tap-theo-chuyen-san/bien-tap-chuyen-san")
-	public String ViewJournals() {
-		return "bientapchuyensan";
-	}
+	/*
+	 * @RequestMapping("/tong-bien-tap-theo-chuyen-san/bien-tap-chuyen-san") public
+	 * String ViewJournals() { return "bientapchuyensan"; }
+	 */
 }
