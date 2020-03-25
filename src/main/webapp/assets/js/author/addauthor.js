@@ -106,7 +106,7 @@ $( document ).ready(function() {
 						"<div class='row'>"+
 							"<div class='col-md-4 col-md-push-4'>"+
 								"<div class='fjs-btn green'>"+
-									"<button type='submit' class='btn btn-block'>Lưu</button>"+
+									"<button type='submit' class='btn btn-block'><i class='fa fa-save'></i>&nbsp;Lưu</button>"+
 								"</div>"+
 							"</div>"+
 						"</div>"+

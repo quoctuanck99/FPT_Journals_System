@@ -9,10 +9,8 @@
 </head>
 
 <div class="author-container">
-	<div class="description">
-		<div class="row">
-			<div class="col-md-12 title-box">Theo dõi phản biện</div>
-		</div>
+	<div class="row">
+		<div class="col-md-12 title-box">Theo dõi phản biện</div>
 	</div>
 	<div class="row article-info">
 		<div class="row">
@@ -24,7 +22,7 @@
 								báo</a>
 						</h4>
 					</div>
-					<div id="articleinfo" class="panel-collapse collapse">
+					<div id="articleinfo" class="panel-collapse collapse in">
 						<div class="edit-form">
 							<div class="row">
 								<div class="col-xs-3 col-xs-push-1">
@@ -117,7 +115,7 @@
 								giá</a>
 						</h4>
 					</div>
-					<div id="detailreport" class="panel-collapse collapse">
+					<div id="detailreport" class="panel-collapse collapse in">
 						<div class="edit-form">
 							<form method="" action="">
 								<div class="row">
@@ -178,16 +176,16 @@
 										<input type="file" id="real-file" hidden="hidden" /> <span
 											id="custom-text">Chưa có file nào được chọn</span>
 									</div>
-									<div class="col-xs-3 col-xs-push-1">
+									<div class="col-xs-4 col-xs-push-1">
 										<div class="fjs-btn green add-to-list">
-											<button type="button" id="custom-button">Chọn file</button>
+											<button type="button" id="custom-button"><i class="fa fa-upload"></i> &nbsp;Chọn file</button>
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-md-4 col-md-push-4">
 										<div class="fjs-btn green">
-											<button type="submit" class="btn btn-block">Lưu</button>
+											<button type="submit" class="btn btn-block"><i class="fa fa-save"></i>&nbsp;Lưu</button>
 										</div>
 									</div>
 								</div>
