@@ -8,11 +8,9 @@
 	href="<c:url value='/assets/css/author/guibai.css'/>" />
 </head>
 <div class="author-container">
-	<div class="description">
-		<tiles:insertAttribute name="authorstep" />
-		<div class="row">
-			<div class="col-md-12 title-box">Xác nhận và gửi bài</div>
-		</div>
+	<tiles:insertAttribute name="authorstep" />
+	<div class="row">
+		<div class="col-md-12 title-box">Xác nhận và gửi bài</div>
 	</div>
 	<!-- end description -->
 	<div class="row">
@@ -202,62 +200,115 @@
 			</div>
 		</div>
 		<div class="row">
-			<b>Thông tin đồng tác giả</b>
-			<div class="col-md-12 over-x">
-				<table id="table" class="display table-striped table-bordered"
-					style="width: 100%; line-height: 30px;">
-					<thead>
-						<tr>
-							<th>Email</th>
-							<th>Họ Tên</th>
-							<th>Chức vụ</th>
-							<th>Quốc gia</th>
-							<th>Địa chỉ</th>
-							<th>Tổ chức</th>
-							<th>Trang cá nhân</th>
-							<th>Giới tính</th>
-							<th>Điện thoại</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>Brad Howard</td>
-							<td>Dr.</td>
-							<td>England</td>
-							<td>London</td>
-							<td>Cambridge University</td>
-							<td><a href="#">https://www.facebook.com/bradhoward</a></td>
-							<td>Nam</td>
-							<td>0987654321</td>
-						</tr>
-					</tbody>
-					<tfoot>
-						<tr>
-							<th>Email</th>
-							<th>Họ Tên</th>
-							<th>Chức vụ</th>
-							<th>Quốc gia</th>
-							<th>Địa chỉ</th>
-							<th>Tổ chức</th>
-							<th>Trang cá nhân</th>
-							<th>Giới tính</th>
-							<th>Điện thoại</th>
-						</tr>
-					</tfoot>
-				</table>
+			<div class="margin-20">
+				<b>Thông tin đồng tác giả</b>
+			</div>
+			<div class="row" id="authorgroup">
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="author-title">
+								<a data-toggle="collapse" href="#author2">Tác giả 2</a>
+							</h4>
+						</div>
+						<div id="author2" class="panel-collapse collapse">
+							<div class="row mt-20">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Email </b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>bradhoward@gmail.com</span>
+								</div>
+							</div>
+							<!-- end row -->
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Họ tên </b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>Brad Howard</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Chức vị</b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>Dr.</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Quốc gia</b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>England</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Địa chỉ</b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>London</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Tổ chức</b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>Cambridge University</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Trang cá nhân</b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<a href="#">https://www.facebook.com/bradhoward</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Giới tính</b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>Nam</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-3 col-xs-push-1">
+									<b>Điện thoại</b>
+								</div>
+
+								<div class="col-xs-7 col-xs-push-1">
+									<span>0123456789</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end article-info -->
-	
+
 	<div class="row">
 		<div class="col-md-12 sub-title">Thông tin tệp đính kèm</div>
 	</div>
 	<div class="row article-info">
 		<div class="row">
 			<div class="col-md-12">
-			<b>Danh sách tệp đính kèm</b>
+				<b>Danh sách tệp đính kèm</b>
 				<table id="table" class="display table-striped table-bordered"
 					style="width: 100%; line-height: 30px;">
 					<thead>
@@ -273,7 +324,7 @@
 							<td>1</td>
 							<td>noidung.docx</td>
 							<td>Nội dung bài báo</td>
-							<td><a href="#">Xóa</a></td>	
+							<td><a href="#">Xóa</a></td>
 						</tr>
 						<tr>
 							<td>2</td>

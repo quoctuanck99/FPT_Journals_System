@@ -9,11 +9,9 @@
 
 
 <div class="author-container">
-	<div class="description">
-		<tiles:insertAttribute name="authorstep" />
-		<div class="row">
-			<div class="col-md-12 title-box">Nhập thông tin bài viết</div>
-		</div>
+	<tiles:insertAttribute name="authorstep" />
+	<div class="row">
+		<div class="col-md-12 title-box">Nhập thông tin bài viết</div>
 	</div>
 	<div class="edit-form">
 		<form method="" action="">
