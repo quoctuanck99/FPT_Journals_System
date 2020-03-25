@@ -103,8 +103,8 @@
 					<div class="form-group">
 						<div>
 							<div class="checkbox">
-								<input id="check" type="radio" name="radio" value="1">
-								<label for="check">Tôi đã đọc và đồng ý với <a href="#">Các điều khoản hoạt động</a> khi đăng ký</label>
+								<input id="check" type="radio" value="1">
+								<label class="sub-title" for="check">Tôi đã đọc và đồng ý với <a href="#">Các điều khoản hoạt động</a> khi đăng ký</label>
 							</div>
 						</div>
 					</div>
