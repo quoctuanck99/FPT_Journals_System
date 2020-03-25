@@ -9,7 +9,7 @@
 	
 </head>
 <body>
-<h3>Chinh sua thong bao</h3>
+<h3>Chinh sua tin tuc</h3>
 <div>
 <h5>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</h5>
 	<button style="font-size: 20px">
@@ -30,7 +30,7 @@
 									<span aria-hidden="true">&times;</span>
 								</button>
 								<h4 class="modal-title" id="myModalLabel">
-									<center>Chinh sua thong bao</center>
+									<center>Chinh sua tin tuc</center>
 								</h4>
 							</div>
 							<div class="modal-body">

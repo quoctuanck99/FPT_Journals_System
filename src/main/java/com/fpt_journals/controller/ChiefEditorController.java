@@ -5,8 +5,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class ChiefEditorController {
-	@RequestMapping("/quan-ly-noi-dung")
+	@RequestMapping("/tong-bien-tap/quan-ly-noi-dung")
 	public String ViewNoiDung() {
 		return "quanlynoidung";
+	}
+		@RequestMapping("/tong-bien-tap/chinh-sua-tin-tuc")
+		public String Viewchinhsuatintuc() {
+			return "chinhsuatintuc";
+	}
+		@RequestMapping("/tong-bien-tap/chinh-sua-huong-dan")
+		public String Viewchinhsuahuongdan() {
+			return "chinhsuahuongdan";
+	}
+		@RequestMapping("/tong-bien-tap/chinh-sua-gioi-thieu")
+		public String Viewchinhgioithieu() {
+			return "chinhsuagioithieu";
 	}
 }
