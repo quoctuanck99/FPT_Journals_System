@@ -1,10 +1,13 @@
 @charset "ISO-8859-1";
 
-.title {
+.title{
 	font-size: 15px;
 	color: #2e373c;
-	font-weight: 700;
 	cursor: pointer;
+	color: #24292e;
+}
+.title.active{
+	font-weight: 700;
 }
 
 .article {
@@ -30,12 +33,7 @@ hr {
 	margin-left: 30px;
 }
 /* menu reviewer css */
-.title-reviewer {
-	font-size: 15px;
-	color: #2e373c;
-	font-weight: 700;
-	cursor: pointer;
-}
+
 
 .article-reviewer {
 	padding: 20px 2px;

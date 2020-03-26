@@ -5,19 +5,25 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/reviewer/reviewer.css'/>" />
 </head>
-
-
+<c:set var="currentPage"
+	value="${requestScope['javax.servlet.forward.request_uri']}" />
 <div class="categories">
 	<div class="widget-heading">
 		<h4>Quản lý bài viết đã được xuất bản</h4>
 	</div>
 	<div class="widget-body">
-		<div class="article-reviewer">
-			<a href="../tong-bien-tap-theo-chuyen-san/quan-ly-bai-viet-da-duoc-xuat-ban" class="title-reviewer">Xem bài viết đã được xuất bản</a>
+		<div class="article">
+			<a
+				href="<c:out value="${pageContext.servletContext.contextPath}"/>/tong-bien-tap-theo-chuyen-san/quan-ly-bai-viet-da-duoc-xuat-ban"
+				class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap-theo-chuyen-san/quan-ly-bai-viet-da-duoc-xuat-ban'}">active</c:if> ">
+				Quản lý bài viết được chỉ định</a>
 		</div>
 		<hr>
-		<div class="article-reviewer">
-			<a class="title-reviewer" alt="">Biên tập chuyên san</a>
+		<div class="article">
+			<a
+				href="<c:out value="${pageContext.servletContext.contextPath}"/>/tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban"
+				class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban'}">active</c:if> ">
+				Xem bài viết đã được chỉ định</a>
 		</div>
 	</div>
 </div>

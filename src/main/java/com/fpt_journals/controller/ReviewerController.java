@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ReviewerController {
 	@RequestMapping("/phan-bien-vien/quan-ly-bai-viet-duoc-chi-dinh")
 	public String ViewReviewer() {
-		return "quanlybaiviet";
+		return "phanbienvienquanlybaiviet";
 	}
 	
 	@RequestMapping("/phan-bien-vien/danh-gia-bai-viet-duoc-chi-dinh")
 	public String ViewBaiViet() {
-		return "danhgiabaiviet";
+		return "phanbienviendanhgiabaiviet";
 	}
 }
