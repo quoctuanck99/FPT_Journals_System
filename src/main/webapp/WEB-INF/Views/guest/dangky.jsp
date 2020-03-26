@@ -1,18 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<head>
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/guest/dangky.css'/>" />
+
 <link
 	href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
 	rel="stylesheet" id="bootstrap-css">
 <script
 	src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-
-</head>
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/guest/dangky.css'/>" />
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container">
@@ -23,7 +20,7 @@
 					<div class="title-box">Đăng ký</div>
 					<div class="form-group">
 						<label for="firstName" class="col-sm-4 sub-title">Tên Đăng
-							Nhập <span class="require-field">(*)</span>
+							Nhập <span class="require-field" style="color: #c32a12;">(*)</span>
 						</label>
 						<div class="col-sm-8">
 							<input type="text" id="username" placeholder="Tên Đăng Nhập"
@@ -33,7 +30,7 @@
 					</div>
 					<div class="form-group">
 						<label for="password" class="col-sm-4 sub-title">Mật Khẩu<span
-							class="require-field">(*)</span>
+							class="require-field" style="color: #c32a12;">(*)</span>
 						</label>
 						<div class="col-sm-8">
 							<input type="text" id="password" placeholder="Mật Khẩu"
@@ -42,7 +39,7 @@
 					</div>
 					<div class="form-group">
 						<label for="password" class="col-sm-4 sub-title">Nhập Lại
-							Mật Khẩu<span class="require-field">(*)</span>
+							Mật Khẩu<span class="require-field" style="color: #c32a12;">(*)</span>
 						</label>
 						<div class="col-sm-8">
 							<input type="text" id="repassword"
@@ -53,7 +50,7 @@
 					<div class="title-box">Thông tin chủ tài khoản</div>
 					<div class="form-group">
 						<label for="fullname" class="col-sm-4 sub-title">Tên đầy
-							đủ<span class="require-field">(*)</span>
+							đủ<span class="required-field" style="color: #c32a12;">(*)</span>
 						</label>
 						<div class="col-sm-8">
 							<input type="text" id="fullname" placeholder="Tên đầy đủ"
@@ -82,7 +79,7 @@
 
 					<div class="form-group">
 						<label for="roles" class="col-sm-4 sub-title">Chức vụ<span
-							class="require-field">(*)</span>
+							class="require-field" style="color: #c32a12;">(*)</span>
 						</label>
 						<div class="col-sm-8">
 							<input type="text" id="roles" placeholder="Chức vụ"
@@ -92,7 +89,7 @@
 
 					<div class="form-group">
 						<label for="placework" class="col-sm-4 sub-title">Nơi công
-							tác<span class="require-field">(*)</span>
+							tác<span class="require-field" style="color: #c32a12;">(*)</span>
 						</label>
 						<div class="col-sm-8">
 							<input type="text" id="placework" placeholder="Nơi công tác"

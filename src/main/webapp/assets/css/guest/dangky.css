@@ -12,6 +12,14 @@ x@charset "ISO-8859-1";
 	margin-right: 0px !important;
 	margin-left: 0px !important;
 }
+.required-field {
+	color: #c32a12;
+
+}
+
+.maudo{
+	color: #c32a12;
+}
 
 /*------*/
 .title-box {
