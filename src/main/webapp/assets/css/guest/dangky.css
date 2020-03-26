@@ -1,4 +1,4 @@
-@charset "ISO-8859-1";
+x@charset "ISO-8859-1";
 .container{
 	font-family: 'Montserrat', sans-serif;
 	color: #24292e;
@@ -12,27 +12,7 @@
 	margin-right: 0px !important;
 	margin-left: 0px !important;
 }
-/*Css step breadcrumb*/
-table.breadcrumb tr td {
-	background: white;
-	padding: 0px 3px;
-	width: 25%;
-}
 
-table.breadcrumb tr td.active{
-	background: #f27228;
-}
-table.breadcrumb tr td.active a{
-	color: white;
-}
-
-.breadcrumb {
-	cursor: pointer;
-	text-align: center;
-}
-.breadcrumb a{
-	color:#586069;
-}
 /*------*/
 .title-box {
 	background: #f27228;
@@ -43,66 +23,23 @@ table.breadcrumb tr td.active a{
 	margin-bottom: 20px;
 }
 .sub-title {
-	font-weight: bold;
-	font-size: 14px;
-	margin-bottom: 20px;
+	font-size: 12px;
 	color: #000;
 }
-.edit-form .row input, .edit-form .row select, .edit-form .row textarea,.article-info .row
-{
-	margin-bottom: 25px;
+
+body {
+    background-color: #eee;
 }
 
-.edit-form .row b {
-	display: block;
-	margin-bottom: 3px;
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
 }
 
-span.require-field {
-	color: #c32a12;
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
 }
-
-.margin-20 {
-	margin-bottom: 20px;
-}
-
-
-h4.author-title a{
-	font-family: 'Montserrat', sans-serif !important;
-	color: #f27228;
-	font-size: 14px;
-	text-transform: uppercase;
-}
-.clear-padding{
-	padding-left: 0px;
-}
-
-.suggestion{
-	color: #c32a12;
-}
-
-.fjs-btn.green.add-to-list button {
-    background: white;
-	color: #24292e;
-    border: #f27228 1px solid;
-    padding: 9px 30px;
-}
-.fjs-btn.green.add-to-list button:hover{
-	color: white;
-    background: #f27228;
-}
-/* Css for guibaibuoc4 */
-.article-info{
-	padding: 20px 0px 10px 0px;
-	margin : 0px 0px 20px 0px;
-	border-radius: 0px;
-}
-
-.over-x{
-	overflow-x:scroll;
-}
-/*Css for upload file*/
-#real-file{
-	display: none;
-}
-
