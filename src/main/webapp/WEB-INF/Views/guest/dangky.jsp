@@ -20,41 +20,38 @@
 					<div class="title-box">Đăng ký</div>
 					<div class="form-group">
 						<label for="firstName" class="col-sm-4 sub-title">Tên Đăng
-							Nhập <span class="require-field" style="color: #c32a12;">(*)</span>
+							Nhập <span class="require-field">(*)</span>
 						</label>
 						<div class="col-sm-8">
-							<input type="text" id="username" placeholder="Tên Đăng Nhập"
-								class="form-control" autofocus> <span class="help-block">Đây
+							<input type="text" id="username" placeholder="Tên đăng nhập" value=""> <span class="help-block">Đây
 								sẽ là tên đăng nhập bạn sử dụng</span>
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="password" class="col-sm-4 sub-title">Mật Khẩu<span
-							class="require-field" style="color: #c32a12;">(*)</span>
+							class="require-field">(*)</span>
 						</label>
 						<div class="col-sm-8">
-							<input type="text" id="password" placeholder="Mật Khẩu"
-								class="form-control" autofocus>
+							<input type="password" id="password" placeholder="Mật khẩu" value="">
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="password" class="col-sm-4 sub-title">Nhập Lại
-							Mật Khẩu<span class="require-field" style="color: #c32a12;">(*)</span>
+							Mật Khẩu<span class="require-field">(*)</span>
 						</label>
 						<div class="col-sm-8">
-							<input type="text" id="repassword"
-								placeholder="Nhập lại mật khẩu" class="form-control" autofocus>
+							<input type="password" id="password" placeholder="Nhập lại mật khẩu" value="">
 						</div>
 					</div>
 
 					<div class="title-box">Thông tin chủ tài khoản</div>
 					<div class="form-group">
 						<label for="fullname" class="col-sm-4 sub-title">Tên đầy
-							đủ<span class="required-field" style="color: #c32a12;">(*)</span>
+							đủ<span class="require-field">(*)</span>
 						</label>
 						<div class="col-sm-8">
-							<input type="text" id="fullname" placeholder="Tên đầy đủ"
-								class="form-control" autofocus>
+						<input type="text" id="Tên đầy đủ" placeholder="Tên đầy đủ của người đăng ký" value="">
+							
 						</div>
 					</div>
 					<div class="form-group">
@@ -79,28 +76,26 @@
 
 					<div class="form-group">
 						<label for="roles" class="col-sm-4 sub-title">Chức vụ<span
-							class="require-field" style="color: #c32a12;">(*)</span>
+							class="require-field" >(*)</span>
 						</label>
 						<div class="col-sm-8">
-							<input type="text" id="roles" placeholder="Chức vụ"
-								class="form-control" autofocus>
+							<input type="text" id="roles" placeholder="Chức vụ">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="placework" class="col-sm-4 sub-title">Nơi công
-							tác<span class="require-field" style="color: #c32a12;">(*)</span>
+							tác<span class="require-field">(*)</span>
 						</label>
 						<div class="col-sm-8">
-							<input type="text" id="placework" placeholder="Nơi công tác"
-								class="form-control" autofocus>
+							<input type="text" id="placework" placeholder="Nơi công tác">
 						</div>
 					</div>
 					<!-- /.form-group -->
 					<div class="form-group">
 						<div>
 							<div class="checkbox">
-								<input id="check" type="radio" value="1">
+								<input id="c1" type="checkbox">
 								<label class="sub-title" for="check">Tôi đã đọc và đồng ý với <a href="#">Các điều khoản hoạt động</a> khi đăng ký</label>
 							</div>
 						</div>

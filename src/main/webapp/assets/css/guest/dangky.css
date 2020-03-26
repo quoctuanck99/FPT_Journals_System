@@ -5,19 +5,23 @@ x@charset "ISO-8859-1";
 }
 
 
-.signup-form{
-	padding: 20px 0px;
+input[type=password]{
+	font: inherit;
+	margin: 0;
+	line-height: inherit;
+	padding: 0px 10px;
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid lightgray;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: gray;
+	outline: none;
+	font-size: 13px;
+	min-height: 30px;
 }
-.signup-form .row,.article-info .row{
-	margin-right: 0px !important;
-	margin-left: 0px !important;
-}
-.required-field {
-	color: #c32a12;
 
-}
-
-.maudo{
+.require-field{
 	color: #c32a12;
 }
 
