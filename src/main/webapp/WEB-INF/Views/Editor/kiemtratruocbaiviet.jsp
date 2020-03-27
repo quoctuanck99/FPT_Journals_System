@@ -12,8 +12,8 @@
 <body>
 	<div class="item course-item">
 		<div class="up-content">
-			<h4 class="review-title">Công nghệ đã thay đổi cuộc sống của con
-				người như thế nào?</h4>
+			<p class="title" style="font-size: 20px">Thermal Behavior of
+						Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</p>
 			<p class=".p_review">
 				Tác giả: <a href="#">Tác giả 1</a>
 			</p>
@@ -30,57 +30,18 @@
 	<div class="row">
 		<div class="col-md-12">
 			<p>Nội dung:</p>
-			<p class="p-2">For starters, lorem ipsum isn’t just some wacky
-				text-thingy with no meaning whatsoever. These words have been
-				derived from the Latin phrase ‘dolorem ipsum’ which translates to
-				‘pain itself’. Lorem Ipsum is a placeholder text used to illustrate
-				graphic features by publishers and graphic designers. It is a
-				pseudo-Latin text used instead of English in web design, typography,
-				layout and printing to emphasize elements of design over content. It
-				is also called the text (or filler) of the placeholder. It’s a handy
-				tool for mock-ups. This helps define a text or presentation’s visual
-				elements, such as typography, font, or format.</p>
-			<p class="p-2">For starters, lorem ipsum isn’t just some wacky
-				text-thingy with no meaning whatsoever. These words have been
-				derived from the Latin phrase ‘dolorem ipsum’ which translates to
-				‘pain itself’. Lorem Ipsum is a placeholder text used to illustrate
-				graphic features by publishers and graphic designers. It is a
-				pseudo-Latin text used instead of English in web design, typography,
-				layout and printing to emphasize elements of design over content. It
-				is also called the text (or filler) of the placeholder. It’s a handy
-				tool for mock-ups. This helps define a text or presentation’s visual
-				elements, such as typography, font, or format.</p>
-			<p class="p-2">For starters, lorem ipsum isn’t just some wacky
-				text-thingy with no meaning whatsoever. These words have been
-				derived from the Latin phrase ‘dolorem ipsum’ which translates to
-				‘pain itself’. Lorem Ipsum is a placeholder text used to illustrate
-				graphic features by publishers and graphic designers. It is a
-				pseudo-Latin text used instead of English in web design, typography,
-				layout and printing to emphasize elements of design over content. It
-				is also called the text (or filler) of the placeholder. It’s a handy
-				tool for mock-ups. This helps define a text or presentation’s visual
-				elements, such as typography, font, or format.</p>
-			<p class="p-2">For starters, lorem ipsum isn’t just some wacky
-				text-thingy with no meaning whatsoever. These words have been
-				derived from the Latin phrase ‘dolorem ipsum’ which translates to
-				‘pain itself’. Lorem Ipsum is a placeholder text used to illustrate
-				graphic features by publishers and graphic designers. It is a
-				pseudo-Latin text used instead of English in web design, typography,
-				layout and printing to emphasize elements of design over content. It
-				is also called the text (or filler) of the placeholder. It’s a handy
-				tool for mock-ups. This helps define a text or presentation’s visual
-				elements, such as typography, font, or format.</p>
-			<p class="p-2">For starters, lorem ipsum isn’t just some wacky
-				text-thingy with no meaning whatsoever. These words have been
-				derived from the Latin phrase ‘dolorem ipsum’ which translates to
-				‘pain itself’. Lorem Ipsum is a placeholder text used to illustrate
-				graphic features by publishers and graphic designers. It is a
-				pseudo-Latin text used instead of English in web design, typography,
-				layout and printing to emphasize elements of design over content. It
-				is also called the text (or filler) of the placeholder. It’s a handy
-				tool for mock-ups. This helps define a text or presentation’s visual
-				elements, such as typography, font, or format.</p>
+			<div class="row">
+	<div class="col-md-12">
+		<div class="pdf">
+			<iframe id="fred"
+				src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+				frameborder="1" scrolling="auto" height="800px" width="100%"></iframe>
+			
 		</div>
+	</div>
+
+	
+</div>
 		<div class="comments-container">
 			<p>
 			<h6>
