@@ -4,7 +4,7 @@
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 	
-	<definition name="quanlybaiviet"
+	<definition name="phanbienvienquanlybaiviet"
 		template="/WEB-INF/Views/layout/_layoutReviewer.jsp">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
@@ -30,7 +30,7 @@
 		</put-list-attribute>
 	</definition>
 
-	<definition name="danhgiabaiviet" extends="quanlybaiviet">
+	<definition name="phanbienviendanhgiabaiviet" extends="phanbienvienquanlybaiviet">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
 		<put-attribute name="search"
