@@ -12,7 +12,7 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuauthor.jsp" />
+			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/Editor/quanlybaivietEditor.jsp" />
 		<put-attribute name="footer"
