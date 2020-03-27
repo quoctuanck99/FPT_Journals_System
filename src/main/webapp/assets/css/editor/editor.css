@@ -148,12 +148,11 @@ ul {
 .row{
 	
 }
-#btn-send{
-	padding-left: 100px;
+#btn-save{
+	padding-left: 50%;
+	margin-top: 50px;
 }
-#a{
-	margin: 15px 0px 300px 50px;
-}
+
 
 
 

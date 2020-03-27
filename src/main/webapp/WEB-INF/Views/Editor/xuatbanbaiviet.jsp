@@ -23,24 +23,23 @@
 					<p style="color: #d91655">Science</p>
 					<a class="title" style="font-size: 20px">Thermal Behavior of
 						Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a><br></br>
-					Tác giả: <a class="author"> Thomas Edison</a><br></br> 
-					Tạp chí:<a class="a"> Khoa học</a> 
-					Thể loại: <a class="a"> Công nghệ</a>
-					Ngày đăng:<a class="a"> 18/03/2020</a>
+					Tác giả: <a class="author"> Thomas Edison</a><br></br> Tạp chí:<a
+						class="a"> Khoa học</a> Thể loại: <a class="a"> Công nghệ</a> Ngày
+					đăng:<a class="a"> 18/03/2020</a>
 					</p>
 					<br> <a>Nội dung: </a> <br>
 					<div class="row">
-	<div class="col-md-12">
-		<div class="pdf">
-			<iframe id="fred"
-				src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
-				frameborder="1" scrolling="auto" height="800px" width="100%"></iframe>
-			
-		</div>
-	</div>
+						<div class="col-md-12">
+							<div class="pdf">
+								<iframe id="fred"
+									src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+									frameborder="1" scrolling="auto" height="800px" width="100%"></iframe>
 
-	
-</div>
+							</div>
+						</div>
+
+
+					</div>
 					<br>
 				</div>
 			</div>
