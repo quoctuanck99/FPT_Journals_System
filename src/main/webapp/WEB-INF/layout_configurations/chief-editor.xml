@@ -11,10 +11,6 @@
 		<put-attribute name="search"
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
-		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuchief_editor.jsp" />
-		<put-attribute name="body"
-			value="/WEB-INF/Views/chief_editor/quanlynoidungtrangweb.jsp" />
 	<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
 		<put-attribute name="body"
@@ -33,6 +29,29 @@
 			<add-attribute value="/assets/js/plugins.js" />
 		</put-list-attribute>
 	</definition>
+	<definition name="chinhsuathongbao"
+		template="/WEB-INF/Views/layout/_layoutReviewer.jsp">
+		<put-attribute name="userheader"
+			value="/WEB-INF/Views/layout/userheader.jsp" />
+		<put-attribute name="search"
+			value="/WEB-INF/Views/layout/search.jsp" />
+		<put-attribute name="title" value="" />
+		<put-attribute name="menu"
+			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/Views/chief_editor/chinhsuathongbao.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/Views/layout/footer.jsp" />
+		<put-list-attribute name="javascripts">
+			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
+			<add-attribute value="/assets/js/guest/home.js" />
+			<add-attribute value="/assets/js/bootstrap.min.js" />
+			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
+		</put-list-attribute>
+	</definition>
 	<definition name="chinhsuatintuc"
 		template="/WEB-INF/Views/layout/_layoutReviewer.jsp">
 		<put-attribute name="userheader"
@@ -41,7 +60,7 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuchief_editor.jsp" />
+			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/Chinhsuatintuc.jsp" />
 		<put-attribute name="footer"
@@ -64,7 +83,7 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuchief_editor.jsp" />
+			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/chinhsuahuongdan.jsp" />
 		<put-attribute name="footer"
@@ -87,7 +106,7 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuchief_editor.jsp" />
+			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/chinhsuagioithieu.jsp" />
 		<put-attribute name="footer"
