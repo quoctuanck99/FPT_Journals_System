@@ -1,25 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!-- <!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Kiem tra bai viet</title>
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
-</head> -->
-<!-- <body> -->
 	<div class="col-md-12">
-
 		<div>
-			<p style="color: #d91655">Science</p>
-			<a class="title" style="font-size: 20px">Thermal Behavior of
-				Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a><br></br>
-			Tác giả: <a class="author"> Thomas Edison</a><br></br> Tạp chí:<a
-				class="a"> Khoa học</a> Thể loại: <a class="a"> Công nghệ</a> Ngày
-			đăng:<a class="a"> 18/03/2020</a>
+			<a style="color: #d91655">Science</a>
+			<p class="title" style="font-size: 20px">Thermal Behavior of
+				Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</p>
+			<p>
+				Tác giả: <a class="author"> Thomas Edison</a>
 			</p>
+			<p>
+				Tạp chí:<a class="a"> Khoa học</a>
+			</p>
+			<p>
+				Thể loại: <a class="a"> Công nghệ</a>
+			</p>
+			<p>
+				Ngày đăng:<a class="a"> 18/03/2020</a>
+			</p>
+
 			<br> <a>Nội dung: </a> <br>
 			<div class="row">
 				<div class="col-md-12">
@@ -56,23 +54,20 @@
 			</button>
 	</div>
 <br>
-	<div class="row">
+<div class="row">
 		<div class="group-button">
 			<div class="col-md-3">
 				<div class="fjs-btn green" id="btn-save">
 					<a href="#">Lưu</a>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="fjs-btn red">
-					<a href="#" data-toggle="modal" data-target="#myModal1">Reject</a>
-				</div>
+			  </div>
+      </div> 
+		<div class="col-md-4">
+			<div class="fjs-btn red">
+				<a href="#" data-toggle="modal" data-target="#myModal1">Reject</a>
 			</div>
 		</div>
-	</div>
-
-	
-
+   </div>
+</div>
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -170,7 +165,7 @@
 	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
 
-		<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-dialog modal-md" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
@@ -183,7 +178,30 @@
 
 				</div>
 				<div class="modal-body">
-					<div class="row"></div>
+					<div class="row">
+						
+							<p>
+								<input id="r1" type="radio" name="radio" value="1"> <label
+									for="r1">Bài viết vi phạm bản quyền</label>
+							</p>
+							<p>
+								<input id="r2" type="radio" name="radio" value="1"> <label
+									for="r1">Bài viết bị trùng</label>
+							</p>
+							<p>
+								<input id="r3" type="radio" name="radio" value="1"> <label
+									for="r1">Bài viết sai chuyên đề</label>
+							</p>
+							<p>
+								<input id="r4" type="radio" name="radio" value="1"> <label
+									for="r1">Nội dung không phù hợp</label>
+							</p>
+							<p>
+								<input id="r5" type="radio" name="radio" value="1"> <label
+									for="r1">Lý do khác</label>
+							</p>
+						
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Hủy</button>
@@ -193,5 +211,3 @@
 		</div>
 
 	</div>
-<!-- </body>
-</html> -->

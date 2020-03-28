@@ -47,7 +47,6 @@
 	href="<c:url value='/assets/css/modaal.min.css'/>" />
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/elements.css'/>" />
-
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/editor/editor.css'/>" />
 </head>

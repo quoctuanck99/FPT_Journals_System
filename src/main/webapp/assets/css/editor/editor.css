@@ -38,7 +38,6 @@ hr {
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover,
 	.nav-tabs.nav-justified>.active>a:focus {
 	background-color: #ffa042;
-	
 }
 
 .p_review {
@@ -49,7 +48,6 @@ hr {
 	font-weight: 1000;
 	color: #2e373c;
 }
-
 .col-md-12>p {
 	font-size: 16px
 }
@@ -57,22 +55,6 @@ hr {
 .up-content>h5 {
 	font-size: 17px;
 	margin: 10px 5px 20px 30px;
-}
-/* menu reviewer css */
-.title-reviewer {
-	font-size: 15px;
-	color: #2e373c;
-	font-weight: 700;
-	cursor: pointer;
-}
-
-.article-reviewer {
-	padding: 20px 2px;
-	margin-left: 20px;
-}
-
-hr {
-	margin: 0;
 }
 
 /* đánh giá của người phản biện css */
@@ -99,21 +81,17 @@ ul {
 	float: right;
 	padding-right: 20px;
 }
-
-
-/* #btn-save {
-	padding-left: 50%;
-	margin-top: 50px;
-	width: 50px;
-} */
-
 .group-button {
 	display: flex;
 	align-items: center;
 	margin-left: 30%;
 } 
 
+}
 
+.fjs-btn.green a, .fjs-btn.green button {
+	background-color: #277927; 
+}
 
 .fjs-btn.green a, .fjs-btn.green button {
 	background-color: #277927;
