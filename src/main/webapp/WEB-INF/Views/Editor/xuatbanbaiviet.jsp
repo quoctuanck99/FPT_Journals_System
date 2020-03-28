@@ -23,53 +23,23 @@
 					<p style="color: #d91655">Science</p>
 					<a class="title" style="font-size: 20px">Thermal Behavior of
 						Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</a><br></br>
-					Tác giả: <a class="author"> Thomas Edison</a><br></br> 
-					Tạp chí:<a class="a"> Khoa học</a> 
-					Thể loại: <a class="a"> Công nghệ</a>
-					Ngày đăng:<a class="a"> 18/03/2020</a>
+					Tác giả: <a class="author"> Thomas Edison</a><br></br> Tạp chí:<a
+						class="a"> Khoa học</a> Thể loại: <a class="a"> Công nghệ</a> Ngày
+					đăng:<a class="a"> 18/03/2020</a>
 					</p>
 					<br> <a>Nội dung: </a> <br>
-					<p class="p-2">For starters, lorem ipsum isn’t just some wacky
-						text-thingy with no meaning whatsoever. These words have been
-						derived from the Latin phrase ‘dolorem ipsum’ which translates to
-						‘pain itself’. Lorem Ipsum is a placeholder text used to
-						illustrate graphic features by publishers and graphic designers.
-						It is a pseudo-Latin text used instead of English in web design,
-						typography, layout and printing to emphasize elements of design
-						over content. It is also called the text (or filler) of the
-						placeholder. It’s a handy tool for mock-ups. This helps define a
-						text or presentation’s visual elements, such as typography, font,
-						or format.For starters, lorem ipsum isn’t just some wacky
-						text-thingy with no meaning whatsoever. These words have been
-						derived from the Latin phrase ‘dolorem ipsum’ which translates to
-						‘pain itself’. Lorem Ipsum is a placeholder text used to
-						illustrate graphic features by publishers and graphic designers.
-						It is a pseudo-Latin text used instead of English in web design,
-						typography, layout and printing to emphasize elements of design
-						over content. It is also called the text (or filler) of the
-						placeholder. It’s a handy tool for mock-ups. This helps define a
-						text or presentation’s visual elements, such as typography, font,
-						or format.For starters, lorem ipsum isn’t just some wacky
-						text-thingy with no meaning whatsoever. These words have been
-						derived from the Latin phrase ‘dolorem ipsum’ which translates to
-						‘pain itself’. Lorem Ipsum is a placeholder text used to
-						illustrate graphic features by publishers and graphic designers.
-						It is a pseudo-Latin text used instead of English in web design,
-						typography, layout and printing to emphasize elements of design
-						over content. It is also called the text (or filler) of the
-						placeholder. It’s a handy tool for mock-ups. This helps define a
-						text or presentation’s visual elements, such as typography, font,
-						or format.For starters, lorem ipsum isn’t just some wacky
-						text-thingy with no meaning whatsoever. These words have been
-						derived from the Latin phrase ‘dolorem ipsum’ which translates to
-						‘pain itself’. Lorem Ipsum is a placeholder text used to
-						illustrate graphic features by publishers and graphic designers.
-						It is a pseudo-Latin text used instead of English in web design,
-						typography, layout and printing to emphasize elements of design
-						over content. It is also called the text (or filler) of the
-						placeholder. It’s a handy tool for mock-ups. This helps define a
-						text or presentation’s visual elements, such as typography, font,
-						or format</p>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pdf">
+								<iframe id="fred"
+									src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+									frameborder="1" scrolling="auto" height="800px" width="100%"></iframe>
+
+							</div>
+						</div>
+
+
+					</div>
 					<br>
 				</div>
 			</div>

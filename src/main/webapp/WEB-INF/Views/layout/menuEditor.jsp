@@ -1,49 +1,37 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib uri = "http://java.sun.com/jsp/jstl/functions" prefix = "fn" %>
 <head>
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/author/menuauthor.css'/>" />
+	href="<c:url value='/assets/css/reviewer/reviewer.css'/>" />
 </head>
-
-
-
 <c:set var="currentPage" value="${requestScope['javax.servlet.forward.request_uri']}"/>
 <div class="categories">
 	<div class="widget-heading">
-		<h4>Quản lý cá nhân</h4>
+		<h4>Biên tập viên</h4>
 	</div>
-	<div class="widget-body" style="padding: 0px 15px">
-		<div class="article">
-			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/chinh-sua-profile" 
-			class="title <c:if test="${currentPage=='/sap-lab-fpt/chinh-sua-profile'}">active</c:if> ">
-			Chỉnh sửa thông tin</a>
-		</div>
+	<div class="widget-body">
 		<hr>
 		<div class="article">
-			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/doi-mat-khau" 
-			class="title <c:if test="${currentPage=='/sap-lab-fpt/doi-mat-khau'}">active</c:if>">
-			Thay đổi mật khẩu</a>
+			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/bien-tap-vien/quan-ly-bai-viet-btv" 
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/bien-tap-vien/quan-ly-bai-viet-btv'}">active</c:if> ">
+			Quản lý bài viết</a>
 		</div>
-	</div>
-</div>
-<div class="categories">
-	<div class="widget-heading">
-		<h4>Quản lý bài đăng</h4>
-	</div>
-	<div class="widget-body" style="padding: 0px 15px">
+		
 		<div class="article">
-			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/tac-gia/gui-bai-buoc-1" 
-			class="title <c:if test = "${fn:contains(currentPage, '/tac-gia/gui-bai-buoc')}">
-					         active
-					      </c:if>">
-			Bài đăng đã phân công </a>
+			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/bien-tap-vien/kiem-tra-truoc-bai-viet-btv" 
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/bien-tap-vien/kiem-tra-truoc-bai-viet-btv'}">active</c:if> ">
+			Kiểm tra bài viết</a>
 		</div>
-		<hr>
 		<div class="article">
-			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/tac-gia/trang-thai-bai-dang" 
-			class="title <c:if test="${currentPage=='/sap-lab-fpt/tac-gia/trang-thai-bai-dang' || currentPage=='/sap-lab-fpt/tac-gia/theo-doi-phan-bien'}">active</c:if>">
-			Danh sách bài đã đăng</a>
+			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/bien-tap-vien/quan-ly-bai-viet-xuat-ban" 
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/bien-tap-vien/quan-ly-bai-viet-xuat-ban'}">active</c:if> ">
+			Quản lý bài viết xuất bản</a>
+		</div>
+		<div class="article">
+			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/bien-tap-vien/xuat-ban-bai-viet" 
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/bien-tap-vien/xuat-ban-bai-viet'}">active</c:if> ">
+			Xuất bản bài viết</a>
 		</div>
 	</div>
 </div>
