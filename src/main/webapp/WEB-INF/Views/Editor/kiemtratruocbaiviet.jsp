@@ -1,17 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Kiem tra bai viet</title>
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
-</head>
-<body>
 	<div class="col-md-12">
-
 		<div>
 			<a style="color: #d91655">Science</a>
 			<p class="title" style="font-size: 20px">Thermal Behavior of
@@ -64,21 +53,21 @@
 
 			</button>
 	</div>
-	<br>
-
-	<div class="group-button">
-		<div class="col-md-3">
-			<div class="fjs-btn green" id="btn-save">
-				<a href="#">Lưu</a>
-			</div>
-		</div>
+<br>
+<div class="row">
+		<div class="group-button">
+			<div class="col-md-3">
+				<div class="fjs-btn green" id="btn-save">
+					<a href="#">Lưu</a>
+			  </div>
+      </div> 
 		<div class="col-md-4">
 			<div class="fjs-btn red">
 				<a href="#" data-toggle="modal" data-target="#myModal1">Reject</a>
 			</div>
 		</div>
-	</div>
-
+   </div>
+</div>
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -222,5 +211,3 @@
 		</div>
 
 	</div>
-</body>
-</html>
