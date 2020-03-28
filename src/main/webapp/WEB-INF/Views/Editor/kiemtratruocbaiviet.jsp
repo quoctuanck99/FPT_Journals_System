@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="col-md-12">
-		<br> <br>
+		
 		<div>
 			<p style="color: #d91655">Science</p>
 			<a class="title" style="font-size: 20px">Thermal Behavior of
