@@ -14,7 +14,7 @@
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/quanlybaivietEditor.jsp" />
+			value="/WEB-INF/Views/editor/quanlybaivietEditor.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -38,7 +38,7 @@
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/kiemtratruocbaiviet.jsp" />
+			value="/WEB-INF/Views/editor/kiemtratruocbaiviet.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -51,10 +51,10 @@
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
 			<add-attribute value="/assets/js/editor/editor.js" />
-			<add-attribute value="/assets/css/editor/editor.css" />
+			<!-- <add-attribute value="/assets/css/editor/editor.css" /> -->
 		</put-list-attribute>
 	</definition>
-	
+
 	<definition name="quanlybaivietxuatban"
 		template="/WEB-INF/Views/layout/_layoutEditor.jsp">
 		<put-attribute name="userheader"
@@ -65,7 +65,7 @@
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/quanlybaivietxuatban.jsp" />
+			value="/WEB-INF/Views/editor/quanlybaivietxuatban.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -90,7 +90,7 @@
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/xuatbanbaiviet.jsp" />
+			value="/WEB-INF/Views/editor/xuatbanbaiviet.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -103,8 +103,9 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
-				<add-attribute value="/assets/js/editor/editorxuatban.js" />
-				<add-attribute value="/assets/css/editor/editor.css" />
+			<add-attribute
+				value="/assets/js/editor/editorxuatban.js" />
+			<!-- <add-attribute value="/assets/css/editor/editor.css" /> -->
 		</put-list-attribute>
 	</definition>
 

@@ -7,7 +7,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
-<tiles:importAttribute name="javascripts"/>
+<tiles:importAttribute name="javascripts" />
 <head>
 <meta charset="UTF-8">
 <meta name="viewport"
@@ -23,6 +23,8 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/bootstrap.css'/>" />
 
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/animate.css'/>" />
 <link rel="stylesheet" type="text/css"
@@ -44,9 +46,10 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/modaal.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/elements.css'/>" /> 
-	<link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/editor/editor.css'/>" /> 
+	href="<c:url value='/assets/css/elements.css'/>" />
+
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/css/editor/editor.css'/>" />
 </head>
 
 <body>
@@ -61,9 +64,9 @@
 				<tiles:insertAttribute name="userheader" />
 				<tiles:insertAttribute name="search" />
 
-				<section class="single-course"style="padding-bottom: 50px;">
+				<section class="single-course" style="padding-bottom: 50px;">
 					<div class="container">
-						<div class="row" id="main-container"  style="padding-bottom: 50px;">
+						<div class="row" id="main-container" style="padding-bottom: 50px;">
 							<div class="col-md-3">
 								<tiles:insertAttribute name="menu" />
 							</div>

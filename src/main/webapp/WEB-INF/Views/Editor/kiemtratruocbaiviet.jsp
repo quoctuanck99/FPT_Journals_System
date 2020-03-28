@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -8,10 +8,10 @@
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-</head>
-<body>
+</head> -->
+<!-- <body> -->
 	<div class="col-md-12">
-		
+
 		<div>
 			<p style="color: #d91655">Science</p>
 			<a class="title" style="font-size: 20px">Thermal Behavior of
@@ -55,8 +55,8 @@
 
 			</button>
 	</div>
-	<br>
-	
+<br>
+	<div class="row">
 		<div class="group-button">
 			<div class="col-md-3">
 				<div class="fjs-btn green" id="btn-save">
@@ -69,7 +69,10 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
 	
+
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -190,5 +193,5 @@
 		</div>
 
 	</div>
-</body>
-</html>
+<!-- </body>
+</html> -->

@@ -1,30 +1,50 @@
-@charset "ISO-8859-1";@charset "ISO-8859-1";
+@charset "ISO-8859-1"; 
+
+ @charset "ISO-8859-1";
 
 .title {
 	font-size: 15px;
 	color: #2e373c;
-	font-weight: 700;
 	cursor: pointer;
+	color: #24292e;
 }
 
-.col-md-7{
-	padding-left: 300px;
+.title.active {
+	font-weight: 700;
 }
-.col-md-5{
-	padding-left: 100px;
-}
+
 .article {
 	padding: 20px 8px;
 	text-align: center;
 }
-.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs.nav-justified>.active>a:focus{
-	background-color: #ffa042;
+
 hr {
 	margin: 0;
 }
-.p_review{
+
+.col-md-7 {
+	padding-left: 300px;
+}
+
+.col-md-5 {
+	padding-left: 100px;
+}
+
+.article {
+	padding: 20px 8px;
+	text-align: center;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover,
+	.nav-tabs.nav-justified>.active>a:focus {
+	background-color: #ffa042;
+	
+}
+
+.p_review {
 	margin: 15px 20px 0px 50px;
 }
+
 .review-title {
 	font-weight: 1000;
 	color: #2e373c;
@@ -62,14 +82,8 @@ ul {
 
 .comments-container {
 	width: 700px;
-	padding-left:20px;
+	padding-left: 20px;
 }
-
-
-
-
-
-
 
 /** =====================
  * Responsive
@@ -81,31 +95,26 @@ ul {
 }
 
 /* modal thêm nội dung phản luận*/
-
-
-
-
 #btn-comment {
 	float: right;
 	padding-right: 20px;
 }
 
-.row{
-	
-}
-#btn-save{
+
+/* #btn-save {
 	padding-left: 50%;
 	margin-top: 50px;
 	width: 50px;
-}
-.group-button{
+} */
+
+.group-button {
 	display: flex;
 	align-items: center;
-}
-.fjs-btn.green a,.fjs-btn.green button {
+	margin-left: 30%;
+} 
+
+
+
+.fjs-btn.green a, .fjs-btn.green button {
 	background-color: #277927;
 }
-
-
-
-
