@@ -22,13 +22,8 @@
 hr {
 	margin: 0;
 }
-.p_review{
-	margin: 15px 20px 0px 50px;
-}
-.review-title {
-	font-weight: 1000;
-	color: #2e373c;
-}
+
+
 
 .col-md-12>p {
 	font-size: 16px
@@ -38,18 +33,10 @@ hr {
 	font-size: 17px;
 	margin: 10px 5px 20px 30px;
 }
-/* menu reviewer css */
-.title-reviewer {
-	font-size: 15px;
-	color: #2e373c;
-	font-weight: 700;
-	cursor: pointer;
-}
 
-.article-reviewer {
-	padding: 20px 2px;
-	margin-left: 20px;
-}
+
+
+
 
 hr {
 	margin: 0;
@@ -85,10 +72,7 @@ ul {
 
 
 
-#btn-comment {
-	float: right;
-	padding-right: 20px;
-}
+
 
 .row{
 	
@@ -102,8 +86,8 @@ ul {
 	display: flex;
 	align-items: center;
 }
-.fjs-btn.green a,.fjs-btn.green button {
-	background-color: #277927;
+.fjs-btn.green a, .fjs-btn.green button {
+	background-color: #277927; 
 }
 
 

@@ -12,7 +12,7 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuEditor.jsp" />
+			value="/WEB-INF/Views/layout/menueditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/Editor/quanlybaivietEditor.jsp" />
 		<put-attribute name="footer"
@@ -27,6 +27,7 @@
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
 			<add-attribute value="/assets/js/editor/editor.js" />
+		
 		</put-list-attribute>
 	</definition>
 	<definition name="kiemtratruocbaiviet"
@@ -36,7 +37,7 @@
 		<put-attribute name="search" value="" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuEditor.jsp" />
+			value="/WEB-INF/Views/layout/menueditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/Editor/kiemtratruocbaiviet.jsp" />
 		<put-attribute name="footer"
@@ -51,7 +52,7 @@
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
 			<add-attribute value="/assets/js/editor/editor.js" />
-			<add-attribute value="/assets/css/editor/editor.css" />
+			
 		</put-list-attribute>
 	</definition>
 	
@@ -63,7 +64,7 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuEditor.jsp" />
+			value="/WEB-INF/Views/layout/menueditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/Editor/quanlybaivietxuatban.jsp" />
 		<put-attribute name="footer"
@@ -78,6 +79,7 @@
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
 			<add-attribute value="/assets/js/editor/editor.js" />
+			
 		</put-list-attribute>
 	</definition>
 	<definition name="xuatbanbaiviet"
@@ -88,7 +90,7 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuEditor.jsp" />
+			value="/WEB-INF/Views/layout/menueditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/Editor/xuatbanbaiviet.jsp" />
 		<put-attribute name="footer"
@@ -103,8 +105,8 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
-				<add-attribute value="/assets/js/editor/editorxuatban.js" />
-				<add-attribute value="/assets/css/editor/editor.css" />
+				
+				
 		</put-list-attribute>
 	</definition>
 
