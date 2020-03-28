@@ -56,20 +56,20 @@
 			</button>
 	</div>
 	<br>
-	<div class="row">
-
-		<div class="col-md-4">
-			<div class="fjs-btn green" id="btn-save">
-				<a href="#">Lưu</a>
+	
+		<div class="group-button">
+			<div class="col-md-3">
+				<div class="fjs-btn green" id="btn-save">
+					<a href="#">Lưu</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="fjs-btn red">
+					<a href="#" data-toggle="modal" data-target="#myModal1">Reject</a>
+				</div>
 			</div>
 		</div>
-		<div class="col-md-3">
-			<div class="fjs-btn red">
-				<a href="#" data-toggle="modal" data-target="#myModal1">Reject</a>
-			</div>
-		</div>
-
-	</div>
+	
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -177,7 +177,7 @@
 					<h5 class="modal-title" id="myModalLabel">
 						<center>Bài viết bị reject vì lý do:</center>
 					</h5>
-					
+
 				</div>
 				<div class="modal-body">
 					<div class="row"></div>

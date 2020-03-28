@@ -151,8 +151,15 @@ ul {
 #btn-save{
 	padding-left: 50%;
 	margin-top: 50px;
+	width: 50px;
 }
-
+.group-button{
+	display: flex;
+	align-items: center;
+}
+.fjs-btn.green a,.fjs-btn.green button {
+	background-color: #277927;
+}
 
 
 
