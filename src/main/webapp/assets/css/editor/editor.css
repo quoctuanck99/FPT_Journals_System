@@ -7,6 +7,7 @@
 	color: #2e373c;
 	cursor: pointer;
 	color: #24292e;
+	font-weight: 700;
 }
 
 .title.active {
@@ -76,11 +77,8 @@ ul {
 	}
 }
 
-/* modal thêm nội dung phản luận*/
-#btn-comment {
-	float: right;
-	padding-right: 20px;
-}
+
+
 .group-button {
 	display: flex;
 	align-items: center;
@@ -90,9 +88,31 @@ ul {
 }
 
 .fjs-btn.green a, .fjs-btn.green button {
-	background-color: #277927; 
+	background-color: #277927;
+	
 }
 
 .fjs-btn.green a, .fjs-btn.green button {
 	background-color: #277927;
 }
+.reject-info{
+
+	justify-content:center;
+	
+}
+.modal-footer .btn+.btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+    background-color: #c32a12;
+}
+#modal1_footer .btn+ .btn{
+	margin-left: 5px;
+    margin-bottom: 0;
+    background-color: #0098f1;
+}
+#checkbox1 {
+    min-height: 21px;
+  aligns-item:center;
+    margin-left: 10px;
+}
+
