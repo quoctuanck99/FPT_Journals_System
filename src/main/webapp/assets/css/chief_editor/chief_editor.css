@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @charset "ISO-8859-1";
 
 .title {
@@ -47,7 +47,7 @@ hr {
 	margin: 0;
 }
 
-/* đánh giá của người phản biện css */
+/* Ä‘Ã¡nh giÃ¡ cá»§a ngÆ°á»�i pháº£n biá»‡n css */
 ul {
 	list-style-type: none;
 }
@@ -99,9 +99,9 @@ ul {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 300px) {
 	.comments-container {
-		width: 480px;
+		width: 100%;
 	}
 }
 
@@ -148,4 +148,4 @@ ul {
 .aprroval{
 	text-align: end;
 }
->>>>>>> master
+
