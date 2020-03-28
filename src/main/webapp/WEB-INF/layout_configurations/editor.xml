@@ -12,9 +12,9 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menueditor.jsp" />
+			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/quanlybaivietEditor.jsp" />
+			value="/WEB-INF/Views/editor/quanlybaivietEditor.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -37,9 +37,9 @@
 		<put-attribute name="search" value="" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menueditor.jsp" />
+			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/kiemtratruocbaiviet.jsp" />
+			value="/WEB-INF/Views/editor/kiemtratruocbaiviet.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -64,9 +64,9 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menueditor.jsp" />
+			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/quanlybaivietxuatban.jsp" />
+			value="/WEB-INF/Views/editor/quanlybaivietxuatban.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -90,9 +90,9 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menueditor.jsp" />
+			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
-			value="/WEB-INF/Views/Editor/xuatbanbaiviet.jsp" />
+			value="/WEB-INF/Views/editor/xuatbanbaiviet.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
