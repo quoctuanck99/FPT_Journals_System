@@ -8,9 +8,13 @@ public class ChiefEditorByJournalsController {
 	public String ViewChiefEditorByJournals() {
 		return "quanlybaivietdaduocxuatban";
 	}
-	
-	@RequestMapping("/tong-bien-tap-theo-chuyen-san/bien-tap-chuyen-san")
-	public String ViewJournal() {
-		return "bientapchuyensan";
+	@RequestMapping("/tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban")
+	public String ViewPublishedArticle() {
+		return "xembaivietdaduocxuatban";
 	}
+	
+	/*
+	 * @RequestMapping("/tong-bien-tap-theo-chuyen-san/bien-tap-chuyen-san") public
+	 * String ViewJournals() { return "bientapchuyensan"; }
+	 */
 }

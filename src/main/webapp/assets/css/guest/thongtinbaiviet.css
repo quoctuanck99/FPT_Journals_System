@@ -1,27 +1,54 @@
 @charset "ISO-8859-1";
 
-.title{
+.title {
 	font-size: 15px;
 	color: #2e373c;
-	cursor: pointer;
-	color: #24292e;
-}
-.title.active{
 	font-weight: 700;
+	cursor: pointer;
 }
-
 .article {
 	padding: 20px 8px;
-	text-align: center;
+}
+.relevent-article{
+	text-align:justify;
+}
+
+
+.detail-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.detail-summary{
+	font-size:16px;
+	font-weight:bold;
+}
+.pdf{
+	text-align:center;
 }
 
 hr {
 	margin: 0;
 }
 
-.review-title {
-	font-weight: 700;
-	color: #2e373c;
+.click {
+	text-align:center;
+	padding-top:10px;
+}
+
+
+.title-box {
+	background: #f27228;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.sub-title {
+	font-size: 12px;
+	color: #000;
 }
 
 .col-md-12>p {
@@ -31,6 +58,13 @@ hr {
 .up-content>h5 {
 	font-size: 17px;
 	margin-left: 30px;
+}
+/* menu reviewer css */
+.title-reviewer {
+	font-size: 15px;
+	color: #2e373c;
+	font-weight: 700;
+	cursor: pointer;
 }
 
 .article-reviewer {
@@ -42,7 +76,7 @@ hr {
 	margin: 0;
 }
 
-/* comment css */
+/* đánh giá của người phản biện css */
 ul {
 	list-style-type: none;
 }
@@ -51,7 +85,26 @@ ul {
 	width: 830px;
 }
 
+/* .comments-container h4 {
+	font-size: 36px;
+	color: #283035;
+	font-weight: 400;
+}  */
+/* 
+.comments-container h1 a {
+	font-size: 18px;
+	font-weight: 700;
+}
+ */
 
+/* .comment-main-level:after {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
+ */
 .comment-box .comment-head {
 	background: #FCFCFC;
 	padding: 10px 12px;
@@ -73,7 +126,13 @@ ul {
 	float: left;
 	margin-right: 10px;
 }
-
+/* 
+.comment-box .comment-name a {
+	color: #283035;
+}
+.comment-box .comment-name a {
+	color: #283035;
+} */
 .comment-box .comment-content {
 	background: #FFF;
 	padding: 12px;
@@ -88,31 +147,26 @@ ul {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 766px) {
 	.comments-container {
-		width: 100%;
-	}
-	#btn-send {
-		padding-left: 15%;
-		margin-top: 50px;
+		width: 480px;
 	}
 }
 
-/* modal */
+/* modal thêm nội dung phản luận*/
 #sendComment {
 	float: right;
 }
 
 #btn-comment {
 	float: right;
-	margin-right: 30px;
+	padding-right: 20px;
 }
-@media only screen and (min-width: 300px) {
+
+.row {
+	
+}
+
 #btn-send {
-	padding-left: 50%;
-	margin-top: 50px;
+	padding-left: 300px;
 }
-}
-
-
-

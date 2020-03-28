@@ -16,7 +16,6 @@
 <div class="item course-item">
 	<div class="up-content">
 		<h4 style="font-weight: 700; color: #2e373c">Các bài đăng gần đây</h4>
-
 	</div>
 </div>
 

@@ -112,4 +112,8 @@
 	<put-attribute name="body" value="/WEB-INF/Views/guest/ketquatimkiem.jsp"/>
 	</definition>
 	
+	<definition name="thongtinbaiviet" extends="home">
+	<put-attribute name="body" value="/WEB-INF/Views/guest/thongtinbaiviet.jsp"/>
+	</definition>
+	
 </tiles-definitions>

@@ -46,6 +46,11 @@ public class HomeController {
 	public String ViewKetQuaTimKiem() {
 		return "ketquatimkiem";
 	}
+	@RequestMapping("/thong-tin-bai-viet")
+	public String ViewThongTinBaiViet() {
+		return "thongtinbaiviet";
+	}
+	
 	
 	
 }

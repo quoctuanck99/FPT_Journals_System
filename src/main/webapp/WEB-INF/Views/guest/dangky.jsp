@@ -1,159 +1,126 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<head>
+
+<link
+	href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<script
+	src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/guest/dangky.css'/>" />
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-
-</head>
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container">
 	<div class="row">
-        <div class="col-md-6">
- 	<div class="edit-form">
-<form action="" method="post" id="fileForm" role="form">
-            <fieldset><legend class="text-center">Cần nhập thông tin chính xác khi đăng ký <span class="require-field"><small> (*) bắt buộc</small></span></legend>
-		<div class="row">
-			<div class="col-md-12 title-box">Thông tin chủ tài khoản</div>
+		<div class="col-md-6">
+			<div class="edit-form">
+				<form class="form-horizontal" role="form">
+					<div class="title-box">Đăng ký</div>
+					<div class="form-group">
+						<label for="firstName" class="col-sm-4 sub-title">Tên Đăng
+							Nhập <span class="require-field">(*)</span>
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="username" placeholder="Tên đăng nhập" value=""> <span class="help-block">Đây
+								sẽ là tên đăng nhập bạn sử dụng</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password" class="col-sm-4 sub-title">Mật Khẩu<span
+							class="require-field">(*)</span>
+						</label>
+						<div class="col-sm-8">
+							<input type="password" id="password" placeholder="Mật khẩu" value="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password" class="col-sm-4 sub-title">Nhập Lại
+							Mật Khẩu<span class="require-field">(*)</span>
+						</label>
+						<div class="col-sm-8">
+							<input type="password" id="password" placeholder="Nhập lại mật khẩu" value="">
+						</div>
+					</div>
+
+					<div class="title-box">Thông tin chủ tài khoản</div>
+					<div class="form-group">
+						<label for="fullname" class="col-sm-4 sub-title">Tên đầy
+							đủ<span class="require-field">(*)</span>
+						</label>
+						<div class="col-sm-8">
+						<input type="text" id="Tên đầy đủ" placeholder="Tên đầy đủ của người đăng ký" value="">
+							
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="birthDate" class="col-sm-4 sub-title">Ngày
+							sinh</label>
+						<div class="col-sm-8">
+							<input type="date" id="birthDate" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="gender" class="col-6 col-md-4 sub-title">Giới
+							tính</label>
+						<div class="col-6 col-md-4">
+							<input id="Male" type="radio" name="radio" value="1" checked>
+							<label for="male">Nam</label>
+						</div>
+						<div class="col-6 col-md-4">
+							<input id="Female" type="radio" name="radio" value="1"> <label
+								for="female">Nữ</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="roles" class="col-sm-4 sub-title">Chức vụ<span
+							class="require-field" >(*)</span>
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="roles" placeholder="Chức vụ">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="placework" class="col-sm-4 sub-title">Nơi công
+							tác<span class="require-field">(*)</span>
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="placework" placeholder="Nơi công tác">
+						</div>
+					</div>
+					<!-- /.form-group -->
+					<div class="form-group">
+						<div>
+							<div class="checkbox">
+								<input id="c1" type="checkbox">
+								<label class="sub-title" for="check">Tôi đã đọc và đồng ý với <a href="#">Các điều khoản hoạt động</a> khi đăng ký</label>
+							</div>
+						</div>
+					</div>
+					<!-- /.form-group -->
+					<div class="form-group">
+						<div>
+							<button type="submit" class="btn btn-primary btn-block">Đăng
+								ký</button>
+						</div>
+					</div>
+				</form>
+				<!-- /form -->
+			</div>
+
 		</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="sub-title">Tên đầy đủ <span class="require-field">(*)</span></div>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="fname" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
+		<!-- ends col-6 -->
 
-			<div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Ngày sinh <span class="require-field">(*)</span></div>
-				</div>
-				<div class="col-md-12">
-					<input type="date" name="dob" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-            
-           	<div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Chức vụ <span class="require-field">(*)</span></div>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="role" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-            
-           	<div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Nơi làm việc</div>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="placework" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Giới tính<span class="require-field">(*)</span></div>
-				</div>
-				<div class="col-md-12">
-				    <input id="c1" type="checkbox">
-				    <label for="c1">Nam</label>
-				    <input id="c2" type="checkbox" checked>
-				    <label for="c2">Nữ</label>
-				</div>
-			</div>
-            
+		<div class="col-md-6">
+			<h1 class="page-header">Google Maps</h1>
+			<p>
+				Social media buttons<br>
+			</p>
 
-           	<div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Địa chỉ email<span class="require-field">(*)</span></div>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="email" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-            
-           <div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Số điện thoại</div>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="phonenum" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-			<br>
-            
-            <div class="col-md-12 title-box">Thông tin chủ tài khoản</div>
-
-            <div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Tên đăng nhập<span class="require-field">(*)</span></div>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="username" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-
-            <div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Mật khẩu<span class="require-field">(*)</span></div>>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="password" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-10 col-md-push-1">
-					<div class="sub-title">Nhập lại mật khẩu<span class="require-field">(*)</span></div>>
-				</div>
-				<div class="col-md-12">
-					<input type="text" name="repassword" class="form-control"
-						aria-required="true" id="issue">
-				</div>
-			</div>
-
-            <div class="form-group">
-            
-                <?php //$date_entered = date('m/d/Y H:i:s'); ?>
-                <input type="hidden" value="<?php //echo $date_entered; ?>" name="dateregistered">
-                <input type="hidden" value="0" name="activate" />
-                <hr>
-
-                <input type="checkbox" required name="terms" onchange="" id="field_terms">   <label for="terms">Tôi đã đọc và đồng ý với <a href="terms.php" title="You may read our terms and conditions by clicking on this link">các điều khoản</a> trước khi đăng ký</label><span class="req">* </span>
-            </div>
-
-            <div class="form-group">
-                <input class="btn btn-success" type="submit" name="submit_reg" value="Register">
-            </div>
-                      <h5>Bạn sẽ nhận được email yêu cầu xác nhận kích hoạt tài khoản sau khi đăng ký </h5>
- 
-
-            </fieldset>
-            </form><!-- ends register form -->
-	</div>
-
-        </div><!-- ends col-6 -->
-   
-            <div class="col-md-6">
-                <h1 class="page-header">Google Maps</h1>
-                <p>Social media buttons<br></p>
-                
-            </div>
+		</div>
 
 	</div>
 </div>
