@@ -31,7 +31,9 @@
 	</div>
 	<div class="widget-body" style="padding: 0px 15px">
 		<div class="article">
-			<a class="title" alt="">Danh sách bài chờ phê duyệt</a>
+			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/tong-bien-tap/quan-ly-bai-viet" 
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap/quan-ly-bai-viet'}">active</c:if> ">
+			Danh sách bài chờ phê duyệt</a>
 		</div>
 		<hr>
 		<div class="article">

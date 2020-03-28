@@ -1,12 +1,16 @@
 
 @charset "ISO-8859-1";
-
+/* ductm sua active link giap cam sua */
 .title {
 	font-size: 15px;
 	color: #2e373c;
-	font-weight: 700;
 	cursor: pointer;
 }
+
+.title.active{
+	font-weight: 700;
+}
+/*het doan duc sua */
 
 .article {
 	padding: 20px 8px;
@@ -99,11 +103,11 @@ ul {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
 	.comments-container {
 		width: 100%;
 	}
-}
+} */
 
 #sendComment {
 	float: right;
