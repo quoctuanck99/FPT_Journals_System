@@ -12,25 +12,21 @@
 			value="/WEB-INF/Views/layout/search.jsp" />
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
-			value="/WEB-INF/Views/layout/menuchief_editor.jsp" />
-		<put-attribute name="body"
-			value="/WEB-INF/Views/chief_editor/quanlynoidungtrangweb.jsp" />
-	<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/quanlybaiviet.jsp" />
-
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
-
-			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
-			<add-attribute value="/assets/js/custom.js" />
-			<add-attribute value="/assets/js/plugins.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute value="/assets/js/datatables.min.js" />
+			<add-attribute value="/assets/js/modaal.min.js" />
+			<add-attribute value="/assets/js/chief_editor/chief_editor.js" />
 		</put-list-attribute>
 	</definition>
 	<definition name="chinhsuatintuc"
@@ -50,8 +46,10 @@
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
 		</put-list-attribute>
@@ -73,8 +71,10 @@
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
 		</put-list-attribute>
@@ -96,8 +96,10 @@
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
 		</put-list-attribute>
@@ -109,12 +111,15 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
-			<add-attribute value="/assets/js/chief_editor/chief_editor.js" />
+			<add-attribute
+				value="/assets/js/chief_editor/chief_editor.js" />
 		</put-list-attribute>
 	</definition>
-	<definition name="pheduyetbaiviet" template="/WEB-INF/Views/layout/_layoutChiefEditor.jsp" extends="quanlybaiviet">
+	<definition name="pheduyetbaiviet"
+		template="/WEB-INF/Views/layout/_layoutChiefEditor.jsp"
+		extends="quanlybaiviet">
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/pheduyetbaiviet.jsp" />
 
 	</definition>
-	</tiles-definitions>
+</tiles-definitions>
