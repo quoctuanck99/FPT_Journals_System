@@ -54,11 +54,11 @@
 		</div>
 		<div class="article">
 			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/tong-bien-tap/chinh-sua-huong-dan" 
-			class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap/chinh-sua-huong-dan'}">active</c:if> " >Chỉnh sửa giới thiệu</a>
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap/chinh-sua-huong-dan'}">active</c:if> " >Chỉnh sửa hướng dẫn</a>
 		</div>
 		<div class="article">
 			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/tong-bien-tap/chinh-sua-gioi-thieu" 
-			class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap/chinh-sua-gioi-thieu'}">active</c:if> " >Chỉnh sửa hướng dẫn</a>
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap/chinh-sua-gioi-thieu'}">active</c:if> " >Chỉnh sửa giới thiệu</a>
 		</div>
 	</div>
 </div>
