@@ -21,7 +21,7 @@
 				<br> <br>
 				<div>
 					<a style="color: #d91655">Science</a>
-					<p class="title" style="font-size: 20px">Thermal Behavior of
+					<p class="title1" style="font-size: 20px">Thermal Behavior of
 						Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</p>
 					<p>
 						Tác giả: <a class="author"> Thomas Edison</a>
