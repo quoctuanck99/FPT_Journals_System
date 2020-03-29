@@ -9,9 +9,20 @@
 	
 </head>
 <body>
-<h3>Chinh sua thong bao</h3>
+<h3>Chỉnh sửa thông báo</h3>
 <div>
-<h5>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</h5>
+<div class="col-md-6">
+		<b>COMMON PARAGRAPH:</b>
+		<p class="p-2">For starters, lorem ipsum isn’t just some wacky
+			text-thingy with no meaning whatsoever. These words have been derived
+			from the Latin phrase ‘dolorem ipsum’ which translates to ‘pain
+			itself’. Lorem Ipsum is a placeholder text used to illustrate graphic
+			features by publishers and graphic designers. It is a pseudo-Latin
+			text used instead of English in web design, typography, layout and
+			printing to emphasize elements of design over content. It is also
+			called the text (or filler) of the placeholder. It’s a handy tool for
+			mock-ups. This helps define a text or presentation’s visual elements,
+			such as typography, font, or format.</p>
 	<button style="font-size: 20px">
 
 					<a href="" style="color:black;"
@@ -30,7 +41,7 @@
 									<span aria-hidden="true">&times;</span>
 								</button>
 								<h4 class="modal-title" id="myModalLabel">
-									<center>Chinh sua thong bao</center>
+									<center>Chỉnh sửa thông báo </center>
 								</h4>
 							</div>
 							<div class="modal-body">
@@ -55,8 +66,7 @@
 					</div>
 
 				</div>
-
-			</h5>
+</div>
  </div>
 </body>
 </html>
