@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <head>
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/author/menuauthor.css'/>" />
+	href="<c:url value='/assets/css/chief_editor/menuchiefeditor.css'/>" />
 </head>
 
 <c:set var="currentPage" value="${requestScope['javax.servlet.forward.request_uri']}"/>
