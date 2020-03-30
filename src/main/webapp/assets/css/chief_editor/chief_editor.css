@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @charset "ISO-8859-1";
 
 .title {
@@ -6,55 +6,73 @@
 	color: #2e373c;
 	font-weight: 700;
 	cursor: pointer;
+=======
+/* ductm quanlybaiviet css */
+
+.dataTables_wrapper input {
+	min-height: 23px;
 }
 
-.article {
-	padding: 20px 8px;
-	text-align: center;
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next, .text {
+		font-size: 11px
+	}
 }
 
-hr {
-	margin: 0;
+.article-content {
+	text-align: justify;
 }
 
-.review-title {
-	font-weight: 700;
-	color: #2e373c;
+.title-box {
+	background: #f27228;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
-.col-md-12>p {
-	font-size: 16px
+.margin-20 {
+	margin-bottom: 20px;
 }
 
-.up-content>h5 {
-	font-size: 17px;
-	margin-left: 30px;
-}
-/* menu reviewer css */
-.title-reviewer {
-	font-size: 15px;
-	color: #2e373c;
-	font-weight: 700;
-	cursor: pointer;
+a.btn.btn-primary.width {
+    width: 115px;
 }
 
-.article-reviewer {
-	padding: 20px 2px;
-	margin-left: 20px;
+.col-md-3.right {
+    right: 55px;
 }
 
-hr {
-	margin: 0;
+.margin-10 {
+    margin-top: 10px;
 }
+
+a#approve {
+    padding: 15px 0px;
+}
+
+#tablepheduyet tbody tr td:nth-child(2) {
+	font-weight: bold !important;
+}
+
+.aprroval{
+	text-align: end;
+}
+
 
 /* đánh giá của người phản biện css */
+
+/* comment css */
+
 ul {
 	list-style-type: none;
 }
 
-.comments-container {
+/* .comments-container {
 	width: 830px;
-}
+} */
 
 
 .comment-box .comment-head {
@@ -78,13 +96,7 @@ ul {
 	float: left;
 	margin-right: 10px;
 }
-/* 
-.comment-box .comment-name a {
-	color: #283035;
-}
-.comment-box .comment-name a {
-	color: #283035;
-} */
+
 .comment-box .comment-content {
 	background: #FFF;
 	padding: 12px;
@@ -125,7 +137,6 @@ ul {
 
 
 
-=======
 .dataTables_wrapper input {
 	min-height: 23px;
 }
@@ -148,4 +159,7 @@ ul {
 .aprroval{
 	text-align: end;
 }
->>>>>>> master
+
+
+/* ductm end */
+
