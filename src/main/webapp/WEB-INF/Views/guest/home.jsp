@@ -7,10 +7,10 @@
 
 
 <div id="slider">
-  <img src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/1.jpg" data-src-2x="img/1@2x.jpg" alt="Slide 1" />
-  <img data-src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/2.jpg" data-src-2x="img/2@2x.jpg" src="" alt="Slide 2" />
+  <img src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/1.jpg" data-src-2x="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/1.jpg" alt="Slide 1" />
+  <img data-src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/2.jpg" data-src-2x="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/2.jpg" src="" alt="Slide 2" />
 <!--   <a href="http://example.com"><img data-src="img/3.jpg" data-src-2x="img/3@2x.jpg" src="" alt="Slide 3" /></a> -->
-  <img data-src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/3.jpg" data-src-2x="img/4@2x.jpg" src="" alt="Slide 4" />
+  <img data-src="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/3.jpg" data-src-2x="<c:out value="${pageContext.servletContext.contextPath}" />/assets/images/banner/3.jpg" alt="Slide 4" />
 </div>
 
 <div class="item course-item">
