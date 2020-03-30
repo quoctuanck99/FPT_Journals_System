@@ -3,20 +3,20 @@
 	<div class="col-md-12">
 		<div>
 			<a style="color: #d91655">Science</a>
-			<p class="title" style="font-size: 20px">Thermal Behavior of
+			<p class="title1" style="font-size: 20px">Thermal Behavior of
 				Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</p>
-			<p>
+			<h6>
 				Tác giả: <a class="author"> Thomas Edison</a>
-			</p>
-			<p>
+			</h6>
+			<h6>
 				Tạp chí:<a class="a"> Khoa học</a>
-			</p>
-			<p>
+			</h6>
+			<h6>
 				Thể loại: <a class="a"> Công nghệ</a>
-			</p>
-			<p>
+			</h6>
+			<h6>
 				Ngày đăng:<a class="a"> 18/03/2020</a>
-			</p>
+			</h6>
 
 			<br> <a>Nội dung: </a> <br>
 			<div class="row">
@@ -102,7 +102,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td><input id="c1" type="checkbox"></td>
+										<td><input id="ceditor" type="checkbox"></td>
 										<td>1</td>
 										<td>namlt</td>
 										<td>Trung Nam</td>
@@ -114,7 +114,7 @@
 								</tbody>
 								<tbody>
 									<tr>
-										<td><input id="c1" type="checkbox"></td>
+										<td><input id="ceditor" type="checkbox"></td>
 										<td>1</td>
 										<td>namlt</td>
 										<td>Trung Nam</td>
@@ -126,7 +126,7 @@
 								</tbody>
 								<tbody>
 									<tr>
-										<td><input id="c1" type="checkbox"></td>
+										<td><input id="ceditor" type="checkbox"></td>
 										<td>1</td>
 										<td>namlt</td>
 										<td>Trung Nam</td>
@@ -138,7 +138,7 @@
 								</tbody>
 								<tbody>
 									<tr>
-										<td><input id="c1" type="checkbox"></td>
+										<td><input id="ceditor" type="checkbox"></td>
 										<td>1</td>
 										<td>namlt</td>
 										<td>Trung Nam</td>
@@ -165,7 +165,7 @@
 	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
 
-		<div class="modal-dialog modal-md" role="document">
+		<div class="modal-dialog modal-sm" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
@@ -178,7 +178,7 @@
 
 				</div>
 				<div class="modal-body">
-					<div class="row">
+					<div class="modal_info" >
 						
 							<p>
 								<input id="r1" type="radio" name="radio" value="1"> <label
@@ -205,7 +205,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Hủy</button>
-					<button type="button" class="btn btn-primary">Reject</button>
+					<button type="button" class="btn1 btn-primary" >Reject</button>
 				</div>
 			</div>
 		</div>
