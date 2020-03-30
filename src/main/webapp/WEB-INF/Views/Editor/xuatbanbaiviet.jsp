@@ -14,7 +14,7 @@
 			aria-controls="account" aria-selected="false">Yêu cầu xuất bản</a></li>
 
 	</ul>
-	<div class="tab-content" id="myTabContent">
+	<div class="tab-content" id="myTabContent" style="width: 100%">
 		<div class="tab-pane fade active in" id="noidungxuatban"
 			role="tabpanel" aria-labelledby="dashboard-tab">
 			<div class="col-md-12">
@@ -23,18 +23,18 @@
 					<a style="color: #d91655">Science</a>
 					<p class="title1" style="font-size: 20px">Thermal Behavior of
 						Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</p>
-					<p>
+					<h6>
 						Tác giả: <a class="author"> Thomas Edison</a>
-					</p>
-					<p>
+					</h6>
+					<h6>
 						Tạp chí:<a class="a"> Khoa học</a>
-					</p>
-					<p>
+					</h6>
+					<h6>
 						Thể loại: <a class="a"> Công nghệ</a>
-					</p>
-					<p>
+					</h6>
+					<h6>
 						Ngày đăng:<a class="a"> 18/03/2020</a>
-					</p>
+					</h6>
 					<br> <a>Nội dung: </a> <br>
 					<div class="row">
 						<div class="col-md-12">
@@ -122,8 +122,8 @@
 
 			</div>
 			<br>
-			<div class="col-md-7" id="button-xuatban">
-				<div class="fjs-btn blue">
+			<div class="col-md-7"  style="width: 100%">
+				<div class="fjs-btn blue" id="button-xuatban">
 					<a href="#">Xuất bản</a>
 				</div>
 
