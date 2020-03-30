@@ -1,18 +1,19 @@
-@charset "ISO-8859-1"; 
-
- @charset "ISO-8859-1";
+@charset "ISO-8859-1";
 
 .title {
 	font-size: 15px;
 	color: #2e373c;
 	cursor: pointer;
 	color: #24292e;
+	
 }
 
 .title.active {
 	font-weight: 700;
 }
-
+.title1{
+	font-weight: 700;
+}
 .article {
 	padding: 20px 8px;
 	text-align: center;
@@ -30,11 +31,6 @@ hr {
 	padding-left: 100px;
 }
 
-.article {
-	padding: 20px 8px;
-	text-align: center;
-}
-
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover,
 	.nav-tabs.nav-justified>.active>a:focus {
 	background-color: #ffa042;
@@ -48,6 +44,7 @@ hr {
 	font-weight: 1000;
 	color: #2e373c;
 }
+
 .col-md-12>p {
 	font-size: 16px
 }
@@ -76,23 +73,38 @@ ul {
 	}
 }
 
-/* modal thêm nội dung phản luận*/
-#btn-comment {
-	float: right;
-	padding-right: 20px;
-}
 .group-button {
 	display: flex;
 	align-items: center;
 	margin-left: 30%;
-} 
-
-}
-
-.fjs-btn.green a, .fjs-btn.green button {
-	background-color: #277927; 
 }
 
 .fjs-btn.green a, .fjs-btn.green button {
 	background-color: #277927;
+}
+
+.fjs-btn.green a, .fjs-btn.green button {
+	background-color: #277927;
+}
+
+.reject-info {
+	justify-content: center;
+}
+
+.modal-footer .btn+.btn {
+	margin-left: 5px;
+	margin-bottom: 0;
+	background-color: #c32a12;
+}
+
+#modal1_footer .btn+.btn {
+	margin-left: 5px;
+	margin-bottom: 0;
+	background-color: #0098f1;
+}
+
+#checkbox1 {
+	min-height: 21px;
+	aligns-item: center;
+	margin-left: 10px;
 }

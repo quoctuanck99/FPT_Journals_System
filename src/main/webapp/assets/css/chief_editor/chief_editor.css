@@ -1,12 +1,16 @@
-<<<<<<< HEAD
-@charset "ISO-8859-1";
 
+@charset "ISO-8859-1";
+/* ductm sua active link giap cam sua */
 .title {
 	font-size: 15px;
 	color: #2e373c;
-	font-weight: 700;
 	cursor: pointer;
 }
+
+.title.active{
+	font-weight: 700;
+}
+/*het doan duc sua */
 
 .article {
 	padding: 20px 8px;
@@ -47,7 +51,6 @@ hr {
 	margin: 0;
 }
 
-/* đánh giá của người phản biện css */
 ul {
 	list-style-type: none;
 }
@@ -99,11 +102,11 @@ ul {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 766px) {
+/* @media only screen and (max-width: 300px) {
 	.comments-container {
-		width: 480px;
+		width: 100%;
 	}
-}
+} */
 
 #sendComment {
 	float: right;
@@ -148,4 +151,4 @@ ul {
 .aprroval{
 	text-align: end;
 }
->>>>>>> master
+
