@@ -21,7 +21,7 @@
 		<div class="article">
 			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/bien-tap-vien/kiem-tra-truoc-bai-viet-btv" 
 			class="title <c:if test="${currentPage=='/sap-lab-fpt/bien-tap-vien/kiem-tra-truoc-bai-viet-btv'}">active</c:if> ">
-			Kiểm tra trước bài viết</a>
+			Kiểm tra bài viết</a>
 		</div>
 		<div class="article">
 			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/bien-tap-vien/quan-ly-bai-viet-xuat-ban" 

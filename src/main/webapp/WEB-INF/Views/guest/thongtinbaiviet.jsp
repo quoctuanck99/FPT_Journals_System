@@ -21,7 +21,6 @@
 		<div class="up-content">
 			<h2 class="detail-title">Công nghệ đã thay đổi cuộc sống con
 				người như thế nào?</h2>
-			<div class="info">
 			<p>
 				Tác giả: <a href="#">Tác giả 1</a>
 			</p>
@@ -31,7 +30,6 @@
 			<p>
 				Ngày nhận bài: <a href="#">13/03/2020</a>
 			</p>
-			</div>
 
 		</div>
 	</div>
@@ -52,7 +50,7 @@
 		</div>
 
 		<div class="pdf">
-			<iframe id="fred" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" frameborder="1" scrolling="auto" height="700" width="600" ></iframe>
+			<iframe id="fred" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" frameborder="1" scrolling="auto" height="300" width="500" ></iframe>
 			<span class="help-block">PDF Online xem thử</span>
 		</div>
 

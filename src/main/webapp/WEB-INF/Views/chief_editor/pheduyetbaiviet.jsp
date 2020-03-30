@@ -9,6 +9,18 @@
 	<div class="col-md-12">
 		<table id="tablepheduyet" class="display table-striped table-bordered"
 			style="width: 100%; line-height: 30px;">
+			<!-- 			<thead>
+				<tr>
+					<th><input id="c2" type="checkbox"></th>
+					<th>Tiêu đề</th>
+					<th>Tác giả</th>
+					<th>Danh mục</th>
+					<th>Loại bài viết</th>
+					<th>Ngày chỉ định</th>
+					<th>Phản biện viên</th>
+					<th>Nhận xét</th>
+				</tr>
+			</thead> -->
 			<tbody>
 				<tr>
 					<td>Mã bản thảo</td>
@@ -89,6 +101,7 @@
 	</div>
 </div>
 
+
 <!-- modal pheduyet -->
 
 <div class="modal fade" id="pheduyet">
@@ -118,7 +131,6 @@
 		</div>
 	</div>
 </div>
-
 
 <!-- modal danhgia -->
 <div class="modal fade" id="danhgia">

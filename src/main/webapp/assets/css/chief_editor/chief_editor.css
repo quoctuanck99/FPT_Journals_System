@@ -1,3 +1,12 @@
+
+@charset "ISO-8859-1";
+
+.title {
+	font-size: 15px;
+	color: #2e373c;
+	font-weight: 700;
+	cursor: pointer;
+=======
 /* ductm quanlybaiviet css */
 
 .dataTables_wrapper input {
@@ -52,7 +61,11 @@ a#approve {
 	text-align: end;
 }
 
+
+/* đánh giá của người phản biện css */
+
 /* comment css */
+
 ul {
 	list-style-type: none;
 }
@@ -95,4 +108,58 @@ ul {
 	margin-left: 30px;
 }
 
+/** =====================
+ * Responsive
+ ========================*/
+@media only screen and (max-width: 766px) {
+	.comments-container {
+		width: 480px;
+	}
+}
+
+#sendComment {
+	float: right;
+}
+
+
+
+#btn-comment {
+	float: right;
+	padding-right: 20px;
+}
+
+.row{
+	
+}
+#btn-send{
+	padding-left: 300px;
+}
+
+
+
+.dataTables_wrapper input {
+	min-height: 23px;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next, .text {
+		font-size: 11px
+	}
+}
+
+.article-content {
+	text-align: justify;
+}
+
+#tablepheduyet tbody tr td:nth-child(2) {
+	font-weight: bold !important;
+}
+
+.aprroval{
+	text-align: end;
+}
+
+
 /* ductm end */
+

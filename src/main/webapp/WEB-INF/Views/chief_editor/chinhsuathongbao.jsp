@@ -14,7 +14,7 @@
 <div class="row">
 	<form action="" method="post">
 		<div class="form-group col-md-12">
-			<label id="messageLabel" for="message">Chỉnh sửa tin tức </label>
+			<label id="messageLabel" for="message">Chỉnh sửa thông báo </label>
 			<textarea class="form-control input-sm" id="message" placeholder=""
 				rows="20"></textarea>
 		</div>
