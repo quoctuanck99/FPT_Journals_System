@@ -9,54 +9,44 @@
 	
 </head>
 <body>
-<h3>Chinh sua hướng dẫn</h3>
-<div>
-<h5>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</h5>
-	<button style="font-size: 20px">
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<div class="row">
+	<form action="" method="post">
+		<div class="form-group col-md-12">
+			<label id="messageLabel" for="message">Chỉnh sửa hướng dẫn </label>
+			<textarea class="form-control input-sm" id="message" placeholder=""
+				rows="20"></textarea>
+		</div>
+		<br style="clear: both">
+		<div class="form-group col-md-2 ">
+			<a href="" data-toggle="modal" data-target="#myModal"><button class="form-control input-sm btn btn-success "
+				id="btnSubmit" name="btnSubmit" type="submit" >Lưu</button></a>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+					aria-labelledby="myModalLabel" >
 
-					<a href="" style="color:black;"
-						data-toggle="modal" data-target="#myModal"><button type="button" class="btn btn-primary">Sửa</button></a>
-
-				</button>
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-					aria-labelledby="myModalLabel">
-
-					<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-dialog modal-ms" role="document" style="width: 20%">
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal"
 									aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
-								<h4 class="modal-title" id="myModalLabel">
-									<center>Chinh sua hướng dẫn</center>
-								</h4>
+								<h5 class="modal-title" id="myModalLabel">
+									<center>Xác nhận thay đổi thông tin</center>
+								</h5>
 							</div>
-							<div class="modal-body">
-								<div class="row">
-
-									<div class="col-md-12">
-										<table id="table" class="display table-striped table-bordered"
-											style="width: 100%; line-height: 30px;">
-											<input class="search-input" type="text" id="" name="s"
-						placeholder="Nhap bai viet" value="">
-
-										</table>
-									</div>
-								</div>
-							</div>
-							<div class="modal-footer">
+							<div class="modal-footer" >
 								<button type="button" class="btn btn-default"
 									data-dismiss="modal">Huỷ</button>
-								<button type="button" class="btn btn-primary">Xác nhận</button>
+								<button type="button" class=" btn btn-success ">Xác nhận</button>
 							</div>
 						</div>
 					</div>
 
 				</div>
-
-			</h5>
- </div>
+	</form>
+</div>
 </body>
 </html>
