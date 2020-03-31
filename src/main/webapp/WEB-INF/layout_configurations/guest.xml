@@ -3,7 +3,7 @@
        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
-<!-- ///////////////////////////////////////////GUEST/////////////////////////////////// -->
+	<!-- ///////////////////////////////////////////GUEST/////////////////////////////////// -->
 	<definition name="home"
 		template="/WEB-INF/Views/layout/_layoutHome.jsp">
 		<put-attribute name="userheader"
@@ -15,14 +15,18 @@
 			value="/WEB-INF/Views/layout/menu.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/guest/home.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebar.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
 		</put-list-attribute>
@@ -33,42 +37,49 @@
 		<put-attribute name="body"
 			value="/WEB-INF/Views/guest/gioithieu.jsp" />
 	</definition>
-	
+
 	<definition name="tintuc" extends="home">
 		<put-attribute name="title" value="Tin tức" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/guest/tintuc.jsp" />
 	</definition>
-	
-	<definition name="elements" template="/WEB-INF/Views/layout/_layoutElements.jsp">
+
+	<definition name="elements"
+		template="/WEB-INF/Views/layout/_layoutElements.jsp">
 		<put-attribute name="body"
 			value="/WEB-INF/Views/elements.jsp" />
 		<put-list-attribute name="javascripts">
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
 			<add-attribute value="/assets/js/elements.js" />
 		</put-list-attribute>
 	</definition>
-	
+
 	<definition name="chinhsuaprofile" extends="home">
 		<put-attribute name="title" value="" />
-		<put-attribute name="body" value="/WEB-INF/Views/guest/chinhsuaprofile.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/Views/guest/chinhsuaprofile.jsp" />
 		<put-attribute name="search" value="" />
-		<put-attribute name="menu" value="/WEB-INF/Views/layout/menuauthor.jsp" />
-	</definition>
-	
-	<definition name="doimatkhau" extends="home">
-		<put-attribute name="title" value="" />
-		<put-attribute name="body" value="/WEB-INF/Views/guest/doimatkhau.jsp" />
-		<put-attribute name="search" value="" />
-		<put-attribute name="menu" value="/WEB-INF/Views/layout/menuauthor.jsp" />
+		<put-attribute name="menu"
+			value="/WEB-INF/Views/layout/menuauthor.jsp" />
 	</definition>
 
-<definition name="dangnhap"
+	<definition name="doimatkhau" extends="home">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/Views/guest/doimatkhau.jsp" />
+		<put-attribute name="search" value="" />
+		<put-attribute name="menu"
+			value="/WEB-INF/Views/layout/menuauthor.jsp" />
+	</definition>
+
+	<definition name="dangnhap"
 		template="/WEB-INF/Views/layout/login.jsp">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
@@ -81,13 +92,15 @@
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
 		</put-list-attribute>
 	</definition>
-	
+
 	<definition name="dangky"
 		template="/WEB-INF/Views/layout/login.jsp">
 		<put-attribute name="userheader"
@@ -101,19 +114,23 @@
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
 			<add-attribute value="/assets/js/guest/home.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-			<add-attribute value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+			<add-attribute
+				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
 		</put-list-attribute>
 	</definition>
-	
+
 	<definition name="ketquatimkiem" extends="home">
-	<put-attribute name="body" value="/WEB-INF/Views/guest/ketquatimkiem.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/Views/guest/ketquatimkiem.jsp" />
 	</definition>
-	
+
 	<definition name="thongtinbaiviet" extends="home">
-	<put-attribute name="body" value="/WEB-INF/Views/guest/thongtinbaiviet.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/Views/guest/thongtinbaiviet.jsp" />
 	</definition>
-	
+
 </tiles-definitions>

@@ -50,3 +50,8 @@
 	.input-group-addon .fa{
 		font-size: 18px;
 	}
+	.btn-info {
+    color: #fff;
+    background-color: #2a85ff !important;
+    border-color: #2a85ff !important;
+}
