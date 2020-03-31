@@ -21,20 +21,20 @@
 				<br> <br>
 				<div>
 					<a style="color: #d91655">Science</a>
-					<p class="title" style="font-size: 20px">Thermal Behavior of
+					<p class="title1" style="font-size: 20px">Thermal Behavior of
 						Green Cellulose-Filled Thermoplastic Elastomer Polymer Blends</p>
-					<p>
+					<h6>
 						Tác giả: <a class="author"> Thomas Edison</a>
-					</p>
-					<p>
+					</h6>
+					<h6>
 						Tạp chí:<a class="a"> Khoa học</a>
-					</p>
-					<p>
+					</h6>
+					<h6>
 						Thể loại: <a class="a"> Công nghệ</a>
-					</p>
-					<p>
+					</h6>
+					<h6>
 						Ngày đăng:<a class="a"> 18/03/2020</a>
-					</p>
+					</h6>
 					<br> <a>Nội dung: </a> <br>
 					<div class="row">
 						<div class="col-md-12">
@@ -122,11 +122,26 @@
 
 			</div>
 			<br>
-			<div class="col-md-7" id="button-xuatban">
-				<div class="fjs-btn blue">
-					<a href="#">Xuất bản</a>
+			<div class="row" id="main-xuatban">
+				<div class="col-md-9">
+					<div class="fjs-btn blue">
+						<a href="" class="xuatban" data-toggle="modal"
+							data-target="#xuatban">Xuất bản</a>
+					</div>
 				</div>
+			</div>
+			<div class="modal fade" id="xuatban">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">Đồng ý xuất bản</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">Huỷ</button>
+							<button type="button" class="btn2 btn-primary">Xác nhận</button>
+						</div>
 
+					</div>
+				</div>
 			</div>
 
 
