@@ -68,11 +68,10 @@
 					<div class="form-group">
 						<label for="gender" class="col-6 col-md-4 sub-title">Giới
 							tính</label>
-						<div class="col-6 col-md-4">
-							<input id="Male" type="radio" name="radio" value="1" checked>
-							<label for="male">Nam</label>
+						<div class="col-6 col-md-4 check-group">
+							<input id="Male" type="radio" name="radio" value="1" checked><label for="male">Nam</label> 
 						</div>
-						<div class="col-6 col-md-4">
+						<div class="col-6 col-md-4 check-group">
 							<input id="Female" type="radio" name="radio" value="1"> <label
 								for="female">Nữ</label>
 						</div>
@@ -98,7 +97,7 @@
 					<!-- /.form-group -->
 					<div class="form-group">
 						<div>
-							<div class="checkbox">
+							<div class="check-group">
 								<input id="c1" type="checkbox"> <label class="sub-title"
 									for="check">Tôi đã đọc và đồng ý với <a href="#">Các
 										điều khoản hoạt động</a> khi đăng ký
