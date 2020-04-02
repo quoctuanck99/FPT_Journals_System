@@ -122,7 +122,7 @@
 		<div class="col-md-6">
 		
 		
-			<h1 class="page-header">Giới thiệu</h1>
+			<h1 class="header-page">Giới thiệu</h1>
 			<div class="info">
 			<p class="p-2" style="text-align:left">Chính thức thành lập ngày 8/9/2006 theo Quyết định của Thủ tướng Chính phủ, Trường Đại học FPT trở thành trường đại học đầu tiên của Việt Nam do một doanh nghiệp đứng ra thành lập với 100% vốn đầu tư từ Tập đoàn FPT.
 
