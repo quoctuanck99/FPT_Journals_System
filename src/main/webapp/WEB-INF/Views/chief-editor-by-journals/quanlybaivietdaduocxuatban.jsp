@@ -6,7 +6,7 @@
 		<table id="table" class="display table-striped table-bordered">
 			<thead>
 				<tr>
-					<th><input id="c1" type="checkbox"></th>
+					<th><input id="checkbox" type="checkbox"></th>
 					<th>Tiêu đề</th>
 					<th>Tác giả</th>
 					<th>Danh mục</th>
@@ -17,8 +17,10 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><input id="c1" type="checkbox"></td>
-					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" > nghệ đã thay đổi cuộc sống con người như thế nào?</a></td>
+					<td><input id="checkbox" type="checkbox"></td>
+					<td><a
+						href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban">
+							Công nghệ đã thay đổi cuộc sống con người như thế nào?</a></td>
 					<td>Tác giả 1</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -26,8 +28,10 @@
 					<td>Chưa đánh giá</td>
 				</tr>
 				<tr>
-					<td><input id="c1" type="checkbox"></td>
-					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<td><input id="checkbox" type="checkbox"></td>
+					<td><a
+						href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban">Công
+							nghệ nano và những ứng dụng trong thực tiễn</a></td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -35,8 +39,10 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><input id="c1" type="checkbox"></td>
-					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
+					<td><input id="checkbox" type="checkbox"></td>
+					<td><a
+						href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban">Việt
+							Nam nghiên cứu vũ khí nguyên tử</a></td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -44,8 +50,10 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><input id="c1" type="checkbox"></td>
-					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<td><input id="checkbox" type="checkbox"></td>
+					<td><a
+						href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban">Công
+							nghệ nano và những ứng dụng trong thực tiễn</a></td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -53,8 +61,10 @@
 					<td>Đã đánh giá</td>
 				</tr>
 				<tr>
-					<td><input id="c1" type="checkbox"></td>
-					<td><a href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban" >Việt Nam nghiên cứu vũ khí nguyên tử</a></td>
+					<td><input id="checkbox" type="checkbox"></td>
+					<td><a
+						href="../tong-bien-tap-theo-chuyen-san/xem-bai-viet-da-duoc-xuat-ban">Việt
+							Nam nghiên cứu vũ khí nguyên tử</a></td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -65,17 +75,17 @@
 
 		</table>
 	</div>
-</div>
 
-<div class="row" id="main-xuatbanchuyensan">
-	<div class="col-md-9">
-		<div class="fjs-btn blue" >
-			<a href="#xuatbanchuyensan" class="xuatbanchuyensan" data-toggle="modal"
-				data-target="#xuatbanchuyensan">Xuất bản chuyên san</a>
+	<div class="row" id="main-xuatbanchuyensan">
+		<div class="col-md-4 col-md-push-4">
+			<div class="fjs-btn blue">
+				<a href="#xuatbanchuyensan" class="xuatbanchuyensan"
+					data-toggle="modal" data-target="#xuatbanchuyensan">Xuất bản
+					chuyên san</a>
+			</div>
 		</div>
 	</div>
 </div>
-
 
 <div class="modal fade" id="xuatbanchuyensan">
 	<div class="modal-dialog">

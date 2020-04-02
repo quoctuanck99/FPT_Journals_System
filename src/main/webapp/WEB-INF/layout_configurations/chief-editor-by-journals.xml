@@ -13,6 +13,8 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditorByJournals.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/chiefEditorByJournals-leftsidebar.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief-editor-by-journals/quanlybaivietdaduocxuatban.jsp" />
 		<put-attribute name="footer"
@@ -26,11 +28,14 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
 			<add-attribute
 				value="/assets/js/chief-editor-by-journals/chief-editor-by-journals.js" />
 		</put-list-attribute>
 	</definition>
-	<definition name="xembaivietdaduocxuatban" extends="quanlybaivietdaduocxuatban">
+	<definition name="xembaivietdaduocxuatban"
+		extends="quanlybaivietdaduocxuatban">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
 		<put-attribute name="search"
@@ -38,6 +43,8 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditorByJournals.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/chiefEditorByJournals-leftsidebar.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief-editor-by-journals/xembaivietdaduocxuatban.jsp" />
 		<put-attribute name="footer"
@@ -50,10 +57,12 @@
 			<add-attribute
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
-
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
-			<add-attribute value="/assets/js/chief-editor-by-journals/chief-editor-by-journals.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
+			<add-attribute
+				value="/assets/js/chief-editor-by-journals/chief-editor-by-journals.js" />
 
 		</put-list-attribute>
 	</definition>

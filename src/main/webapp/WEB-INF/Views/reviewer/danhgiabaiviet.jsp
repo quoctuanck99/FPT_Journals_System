@@ -2,18 +2,17 @@
 	pageEncoding="UTF-8"%>
 
 <div class="article">
-	<div class="title-box">Bài viết</div>
 	<h4 class="review-title">Công nghệ đã thay đổi cuộc sống của con
 		người như thế nào?</h4>
-	<p>
+	<h6>
 		Tác giả: <a href="#">Tác giả 1</a>
-	</p>
-	<p>
+	</h6>
+	<h6>
 		Tạp chí: <a href="#">Khoa học - công nghệ</a>
-	</p>
-	<p>
+	</h6>
+	<h6>
 		Ngày nhận bài: <a href="#">13/03/2020</a>
-	</p>
+	</h6>
 </div>
 
 <div class="row">
@@ -68,21 +67,15 @@
 			</div>
 		</li>
 	</ul>
-</div>
-
-<div class="row">
-	<div class="group-button">
-		<div class="col-md-2" id="btn-comment">
-			<div class="">
-				<a href="#themphanbien" class="modaal">Thêm phản biện</a>
-			</div>
-		</div>
-		<div class="col-md-10">
-			<div class="fjs-btn blue " id="btn-send">
-
-				<a href="#guitongbientap" class="btn btn-primary"
-					data-toggle="modal" data-target="#guitongbientap">Gửi tổng biên
-					tập</a>
+	
+	<div class="themphanvien">
+	<a href="#themphanbien" class="modaal" id="href-themphanbien">Thêm phản biện</a>
+	</div>
+	<div class="row" id="main-guitongbientap">
+		<div class="col-md-4 col-md-push-4">
+			<div class="fjs-btn blue">
+				<a href="#guitongbientap" class="btn btn-primary" id="href-guitongbientap"data-toggle="modal"
+				data-target="#guitongbientap">Gửi tổng biên tập</a>
 			</div>
 		</div>
 	</div>
