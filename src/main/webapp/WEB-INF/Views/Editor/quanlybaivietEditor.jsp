@@ -27,7 +27,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="">Việt Nam đi đầu trong chống dịch COVID-19</a></td>
+					<td><a href="http://localhost:8080/sap-lab-fpt/bien-tap-vien/kiem-tra-truoc-bai-viet-btv">Việt Nam đi đầu trong chống dịch COVID-19</a></td>
 					<td>Tác giả 1</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -35,7 +35,7 @@
 					<td><a href="">Phân công người phản biện</a></td>
 				</tr>
 				<tr>
-					<td><a href="">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<td><a href="http://localhost:8080/sap-lab-fpt/bien-tap-vien/kiem-tra-truoc-bai-viet-btv">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -43,7 +43,7 @@
 					<td><a href="">Phân công người phản biện</a></td>
 				</tr>
 				<tr>
-					<td><a href="">Việt Nam đi đầu trong chống dịch COVID-19</a></td>
+					<td><a href="http://localhost:8080/sap-lab-fpt/bien-tap-vien/kiem-tra-truoc-bai-viet-btv">Việt Nam đi đầu trong chống dịch COVID-19</a></td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
@@ -51,7 +51,7 @@
 					<td><a href="">Phân công người phản biện</a></td>
 				</tr>
 					<tr>
-					<td><a href="">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
+					<td><a href="http://localhost:8080/sap-lab-fpt/bien-tap-vien/kiem-tra-truoc-bai-viet-btv">Công nghệ nano và những ứng dụng trong thực tiễn</a></td>
 					<td>Tác giả 2</td>
 					<td>Đời sống - xã hội</td>
 					<td>Bài báo</td>
@@ -59,7 +59,7 @@
 					<td><a href="">Phân công người phản biện</a></td>
 				</tr>
 				<tr>
-					<td><a href="">Việt Nam đi đầu trong chống dịch COVID-19</a></td>
+					<td><a href="http://localhost:8080/sap-lab-fpt/bien-tap-vien/kiem-tra-truoc-bai-viet-btv">Việt Nam đi đầu trong chống dịch COVID-19</a></td>
 					<td>Tác giả 3</td>
 					<td>Khoa học - công nghệ</td>
 					<td>Bài báo</td>
