@@ -1,16 +1,12 @@
-@charset "ISO-8859-1";
+@charset "ISO-8859-1"; 
 
-@charset "ISO-8859-1";
+ @charset "ISO-8859-1";
 
 .title {
 	font-size: 15px;
 	color: #2e373c;
 	cursor: pointer;
 	color: #24292e;
-}
-
-.title1 {
-	font-weight: 700;
 }
 
 .title.active {
@@ -36,8 +32,7 @@ hr {
 
 .article {
 	padding: 20px 8px;
-	text-align: left;
-	padding-left: 40px;
+	text-align: center;
 }
 
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover,
@@ -53,7 +48,6 @@ hr {
 	font-weight: 1000;
 	color: #2e373c;
 }
-
 .col-md-12>p {
 	font-size: 16px
 }
@@ -63,6 +57,7 @@ hr {
 	margin: 10px 5px 20px 30px;
 }
 
+/* đánh giá của người phản biện css */
 ul {
 	list-style-type: none;
 }
@@ -75,88 +70,29 @@ ul {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 766px) {
 	.comments-container {
 		width: 480px;
 	}
 }
 
+/* modal thêm nội dung phản luận*/
 #btn-comment {
 	float: right;
 	padding-right: 20px;
 }
-
 .group-button {
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	margin-left: 30%;
+} 
+
+}
+
+.fjs-btn.green a, .fjs-btn.green button {
+	background-color: #277927; 
 }
 
 .fjs-btn.green a, .fjs-btn.green button {
 	background-color: #277927;
-}
-
-.modal-footer .btn+.btn {
-	background-color: #277927;
-}
-
-.modal-footer .btn+.btn1 {
-	background-color:#c32a12;
-}
-.modal-footer .btn+.btn2 {
-	background-color:#0098f1;
-}
-
-.btn1 {
-	display: inline-block;
-	margin-bottom: 0;
-	font-weight: normal;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	background-image: none;
-	border: 1px solid transparent;
-	white-space: nowrap;
-	padding: 6px 12px;
-	font-size: 14px;
-	line-height: 1.428571429;
-	border-radius: 0px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-.btn2 {
-	display: inline-block;
-	margin-bottom: 0;
-	font-weight: normal;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	background-image: none;
-	border: 1px solid transparent;
-	white-space: nowrap;
-	padding: 6px 12px;
-	font-size: 14px;
-	line-height: 1.428571429;
-	border-radius: 0px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-#ceditor{
-	min-height: 21px;
-	vertical-align: middle;
-	margin-left: 15px;
-}
-#main-xuatban{
-	width: 100%;
-}
-.xuatban{
-    float: right;
-    margin-right: 30%;
-}
-#xuatban{
-	margin-left: 200px;
-	margin-top: 150px;
 }
