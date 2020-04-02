@@ -14,6 +14,8 @@
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/editor/quanlybaivietEditor.jsp" />
+			<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarEditor.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -25,6 +27,8 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
 			<add-attribute value="/assets/js/editor/editor.js" />
 		
 		</put-list-attribute>
@@ -39,6 +43,8 @@
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/editor/kiemtratruocbaiviet.jsp" />
+			<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarEditor.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -50,7 +56,10 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
 			<add-attribute value="/assets/js/editor/editor.js" />
+		
 		</put-list-attribute>
 	</definition>
 
@@ -65,6 +74,8 @@
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/editor/quanlybaivietxuatban.jsp" />
+			<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarEditor.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -76,8 +87,10 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
 			<add-attribute value="/assets/js/editor/editor.js" />
-			
+		
 		</put-list-attribute>
 	</definition>
 	<definition name="xuatbanbaiviet"
@@ -91,20 +104,23 @@
 			value="/WEB-INF/Views/layout/menuEditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/editor/xuatbanbaiviet.jsp" />
+			<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarEditor.jsp" />
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
 			<add-attribute value="/assets/js/jquery-1.11.1.min.js" />
-			<add-attribute value="/assets/js/editor/editor.js" />
 			<add-attribute value="/assets/js/bootstrap.min.js" />
 			<add-attribute
 				value="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
 			<add-attribute
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
+			<add-attribute value="/assets/js/datatables.min.js" />
+			<add-attribute value="/assets/js/modaal.min.js" />
 			<add-attribute value="/assets/js/custom.js" />
 			<add-attribute value="/assets/js/plugins.js" />
-			<add-attribute
-				value="/assets/js/editor/editorxuatban.js" />
+			<add-attribute value="/assets/js/editor/editor.js" />
+		
 		</put-list-attribute>
 	</definition>
 
