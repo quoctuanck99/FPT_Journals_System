@@ -41,14 +41,14 @@ input[type=password]{
 }
 
 
-
-.checkbox-group label {
+.check-group label {
   margin: 5px 10px 5px 0;
 }
 
-.checkbox-group input {
+.check-group input {
   margin: 5px 10px 5px 0;
 }
+
 
 
 .sub-title {
