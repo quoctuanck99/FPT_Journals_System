@@ -95,4 +95,74 @@ ul {
 
 .fjs-btn.green a, .fjs-btn.green button {
 	background-color: #277927;
+  
+}
+
+.modal-footer .btn+.btn1 {
+	background-color:#c32a12;
+}
+.modal-footer .btn+.btn2 {
+	background-color:#0098f1;
+}
+
+.btn1 {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	border-radius: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.btn2 {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	border-radius: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#ceditor{
+	min-height: 21px;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+#main-xuatban{
+	width: 100%;
+}
+.xuatban{
+    float: right;
+    margin-right: 30%;
+}
+#xuatban{
+	margin-left: 200px;
+	margin-top: 150px;
+}
+@media screen and (max-width: 992px) {
+	#col-md-3 {
+		visibility: hidden !important;
+		clear: both;
+		display: none;
+	}
 }
