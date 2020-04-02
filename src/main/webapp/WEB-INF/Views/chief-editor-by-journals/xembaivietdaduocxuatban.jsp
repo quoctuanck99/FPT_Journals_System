@@ -1,27 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<div class="item course-item">
-	<div class="up-content">
-		<h4 class="review-title">Công nghệ đã thay đổi cuộc sống của con
-			người như thế nào?</h4>
-		<p>
+<div class="article">
+	<h4 class="review-title">Công nghệ đã thay đổi cuộc sống của con
+		người như thế nào?</h4>
+		<h6>
 			Tác giả: <a href="#">Tác giả 1</a>
-		</p>
-		<p>
+		</h6>
+		<h6>
 			Tạp chí: <a href="#">Khoa học - công nghệ</a>
-		</p>
-		<p>
+		</h6>
+		<h6>
 			Trạng thái: <a href="#">Đã xuất bản</a>
-		</p>
-		<p>
+		</h6>
+		<h6>
 			Ngày nhận bài: <a href="#">13/03/2020</a>
-		</p>
-		<p>
+		</h6>
+		<h6>
 			Ngày xuất bản: <a href="#">13/03/2020</a>
-		</p>
-
-	</div>
+		</h6>
 </div>
 
 <div class="row">
@@ -40,9 +37,6 @@
 	<ul>
 		<li>
 			<div class="comment-main-level">
-				<!-- Avatar -->
-
-				<!-- Contenedor del Comentario -->
 				<div class="comment-box">
 					<div class="comment-head">
 						<h6 class="comment-name">

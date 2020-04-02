@@ -1,18 +1,23 @@
 @charset "ISO-8859-1";
 
-.title{
+.title {
 	font-size: 15px;
 	color: #2e373c;
 	cursor: pointer;
 	color: #24292e;
 }
-.title.active{
+
+.title.active {
 	font-weight: 700;
 }
 
 .article {
 	padding: 20px 8px;
-	text-align: center;
+	text-align: left;
+}
+
+.article>h6 {
+	font-size: 16px !important;
 }
 
 hr {
@@ -47,10 +52,10 @@ ul {
 	list-style-type: none;
 }
 
-.comments-container {
-	width: 830px;
+#href-themphanbien {
+	float: right !important;
+	margin-right: 5% !important;
 }
-
 
 .comment-box .comment-head {
 	background: #FCFCFC;
@@ -85,19 +90,6 @@ ul {
 	margin-left: 30px;
 }
 
-/** =====================
- * Responsive
- ========================*/
-@media only screen and (max-width: 300px) {
-	.comments-container {
-		width: 100%;
-	}
-	#btn-send {
-		padding-left: 15%;
-		margin-top: 50px;
-	}
-}
-
 /* modal */
 #sendComment {
 	float: right;
@@ -107,12 +99,31 @@ ul {
 	float: right;
 	margin-right: 30px;
 }
-@media only screen and (min-width: 300px) {
-#btn-send {
-	padding-left: 50%;
-	margin-top: 50px;
-}
+
+.btn {
+	border: none !important;
 }
 
+#main-guitongbientap {
+	margin-top: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
+#href-guitongbientap {
+	width: 100%;
+	text-align: center;
+}
 
+.hr-leftsidebar {
+	margin-left: 15px;
+}
+
+/*hidden reponsive menu*/
+@media screen and (max-width: 992px) {
+	#menu-phanbienvien {
+		visibility: hidden !important;
+		clear: both;
+		display: none;
+	}
+}
