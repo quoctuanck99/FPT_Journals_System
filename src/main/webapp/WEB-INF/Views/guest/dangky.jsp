@@ -68,11 +68,10 @@
 					<div class="form-group">
 						<label for="gender" class="col-6 col-md-4 sub-title">Giới
 							tính</label>
-						<div class="col-6 col-md-4">
-							<input id="Male" type="radio" name="radio" value="1" checked>
-							<label for="male">Nam</label>
+						<div class="col-6 col-md-4 check-group">
+							<input id="Male" type="radio" name="radio" value="1" checked><label for="male">Nam</label> 
 						</div>
-						<div class="col-6 col-md-4">
+						<div class="col-6 col-md-4 check-group">
 							<input id="Female" type="radio" name="radio" value="1"> <label
 								for="female">Nữ</label>
 						</div>
@@ -98,7 +97,7 @@
 					<!-- /.form-group -->
 					<div class="form-group">
 						<div>
-							<div class="checkbox">
+							<div class="check-group">
 								<input id="c1" type="checkbox"> <label class="sub-title"
 									for="check">Tôi đã đọc và đồng ý với <a href="#">Các
 										điều khoản hoạt động</a> khi đăng ký
@@ -123,7 +122,7 @@
 		<div class="col-md-6">
 		
 		
-			<h1 class="page-header">Giới thiệu</h1>
+			<h1 class="header-page">Giới thiệu</h1>
 			<div class="info">
 			<p class="p-2" style="text-align:left">Chính thức thành lập ngày 8/9/2006 theo Quyết định của Thủ tướng Chính phủ, Trường Đại học FPT trở thành trường đại học đầu tiên của Việt Nam do một doanh nghiệp đứng ra thành lập với 100% vốn đầu tư từ Tập đoàn FPT.
 
