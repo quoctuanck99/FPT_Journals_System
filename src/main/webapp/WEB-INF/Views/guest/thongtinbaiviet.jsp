@@ -50,7 +50,7 @@
 		</div>
 
 		<div class="pdf">
-			<iframe id="fred" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" frameborder="1" scrolling="auto" height="300" width="500" ></iframe>
+			<iframe id="fred" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" frameborder="1" scrolling="auto" height="600" width="500" ></iframe>
 			<span class="help-block">PDF Online xem thử</span>
 		</div>
 
