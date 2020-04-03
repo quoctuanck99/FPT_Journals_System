@@ -21,6 +21,11 @@ input[type=password]{
 	min-height: 30px;
 }
 
+.header-page{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
 .form-group{
 	padding-top:10px;
 	padding-bottom:10px;
