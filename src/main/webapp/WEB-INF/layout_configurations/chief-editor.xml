@@ -13,9 +13,10 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarchiefeditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/quanlybaiviet.jsp" />
-
 		<put-attribute name="footer"
 			value="/WEB-INF/Views/layout/footer.jsp" />
 		<put-list-attribute name="javascripts">
@@ -27,11 +28,14 @@
 				value="/assets/rs-plugin/js/jquery.themepunch.tools.min.js" />
 			<add-attribute value="/assets/js/datatables.min.js" />
 			<add-attribute value="/assets/js/modaal.min.js" />
-			<add-attribute value="/assets/js/chief_editor/chief_editor.js" />
+			<add-attribute value="/assets/js/custom.js" />
+			<add-attribute value="/assets/js/plugins.js" />
+			<add-attribute
+				value="/assets/js/chief_editor/chief_editor.js" />
 		</put-list-attribute>
 	</definition>
 	<definition name="chinhsuathongbao"
-		template="/WEB-INF/Views/layout/_layoutReviewer.jsp">
+		template="/WEB-INF/Views/layout/_layoutChiefEditor.jsp">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
 		<put-attribute name="search"
@@ -39,6 +43,8 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarchiefeditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/chinhsuathongbao.jsp" />
 		<put-attribute name="footer"
@@ -56,7 +62,7 @@
 		</put-list-attribute>
 	</definition>
 	<definition name="chinhsuatintuc"
-		template="/WEB-INF/Views/layout/_layoutReviewer.jsp">
+		template="/WEB-INF/Views/layout/_layoutChiefEditor.jsp">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
 		<put-attribute name="search"
@@ -64,6 +70,8 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarchiefeditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/Chinhsuatintuc.jsp" />
 		<put-attribute name="footer"
@@ -81,7 +89,7 @@
 		</put-list-attribute>
 	</definition>
 	<definition name="chinhsuahuongdan"
-		template="/WEB-INF/Views/layout/_layoutReviewer.jsp">
+		template="/WEB-INF/Views/layout/_layoutChiefEditor.jsp">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
 		<put-attribute name="search"
@@ -89,6 +97,8 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarchiefeditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/chinhsuahuongdan.jsp" />
 		<put-attribute name="footer"
@@ -106,7 +116,7 @@
 		</put-list-attribute>
 	</definition>
 	<definition name="chinhsuagioithieu"
-		template="/WEB-INF/Views/layout/_layoutReviewer.jsp">
+		template="/WEB-INF/Views/layout/_layoutChiefEditor.jsp">
 		<put-attribute name="userheader"
 			value="/WEB-INF/Views/layout/userheader.jsp" />
 		<put-attribute name="search"
@@ -114,6 +124,8 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="menu"
 			value="/WEB-INF/Views/layout/menuChiefEditor.jsp" />
+		<put-attribute name="leftsidebar"
+			value="/WEB-INF/Views/layout/leftsidebarchiefeditor.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/Views/chief_editor/chinhsuagioithieu.jsp" />
 		<put-attribute name="footer"
