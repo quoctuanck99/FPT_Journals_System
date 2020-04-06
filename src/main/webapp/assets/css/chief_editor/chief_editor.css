@@ -98,14 +98,25 @@ ul {
 /** =====================
  * Responsive
  ========================*/
-@media only screen and (max-width: 766px) {
+/* @media only screen and (max-width: 766px) {
 	.comments-container {
 		width: 480px;
+	}
+} */
+
+
+/* end comment css */
+
+/*hidden reponsive menu*/
+@media screen and (max-width: 992px) {
+	#menuchiefeditor {
+		visibility: hidden !important;
+		clear: both;
+		display: none;
 	}
 }
 
 
-/* end comment css */
 
 /* ductm end */
 

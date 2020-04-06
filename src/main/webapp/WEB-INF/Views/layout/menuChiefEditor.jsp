@@ -36,7 +36,7 @@
 		<hr>
 		<div class="article">
 			<a href="<c:out value="${pageContext.servletContext.contextPath}"/>/tong-bien-tap/quan-ly-bai-viet" 
-			class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap/quan-ly-bai-viet'}">active</c:if> ">>Danh sách bài đã phê duyệt</a>
+			class="title <c:if test="${currentPage=='/sap-lab-fpt/tong-bien-tap/quan-ly-bai-viet-da-phe-duyet'}">active</c:if> ">Danh sách bài đã phê duyệt</a>
 		</div>
 	</div>
 </div>

@@ -9,10 +9,10 @@
 <div class="row">
 
 	<div class="col-md-12 margin-20" style="text-align: center;">
-		<div class="col-md-7">
+		<div class="col-md-6">
 			<a href="#">Đã phê duyệt (1)</a>
 		</div>
-		<div class="col-md-3 right">
+		<div class="col-md-3">
 			<a href="#">Chờ phê duyệt (2)</a>
 		</div>
 	</div>
