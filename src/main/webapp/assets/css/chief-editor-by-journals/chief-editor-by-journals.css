@@ -93,23 +93,14 @@ ul {
 	margin-left: 30px;
 }
 
+/* modal */
 .xuatbanchuyensan {
 	width: 100%;
 	text-align: center;
 }
 
-/* modal */
-#sendComment {
-	float: right;
-}
-
-#btn-comment {
-	float: right;
-	padding-right: 20px;
-}
-
-#btn-send {
-	padding-left: 300px;
+#modaal-xuatbanchuyensan {
+	margin-top: 10%;
 }
 
 #checkbox {
@@ -126,6 +117,11 @@ ul {
 	padding-bottom: 50px;
 }
 
+#main-xuatbanchuyensan {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .hr-leftsidebar {
 	margin-left: 15px;
 }
@@ -137,15 +133,13 @@ ul {
 		clear: both;
 		display: none;
 	}
+	#modaal-xuatbanchuyensan {
+		margin-top: 18%;
+	}
 }
 
-@media (min-width: 992px){
-.col-md-4 {
-    width: 45% !important;
-}
-}
-
-#main-xuatbanchuyensan{
-	margin-left: 10%;
-	margin-right: 10%;
+@media ( min-width : 992px) {
+	.col-md-4 {
+		width: 45% !important;
+	}
 }

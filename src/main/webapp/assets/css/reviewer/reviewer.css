@@ -54,7 +54,7 @@ ul {
 
 #href-themphanbien {
 	float: right !important;
-	margin-right: 5% !important;
+	margin-right: 7% !important;
 }
 
 .comment-box .comment-head {
@@ -91,13 +91,8 @@ ul {
 }
 
 /* modal */
-#sendComment {
-	float: right;
-}
-
-#btn-comment {
-	float: right;
-	margin-right: 30px;
+#footer-themphanbien {
+	border: none !important;
 }
 
 .btn {
@@ -105,7 +100,7 @@ ul {
 }
 
 #main-guitongbientap {
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -118,6 +113,44 @@ ul {
 .hr-leftsidebar {
 	margin-left: 15px;
 }
+/*css modaal add review*/
+#modal-themphanbien {
+	max-width: 1000px;
+	height: 100%;
+	width: 100%;
+}
+
+#guitongbientap {
+	margin-top: 15%;
+}
+
+.modal-form {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.div-tieude {
+	margin-bottom: 30px;
+}
+
+.label-tieude {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.label-tieude>input {
+	width: 100%;
+}
+
+#editor {
+	height: 380px;
+	width: 100%;
+}
+
+#footer-themphanbien {
+	padding: 15px 0px 15px 0px;
+	text-align: right;
+}
 
 /*hidden reponsive menu*/
 @media screen and (max-width: 992px) {
@@ -125,5 +158,12 @@ ul {
 		visibility: hidden !important;
 		clear: both;
 		display: none;
+	}
+	#footer-themphanbien {
+		padding: 0px 0px 15px 15px;
+		text-align: right;
+	}
+	#guitongbientap {
+		margin-top: 37%;
 	}
 }

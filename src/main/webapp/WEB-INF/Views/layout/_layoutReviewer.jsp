@@ -47,6 +47,10 @@
 	href="<c:url value='/assets/css/elements.css'/>" />
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/reviewer/reviewer.css'/>" />
+	
+<!-- css quill rich text for comment -->
+<link href="https://cdn.quilljs.com/1.3.4/quill.snow.css"
+	rel="stylesheet">
 <body>
 	<div class="sidebar-menu-container" id="sidebar-menu-container">
 
@@ -110,7 +114,13 @@
 		<script src="<c:url value="${script}"/>"></script>
 	</c:forEach>
 
-
+	<!-- JS QUILL RICH TEXT FOR COMMENT  -->
+	<script src="https://cdn.quilljs.com/1.3.4/quill.js"></script>
+	<script>
+		var quill = new Quill('#editor', {
+			theme : 'snow'
+		});
+	</script>
 
 </body>
 
