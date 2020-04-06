@@ -79,15 +79,15 @@
 	<div class="row" id="main-xuatbanchuyensan">
 		<div class="col-md-4 col-md-push-4">
 			<div class="fjs-btn blue">
-				<a href="#xuatbanchuyensan" class="xuatbanchuyensan"
-					data-toggle="modal" data-target="#xuatbanchuyensan">Xuất bản
+				<a href="#modaal-xuatbanchuyensan" class="xuatbanchuyensan"
+					data-toggle="modal" data-target="#modaal-xuatbanchuyensan">Xuất bản
 					chuyên san</a>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="modal fade" id="xuatbanchuyensan">
+<div class="modal fade" id="modaal-xuatbanchuyensan">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-body">Đồng ý xuất bản chuyên san</div>
