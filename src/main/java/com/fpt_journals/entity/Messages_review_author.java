@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -27,18 +29,35 @@ public class Messages_review_author implements Serializable{
 	
 	@Column(name = "create_at")
     private Date create_at;
+	
+	@ManyToOne
+	@JoinColumn(name = "article_id", nullable = false)
+	private Articles articles;
+
 
 	public Messages_review_author() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+	public Articles getArticles() {
+		return articles;
+	}
+	
+	public void setArticles(Articles articles) {
+	this.articles= articles;
+	
+	}
 
-	public Messages_review_author(int id, int articles_id, int messages_from, Date create_at) {
+
+	public Messages_review_author(int id, int articles_id, int messages_from, Date create_at, Articles articles) {
 		super();
 		this.id = id;
 		this.articles_id = articles_id;
 		this.messages_from = messages_from;
 		this.create_at = create_at;
+		this.articles = articles;
 	}
 
 	public int getId() {

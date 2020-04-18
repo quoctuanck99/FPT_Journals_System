@@ -2,12 +2,20 @@ package com.fpt_journals.entity;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
+import javax.persistence.OrderBy;
 import javax.persistence.Table;
 
 @Entity
@@ -30,19 +38,34 @@ public class Articles implements Serializable{
 	
 	@Column(name = "status")
     private int status;
+	
+	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy="articles")
+	private Set<Messages_review_author> listMessage;
+	
 
 	public Articles() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+	public Set<Messages_review_author> getlistMessage() {
+		return listMessage;
+	}
 
-	public Articles(int id, String name, int journals_id, Date create_at, int status) {
+	public void setlistMessage(Set<Messages_review_author> listMessage) {
+		this.listMessage = listMessage;
+	}
+
+	public Articles(int id, String name, int journals_id, Date create_at, int status, Set<Messages_review_author> listMessage) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.journals_id = journals_id;
 		this.create_at = create_at;
 		this.status = status;
+		this.listMessage = listMessage;
 	}
 
 	public int getId() {
