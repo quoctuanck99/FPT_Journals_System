@@ -2,15 +2,24 @@ package com.fpt_journals.entity;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.OrderBy;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
-@Entity
+@Entity(name = "Users")
 @Table(name = "users")
 public class Users implements Serializable{
 
@@ -26,6 +35,7 @@ public class Users implements Serializable{
     private String password;
 	
 	@Column(name = "create_at")
+	//@Temporal(value = TemporalType.TIMESTAMP)
     private Date create_at;
 	
 	@Column(name = "isON")
@@ -35,6 +45,7 @@ public class Users implements Serializable{
     private String full_name;
 	
 	@Column(name = "dob")
+	//@Temporal(value = TemporalType.TIMESTAMP)
     private Date dob;
 	
 	@Column(name = "email")
@@ -47,14 +58,22 @@ public class Users implements Serializable{
     private String address;
 	
 	@Column(name = "position")
+	//@Temporal(value = TemporalType.TIMESTAMP)
     private Date position;
+	
+	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinTable(name = "users_roles", 
+        joinColumns = { @JoinColumn(name = "users_id", nullable = false, updatable = false) }, 
+        inverseJoinColumns = { @JoinColumn(name = "roles_id", nullable = false, updatable = false) })
+    @OrderBy("id")
+    private Set<Roles> roles;
 
 	public Users() {
-		super();
+		super();	
 	}
 
 	public Users(int id, String username, String password, Date create_at, boolean isON, String full_name, Date dob,
-			String email, int phone, String address, Date position) {
+			String email, int phone, String address, Date position, Set<Roles> roles) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -67,6 +86,7 @@ public class Users implements Serializable{
 		this.phone = phone;
 		this.address = address;
 		this.position = position;
+		this.roles = roles;
 	}
 
 	public int getId() {
@@ -156,8 +176,16 @@ public class Users implements Serializable{
 	public void setPosition(Date position) {
 		this.position = position;
 	}
+
+	public Set<Roles> getRoles() {
+		return roles;
+	}
+
+	public void setRoles(Set<Roles> roles) {
+		this.roles = roles;
+	}
 	
 	
-	
-	
+
+		
 }
