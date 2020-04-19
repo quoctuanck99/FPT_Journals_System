@@ -43,10 +43,32 @@ public class Articles implements Serializable{
 	@OneToMany(fetch = FetchType.LAZY, mappedBy="articles")
 	private Set<Messages_review_author> listMessage;
 	
-
+	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy="articles")
+	private Set<Articles_users> listAUser;
+	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy="articles")
+	private Set<File_attach> fileAttach;
+	
+	public Set<File_attach> getfileAttach(){
+		return fileAttach;
+	}
+	
+	public void setfileAttach(Set<File_attach> fileAttach) {
+		this.fileAttach = fileAttach;
+	}
+	
 	public Articles() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+	
+	public Set<Articles_users> getlistAUser(){
+		return listAUser;
+	}
+	
+	public void setlistAUser (Set<Articles_users> listAUser) {
+		this.listAUser = listAUser;
 	}
 	
 	
@@ -58,7 +80,7 @@ public class Articles implements Serializable{
 		this.listMessage = listMessage;
 	}
 
-	public Articles(int id, String name, int journals_id, Date create_at, int status, Set<Messages_review_author> listMessage) {
+	public Articles(int id, String name, int journals_id, Date create_at, int status, Set<Messages_review_author> listMessage, Set<Articles_users> listAUser,Set<File_attach> fileAttach) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -66,6 +88,8 @@ public class Articles implements Serializable{
 		this.create_at = create_at;
 		this.status = status;
 		this.listMessage = listMessage;
+		this.listAUser = listAUser;
+		this.fileAttach = fileAttach;
 	}
 
 	public int getId() {
