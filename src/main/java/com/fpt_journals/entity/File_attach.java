@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -26,18 +28,35 @@ public class File_attach implements Serializable{
 	
 	@Column(name = "articles_id")
     private int articles_id;
+	
+	@ManyToOne
+	@JoinColumn(name="article_id",nullable=false)
+	private Articles articles;
+	
+	
+	
 
 	public File_attach() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Articles getArticles() {
+		return articles;
+	}
+	
+	public void setArticles(Articles articles) {
+	this.articles= articles;
+	
+	}
 
-	public File_attach(int id, String file_name, String file_url, int articles_id) {
+	public File_attach(int id, String file_name, String file_url, int articles_id, Articles articles) {
 		super();
 		this.id = id;
 		this.file_name = file_name;
 		this.file_url = file_url;
 		this.articles_id = articles_id;
+		this.articles = articles;
 	}
 
 	public int getId() {

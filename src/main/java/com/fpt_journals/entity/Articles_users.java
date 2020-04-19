@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -26,18 +28,33 @@ public class Articles_users implements Serializable{
 	
 	@Column(name = "review_id")
     private int review_id;
+	
+	@ManyToOne
+	@JoinColumn(name="article_id", nullable = false)
+	private Articles articles;
+	
 
 	public Articles_users() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Articles getArticles() {
+		return articles;
+	}
+	
+	public void setArticles(Articles articles) {
+	this.articles= articles;
+	
+	}
 
-	public Articles_users(int id, int articles_id, int author_id, int review_id) {
+	public Articles_users(int id, int articles_id, int author_id, int review_id, Articles articles) {
 		super();
 		this.id = id;
 		this.articles_id = articles_id;
 		this.author_id = author_id;
 		this.review_id = review_id;
+		this.articles = articles;
 	}
 
 	public int getId() {
