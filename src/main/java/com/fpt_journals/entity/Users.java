@@ -14,6 +14,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -67,13 +68,20 @@ public class Users implements Serializable{
         inverseJoinColumns = { @JoinColumn(name = "roles_id", nullable = false, updatable = false) })
     @OrderBy("id")
     private Set<Roles> roles;
+	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy="users")
+	private Set<Messages_review_author> listMessage;
+	
+	
 
 	public Users() {
 		super();	
 	}
+	
+	
 
 	public Users(int id, String username, String password, Date create_at, boolean isON, String full_name, Date dob,
-			String email, int phone, String address, Date position, Set<Roles> roles) {
+			String email, int phone, String address, Date position, Set<Roles> roles, Set<Messages_review_author> listMessage) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -87,6 +95,7 @@ public class Users implements Serializable{
 		this.address = address;
 		this.position = position;
 		this.roles = roles;
+		this.listMessage = listMessage;
 	}
 
 	public int getId() {
@@ -183,6 +192,14 @@ public class Users implements Serializable{
 
 	public void setRoles(Set<Roles> roles) {
 		this.roles = roles;
+	}
+	
+	public Set<Messages_review_author> getlistMessage() {
+		return listMessage;
+	}
+
+	public void setlistMessage(Set<Messages_review_author> listMessage) {
+		this.listMessage = listMessage;
 	}
 	
 	
