@@ -50,12 +50,34 @@ public class Articles implements Serializable{
 	@OneToMany(fetch = FetchType.LAZY, mappedBy="articles")
 	private Set<File_attach> fileAttach;
 	
+	@OneToMany(fetch=FetchType.LAZY, mappedBy="articles")
+	private Set<Journals> journals;
+	
+	@OneToMany(fetch=FetchType.LAZY, mappedBy="articles")
+	private Set<Status_info> statusID;
+	
 	public Set<File_attach> getfileAttach(){
 		return fileAttach;
 	}
 	
 	public void setfileAttach(Set<File_attach> fileAttach) {
 		this.fileAttach = fileAttach;
+	}
+	
+	public Set<Journals> getJournals(){
+		return journals;
+	}
+	
+	public void getJournals(Set<Journals> journals) {
+		this.journals = journals;
+	}
+	
+	public Set<Status_info> getStatusID(){
+		return statusID;
+	}
+	
+	public void setStatusID(Set<Status_info> statusID) {
+		this.statusID = statusID;
 	}
 	
 	public Articles() {
@@ -80,7 +102,7 @@ public class Articles implements Serializable{
 		this.listMessage = listMessage;
 	}
 
-	public Articles(int id, String name, int journals_id, Date create_at, int status, Set<Messages_review_author> listMessage, Set<Articles_users> listAUser,Set<File_attach> fileAttach) {
+	public Articles(int id, String name, int journals_id, Date create_at, int status, Set<Messages_review_author> listMessage, Set<Articles_users> listAUser,Set<File_attach> fileAttach, Set<Journals> journals, Set<Status_info> statusID) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -90,6 +112,8 @@ public class Articles implements Serializable{
 		this.listMessage = listMessage;
 		this.listAUser = listAUser;
 		this.fileAttach = fileAttach;
+		this.journals = journals;
+		this.statusID = statusID;
 	}
 
 	public int getId() {
