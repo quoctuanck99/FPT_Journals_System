@@ -33,11 +33,23 @@ public class Messages_review_author implements Serializable{
 	@ManyToOne
 	@JoinColumn(name = "article_id", nullable = false)
 	private Articles articles;
+	
+	@ManyToOne
+	@JoinColumn(name="message_from", nullable = false)
+	private Users users;
 
 
 	public Messages_review_author() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+	
+	public Users getUsers() {
+		return users;
+	}
+	
+	public void setUsers(Users users) {
+		this.users=users;
 	}
 	
 	
@@ -51,13 +63,14 @@ public class Messages_review_author implements Serializable{
 	}
 
 
-	public Messages_review_author(int id, int articles_id, int messages_from, Date create_at, Articles articles) {
+	public Messages_review_author(int id, int articles_id, int messages_from, Date create_at, Articles articles, Users users) {
 		super();
 		this.id = id;
 		this.articles_id = articles_id;
 		this.messages_from = messages_from;
 		this.create_at = create_at;
 		this.articles = articles;
+		this.users = users;
 	}
 
 	public int getId() {

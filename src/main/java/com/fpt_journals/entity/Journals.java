@@ -7,7 +7,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+import org.hibernate.mapping.Set;
 
 @Entity
 @Table(name = "journals")
@@ -23,17 +27,33 @@ public class Journals implements Serializable{
 	
 	@Column(name = "img")
     private String img;
+	
+	
+	@ManyToOne
+	@JoinColumn(name="journals_id", nullable = false)
+	private Articles articles;
 
 	public Journals() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Journals(int id, String name, String img) {
+	public Articles getArticles() {
+		return articles;
+	}
+	
+	public void setArticles(Articles articles) {
+		this.articles = articles;
+	}
+	
+	
+	
+	public Journals(int id, String name, String img, Articles articles) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.img = img;
+		this.articles = articles;
 	}
 
 	public int getId() {
