@@ -54,17 +54,9 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/Chart.min.css'/>" /> 
 </head>
-<link rel="stylesheet" href="<%=request.getContextPath()%>/assets/project/angularjs/autocomplete/autocomplete.js" type="text/css"/>
 
-<link rel="stylesheet" href="<%=request.getContextPath()%>/assets/project/angularjs/autocomplete/autocomplete.css" type="text/css"/>
-<script src="<%=request.getContextPath()%>/assets/project/angularjs/angular.min.js"></script>
-<script src="<%=request.getContextPath()%>/assets/project/angularjs/angular-sanitize.min.js"></script>
-<script src="<%=request.getContextPath()%>/assets/project/common.js"></script>
-<script>
-    var preUrl='<%=request.getContextPath()%>';
-</script>
 <body>
-	<div class="sidebar-menu-container" id="sidebar-menu-container" ng-app="FrameworkBase" ng-controller="frameworkCtrl">
+	<div class="sidebar-menu-container" id="sidebar-menu-container">
 
 		<div class="sidebar-menu-push">
 

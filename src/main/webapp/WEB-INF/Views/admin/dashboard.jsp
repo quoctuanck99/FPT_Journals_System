@@ -1,29 +1,24 @@
-<%@ page isELIgnored="false" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<script src="<%=request.getContextPath()%>/assets/project/admin/account.js"></script>
-
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="item course-item">
 	<div class="up-content">
 		<h4>QUẢN TRỊ TRANG</h4>
 	</div>
 </div>
-<div class="col-md-12" >
+<div class="col-md-12">
 	<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
 		<li class="nav-item active"><a class="nav-link white-text"
 			id="dashboard-tab" data-toggle="tab" href="#dashboard" role="tab"
 			aria-controls="dashboard" aria-selected="true" aria-expanded="true">Dashboard</a></li>
 		<li class="nav-item"><a class="nav-link white-text"
 			id="account-tab" data-toggle="tab" href="#account" role="tab"
-			aria-controls="account" aria-selected="false" ng-click="loadPage(1)">Quản lí tài khoản</a></li>
+			aria-controls="account" aria-selected="false">Quản lí tài khoản</a></li>
 		<li class="nav-item"><a class="nav-link white-text" id="web-tab"
 			data-toggle="tab" href="#web" role="tab" aria-controls="web"
 			aria-selected="false">Cài đặt trang web</a></li>
 	</ul>
-	<div class="tab-content" id="myTabContent" >
+	<div class="tab-content" id="myTabContent">
 		<div class="tab-pane fade active in" id="dashboard" role="tabpanel"
 			aria-labelledby="dashboard-tab">
 			<div class="col-md-12">
@@ -69,26 +64,27 @@
 				<div class="row" style="margin-top: 10px">
 					<div class="col-md-12">
 						<div class="col-md-3">
-							<input type="text" ng-model="search.name" placeholder="Name" value="">
+							<input type="text" id="name" placeholder="Name" value="">
 						</div>
 						<div class="col-md-3">
-							<select ng-model="search.roles">
-								<option value="">Chức vụ</option>
-								<option value="1">Tác giả</option>
-								<option value="2">Phản biện viên</option>
-								<option value="3">Biên tập viên</option>
-								<option value="4">Tổng biên tập</option>
+							<select>
+								<option>Chức vụ</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
 							</select>
 						</div>
 						<div class="col-md-3">
-							<select ng-model="search.status">
-								<option ng-value="">Trạng thái</option>
-								<option ng-value="1">Hoạt động</option>
-								<option ng-value="2">Ngừng hoạt động</option>
+							<select>
+								<option>Trạng thái</option>
+								<option>Hoạt động</option>
+								<option>Ngừng hoạt động</option>
 							</select>
 						</div>
 						<div class="col-md-3">
-							<button type="button" class="btn-orange" ng-click="searchUser(1)">Tìm</button>
+							<button type="button" class="btn-orange">Tìm</button>
 						</div>
 					</div>
 					<div class="col-md-4 col-md-offset-8 mar-top" align="center">
@@ -105,28 +101,56 @@
 									<th colspan="2">Tác vụ</th>
 								</tr>
 							</thead>
-							<tr ng-repeat="item in page.items track by $index">
-								<td>
-                                 {{item.username}}
-							    </td>
-								<td>{{item.role==1?' Tác giả ':item.role==2?'Phản biện viên':item.role==3?'Biên tập viên':'Tổng biên tập'}}</td>
-								<td>{{item.status==0?'Hoạt động':'Ngừng hoạt động'}}</td>
-								<td>Xoa</td></tr>
+							<tbody>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
+								<tr>
+									<td>duongpl</td>
+									<td>Tác giả</td>
+									<td>Hoạt động</td>
+									<td><a href="#edit-account" class="btn" data-toggle="modal"
+				data-target="#edit-account">Chỉnh sửa</a></td>
+									<td><a href="#delete-account" class="btn" data-toggle="modal"
+				data-target="#delete-account">Xóa</a></td>
+								</tr>
 							</tbody>
 				
 						</table>
 					</div>
-					<footer class="panel-footer">
-						<div class="row">
-							<div class="col-sm-12 text-right text-center-xs">
-								<div class="col-sm-6 text-left">
-									<span>Tổng số <code>{{page.rowCount}}</code> dữ liệu</span>
-								</div>
-
-
-							</div>
-						</div>
-					</footer>
 				</div>
 			
 		</div>
@@ -354,7 +378,7 @@
 						<span>Tên tài khoản</span>
 					</div>
 					<div class="col-md-8">
-						<input type="text"  placeholder="Full Name" value="">
+						<input type="text" id="name" placeholder="Full Name" value="">
 					</div>
 				</div>
 				<div class="col-md-12 mar-top">
@@ -404,7 +428,7 @@
 						<span>Tên tài khoản</span>
 					</div>
 					<div class="col-md-8">
-						<input type="text" ng-model="account.username"  placeholder="Full Name" value="">
+						<input type="text" id="name" placeholder="Full Name" value="">
 					</div>
 				</div>
 				<div class="col-md-12 mar-top">
@@ -412,57 +436,22 @@
 						<span>Quyền truy cập</span>
 					</div>
 					<div class="col-md-8">
-							<select ng-model="account.role">
-								<option value="">Quyền truy cập</option>
-								<option value="1">Tác giả</option>
-								<option value="2">Phản biện viên</option>
-								<option value="3">Biên tập viên</option>
-								<option value="4">Tổng biên tập</option>
+							<select>
+								<option>Quyền truy cập</option>
+								<option>Tác giả</option>
+								<option>Phản biện viên</option>
+								<option>Biên tập viên</option>
+								<option>Tổng biên tập</option>
+								<option>Tổng biên tập chuyên San</option>
 							</select>
 					</div>
 				</div>
-			<div class="col-md-12 mar-top">
-				<div class="col-md-4">
-					<span>Họ tên đầy đủ</span>
-				</div>
-				<div class="col-md-8">
-					<input type="text" ng-model="account.fullname"  placeholder="" value="">
-
-				</div>
-			</div>
-			<div class="col-md-12 mar-top">
-				<div class="col-md-4">
-					<span>Email</span>
-				</div>
-				<div class="col-md-8">
-					<input type="text" ng-model="account.email"  placeholder="" value="">
-
-				</div>
-			</div>
-			<div class="col-md-12 mar-top">
-				<div class="col-md-4">
-					<span>Fone</span>
-				</div>
-				<div class="col-md-8">
-					<input type="text" ng-model="account.phone"  placeholder="" value="">
-
-				</div>
-			</div>
-			<div class="col-md-12 mar-top">
-				<div class="col-md-4">
-					<span>Mật khẩu</span>
-				</div>
-				<div class="col-md-8">
-					<input type="password" ng-model="account.password"  placeholder="" value="">
-
-				</div>
-			</div>
 				<div class="col-md-12 mar-top">
 					<div class="col-md-4">
 						<span>Trạng thái</span>
 					</div>
 					<div class="col-md-8">
-							<select ng-model="account.status">
+							<select>
 								<option>Hoạt động</option>
 								<option>Ngừng hoạt động</option>
 							</select>
@@ -471,7 +460,7 @@
 			<div class="modal-footer">
 				<div class="col-md-12  mar-top">
 					<button type="button" class="btn btn-info" data-dismiss="modal">Hủy</button>
-					<button type="button" class="btn btn-warning" ng-click="addUser()">Lưu</button>
+					<button type="button" class="btn btn-warning">Lưu</button>
 				</div>
 			</div>
 
