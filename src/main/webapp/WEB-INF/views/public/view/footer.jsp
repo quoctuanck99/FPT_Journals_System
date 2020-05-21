@@ -9,30 +9,30 @@
 	rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/bootstrap.css'/>" />
+	href="<c:url value='/assets/css/bootstrap.css'/>" />
 
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/animate.css'/>" />
+	href="<c:url value='/assets/css/animate.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/jquery-ui.css'/>" />
+	href="<c:url value='/assets/css/jquery-ui.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/simple-line-icons.css'/>" />
+	href="<c:url value='/assets/css/simple-line-icons.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/font-awesome.min.css'/>" />
+	href="<c:url value='/assets/css/font-awesome.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/icon-font.css'/>" />
+	href="<c:url value='/assets/css/icon-font.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/educa.css'/>" />
+	href="<c:url value='/assets/css/educa.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/rs-plugin/css/settings.css'/>" />
+	href="<c:url value='/assets/publicAssets/rs-plugin/css/settings.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/layout.css'/>" />
+	href="<c:url value='/assets/css/layout.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/datatables.min.css'/>" />
+	href="<c:url value='/assets/css/datatables.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/modaal.min.css'/>" />
+	href="<c:url value='/assets/css/modaal.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/elements.css'/>" /> 
+	href="<c:url value='/assets/css/elements.css'/>" /> 
 	
 <footer>
 	<div class="container">
@@ -41,7 +41,7 @@
 				<div class="footer-widget">
 					<div class="educa-info">
 						<img src="<c:out value="${pageContext.servletContext.contextPath}"/>/assets/images/logo/logo-2.png" alt="">
-						<div class="line-dec"></div>
+					
 						<p>Viral megings photo booth farm tab McSweeney's Thundercats
 							til typewrite PBR food truck Kickstarter mumb ennui Tumblr. Jean
 							shorts hoodiele.</p>
