@@ -38,7 +38,7 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/publicAssets/rs-plugin/css/settings.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/project/public/css/layout.css'/>" />
+	href="<c:url value='/assets/css/layout.css'/>" />
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/publicAssets/css/datatables.min.css'/>" />
 <link rel="stylesheet" type="text/css"
