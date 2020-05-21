@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/data/jpa
+        http://www.springframework.org/schema/data/jpa/spring-jpa-1.0.xsd
+        http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+	<context:component-scan
+		base-package="com.fpt_journals.*" />
+
+
+	<!-- <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
+		<property name="prefix" value="/WEB-INF/layout_configurations/Views/" /> <property name="suffix" 
+		value=".jsp" /> </bean> -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.tiles3.TilesView" />
+	</bean>
+
+	<bean id="tilesConfigurer"
+		class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<!-- khai báo các file định nghĩa layout -->
+				<value>/WEB-INF/layout_configurations/guest.xml</value>
+				<value>/WEB-INF/layout_configurations/reviewer.xml</value>
+				<value>/WEB-INF/layout_configurations/author.xml</value>
+				<value>/WEB-INF/layout_configurations/admin.xml</value>
+				<value>/WEB-INF/layout_configurations/chief-editor.xml</value>
+				<value>/WEB-INF/layout_configurations/editor.xml</value>
+				<value>/WEB-INF/layout_configurations/chief-editor-by-journals.xml</value>
+				
+			</list>
+		</property>
+	</bean>
+ 
+	<mvc:resources location="/assets/" mapping="/assets/**"></mvc:resources>
+	<mvc:annotation-driven />
+</beans>

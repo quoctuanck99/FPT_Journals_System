@@ -1,4 +1,0 @@
-- Để load dc hình trong phần bài viết:
-	truy cập file config.xml theo đường dẫn src\main\webapp\assets.
-	tìm đến biến baseURL và gán tiền tố bằng contextPath.
-	lúc deploy lên môi trường thì bỏ contextPath đi.
