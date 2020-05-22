@@ -103,7 +103,7 @@
 			value="/WEB-INF/views/admin/system/log/my.history.jsp" />
 	</definition>
 
-	
+
 	<!-- Cac trang danh cho public -->
 
 	<definition name="home"
@@ -122,17 +122,26 @@
 		<put-attribute name="footer"
 			value="/WEB-INF/views/public/view/footer.jsp" />
 		<put-list-attribute name="javascripts">
-			<add-attribute value="/assets/publicAssets/js/jquery-1.11.1.min.js" />
-			<add-attribute value="/assets/publicAssets/js/guest/home.js" />
-			<add-attribute value="/assets/publicAssets/js/bootstrap.min.js" />
+			<add-attribute
+				value="/assets/publicAssets/js/jquery-1.11.1.min.js" />
+			<add-attribute
+				value="/assets/publicAssets/js/guest/home.js" />
+			<add-attribute
+				value="/assets/publicAssets/js/bootstrap.min.js" />
 			<add-attribute
 				value="/assets/publicAssets/rs-plugin/js/jquery.themepunch.revolution.min.js" />
 			<add-attribute
 				value="/assets/publicAssets/rs-plugin/js/jquery.themepunch.tools.min.js" />
-			<add-attribute value="/assets/publicAssets/js/custom.js" />
-			<add-attribute value="/assets/publicAssets/js/plugins.js" />
+			<add-attribute
+				value="/assets/publicAssets/js/custom.js" />
+			<add-attribute
+				value="/assets/publicAssets/js/plugins.js" />
 		</put-list-attribute>
 	</definition>
+
+	
+
+
 
 
 
