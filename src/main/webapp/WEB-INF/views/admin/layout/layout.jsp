@@ -11,10 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/css/font.css" type="text/css" cache="false"/>
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/font.css" type="text/css" cache="false"/>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/js/datatables/datatables.css" type="text/css"/>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/js/select2/select2.css" type="text/css"/>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/js/select2/theme.css" type="text/css"/>
