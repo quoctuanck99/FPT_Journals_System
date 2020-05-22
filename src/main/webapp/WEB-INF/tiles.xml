@@ -139,11 +139,7 @@
 		</put-list-attribute>
 	</definition>
 
-	<definition name="" extends="adm_default">
-		<put-attribute name="title" value="Sửa nhóm quyền" />
-		<put-attribute name="page"
-			value="/WEB-INF/views/admin/system/group/edit.jsp" />
-	</definition>
+	
 
 
 
