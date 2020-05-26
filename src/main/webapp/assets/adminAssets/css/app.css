@@ -896,10 +896,18 @@ body.container {
 }
 
 .navbar-brand img {
-	max-height: 20px;
+	max-height: 40px;
 	margin-top: -4px;
 	vertical-align: middle;
 	display: inline-block;
+	padding-left: 17px;
+}
+.dasboard-header{
+	font-size: 25px;
+padding-left: 480px;
+color: white;
+display: inline-block;
+margin-top: 8px;
 }
 
 .nav-primary {
@@ -1753,14 +1761,46 @@ body.container {
 	padding-right: 12px;
 }
 
-.btn-group-vertical>.btn:first-child:not (:last-child ) {
-	border-top-right-radius: 2px;
-}
+.btn-group-vertical
+>
+.btn
+:first-child
+:not
+ 
+(
+:last-child
+ 
+)
+{
+border-top-right-radius
+:
+ 
+2
+px
+;
 
-.btn-group-vertical>.btn:last-child:not (:first-child ) {
-	border-bottom-left-radius: 2px;
-}
 
+}
+.btn-group-vertical
+>
+.btn
+:last-child
+:not
+ 
+(
+:first-child
+ 
+)
+{
+border-bottom-left-radius
+:
+ 
+2
+px
+;
+
+
+}
 .chat-item:before, .chat-item:after {
 	content: " ";
 	display: table;
@@ -2388,12 +2428,18 @@ body.container {
 }
 
 .bg-dark {
-	/*  background-color: #2e3e4e; */
+	background-color: #2e3e4e;
+}
+
+.bg-dark1 {
+	/* 	background-color: #2e3e4e; 
+ */
 	background-image:
 		url("https://www.arch2o.com/wp-content/uploads/2015/09/arch2o-FPTUniversityCampus-VoTrongNghiaArchitects-004.jpg");
 	background-size: cover;
-	background-attachment:fixed;
+	background-attachment: fixed;
 	min-height: 700px;
+	
 }
 
 .bg-dark.lt, .bg-dark .lt {

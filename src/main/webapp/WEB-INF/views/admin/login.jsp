@@ -5,7 +5,7 @@
 <%@ taglib prefix="sec"
 	uri="http://www.springframework.org/security/tags"%>
 <!DOCTYPE html>
-<html lang="en" class="bg-dark">
+<html lang="en" class="bg-dark1">
 <head>
 <meta charset="utf-8" />
 <title></title>
@@ -95,13 +95,8 @@
 					<div class="line line-dashed"></div>
 				</form>
 			</section>
-			<div class="or-seperator">
-				<i>or</i>
-			</div>
-			<div class="text-center social-btn">
-				<a href="#" class="btn btn-danger btn-block"><i
-					class="fa fa-google"></i> Đăng nhập với <b>Google</b></a>
-			</div>
+			
+			
 		</div>
 	</section>
 	
