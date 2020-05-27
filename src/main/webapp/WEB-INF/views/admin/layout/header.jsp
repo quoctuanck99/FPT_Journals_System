@@ -14,12 +14,12 @@
 			<i class="fa fa-bars"></i>
 		</a> <a href="<%=request.getContextPath()%>/admin" class="navbar-brand"
 			data-toggle="fullscreen1111">
-			<%--<img src="<%=request.getContextPath()%>/assets/images/stp_logo.png" class="m-r-sm ">--%>ADMIN
+			<img src="<%=request.getContextPath()%>/assets/images/logo/logo-2.png" class="m-r-sm ">
 		</a> <a class="btn btn-link visible-xs" data-toggle="dropdown"
 			data-target=".nav-user"> <i class="fa fa-cog"></i>
 		</a>
 	</div>
-
+	<span class="dasboard-header"><strong>Dashboard</strong></span>
 	<ul class="nav navbar-nav navbar-right hidden-xs nav-user ">
 		<li class="hidden-xs">
 

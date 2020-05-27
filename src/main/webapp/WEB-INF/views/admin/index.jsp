@@ -35,7 +35,7 @@
             <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
                 <li><a href="<%=request.getContextPath()%>/"><i class="fa fa-home"></i>&nbsp;Home</a></li>
             </ul>
-            <div class="m-b-md"><h3 class="m-b-none">Workset</h3>
+            <div class="m-b-md"><h3 class="m-b-none">FPT Journal System</h3>
                 <small><span class="text-success"><sec:authentication property="principal.fullName" /></span>, mừng bạn trở lại.</small>
             </div>
 
@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <section class="panel panel-default">
-                        <header class="panel-heading font-bold">Biểu đồ doanh thu {{nameTitle}}</header>
+                        <header class="panel-heading font-bold">Biểu đồ doanh thu </header>
                         <div class="panel-body">
                             <div id="container"></div>
                           
