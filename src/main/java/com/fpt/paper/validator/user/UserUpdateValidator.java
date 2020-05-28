@@ -8,6 +8,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
+
 @Component
 public class UserUpdateValidator implements Validator {
     //which objects can be validated by this validator

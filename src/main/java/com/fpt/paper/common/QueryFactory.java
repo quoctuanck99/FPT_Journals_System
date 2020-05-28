@@ -2,10 +2,9 @@ package com.fpt.paper.common;
 
 import java.util.List;
 
-
 public class QueryFactory {
 
-
+    
     public static int countPage(int total) {
         int rowPerpage = Constant.ROW_PER_PAGE;
         int result = 0;

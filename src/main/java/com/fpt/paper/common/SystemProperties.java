@@ -9,7 +9,6 @@ import java.net.URL;
 import java.util.Properties;
 
 
-
 public class SystemProperties {
 
     private static final Properties SYSTEM_PROPERTIES = new Properties();
@@ -25,7 +24,12 @@ public class SystemProperties {
     }
 
 
- 
+    /**
+     * getProperty
+     *
+     * @param key
+     * @return value
+     */
     public static String getProperty(String key) {
 
         String ret = key;
@@ -35,7 +39,12 @@ public class SystemProperties {
         return ret;
     }
 
-
+    /**
+     * setProperty
+     *
+     * @param key
+     * @return value
+     */
     public static void setProperty(String key, String value) {
         if (SYSTEM_PROPERTIES.containsKey(key)) {
             try {

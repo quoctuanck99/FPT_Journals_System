@@ -3,6 +3,7 @@ package com.fpt.paper.model.admin;
 import javax.persistence.*;
 import java.io.Serializable;
 
+
 @Entity
 @Table(name = "adm_authorities")
 public class Authority implements Serializable {

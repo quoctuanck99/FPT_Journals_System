@@ -17,7 +17,6 @@ import javax.persistence.Query;
 import java.util.List;
 import java.util.Optional;
 
-
 @Repository
 @Transactional(value = "transactionManager")
 public class GroupDaoImpl implements GroupDao {

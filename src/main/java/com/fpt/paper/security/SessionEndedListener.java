@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 
 import javax.servlet.http.Cookie;
 
+
 @Component
 public class SessionEndedListener implements ApplicationListener<SessionDestroyedEvent> {
 

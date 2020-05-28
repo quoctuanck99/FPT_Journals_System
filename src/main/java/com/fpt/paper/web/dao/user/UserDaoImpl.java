@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
+//chỗ này phải sửa lại EntityManager mặc định // tất cả các class ah nhé
 @Transactional(value = "transactionManager")
 public class UserDaoImpl implements UserDao {
 

@@ -1,6 +1,5 @@
 package com.fpt.paper.model.admin.view;
 
-
 public class GroupView {
     private Integer id;
     private String groupName;
