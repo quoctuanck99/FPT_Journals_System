@@ -1,6 +1,6 @@
 package com.fpt.paper.common;
 
-//import com.osp.model2.serverout.account;
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

@@ -5,7 +5,7 @@ import com.fpt.paper.model.admin.Authority;
 import com.fpt.paper.model.admin.Group;
 import com.fpt.paper.model.admin.GroupUser;
 import com.fpt.paper.model.admin.view.GroupView;
-
+import com.fpt.paper.validator.SanSimException;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -20,7 +20,7 @@ public interface GroupService {
     Optional<GroupView> getGroupView(Integer id);
     Optional<List<Authority>> loadAllAuthority();
     Optional<Boolean> saveGroupView(GroupView item);
-    Optional<Boolean> editGroupView(GroupView item);
+    Optional<Boolean> editGroupView(GroupView item) throws SanSimException;
 
     Optional<Boolean> addListGroupUser(List<GroupUser> items, Long userId);
     Optional<Boolean> deleteListGroupOfUser(Long userId);

@@ -5,33 +5,33 @@
 <link
 	href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700'
 	rel='stylesheet' type='text/css'>
+<%-- 
+<link rel="stylesheet" type="text/css"
+	href="<c:url value='/assets/project/public/css/bootstrap.css'/>" />
 
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/bootstrap.css'/>" />
-
+	href="<c:url value='/assets/project/public/css/animate.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/animate.css'/>" />
+	href="<c:url value='/assets/project/public/css/jquery-ui.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/jquery-ui.css'/>" />
+	href="<c:url value='/assets/project/public/css/simple-line-icons.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/simple-line-icons.css'/>" />
+	href="<c:url value='/assets/project/public/css/font-awesome.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/font-awesome.min.css'/>" />
+	href="<c:url value='/assets/project/public/css/icon-font.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/icon-font.css'/>" />
+	href="<c:url value='/assets/project/public/css/educa.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/educa.css'/>" />
+	href="<c:url value='/assets/project/public/rs-plugin/css/settings.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/publicAssets/rs-plugin/css/settings.css'/>" />
+	href="<c:url value='/assets/project/public/css/layout.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/layout.css'/>" />
+	href="<c:url value='/assets/project/public/css/datatables.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/datatables.min.css'/>" />
+	href="<c:url value='/assets/project/public/css/modaal.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/modaal.min.css'/>" />
-<link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/css/elements.css'/>" /> 
-	
+	href="<c:url value='/assets/project/public/css/elements.css'/>" /> 
+	 --%>
 <div class="row">
 	<div id="search-bar">
 		<div class="container">

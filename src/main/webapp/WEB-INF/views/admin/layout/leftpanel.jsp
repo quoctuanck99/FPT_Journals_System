@@ -37,7 +37,33 @@
 							href="<%=request.getContextPath()%>/admin"> <i
 								class="fa fa-dashboard icon"> <b class="bg-info"></b>
 							</i><span>BÁO CÁO</span></a></li>
+						<!-- Quan ly danh muc -->
+						<li><a
+							href="<%=request.getContextPath()%>/system/category/list"> <i
+								class="fa fa-cogs icon"> <b class="bg-info"></b>
+							</i><span>Quản lý danh mục</span></a></li>
 
+				<!-- 	Quan ly bai viet -->
+						<li
+							class="<%=isActive(request.getContextPath() + "/admin/content", request) ? "active" : ""%>"><a
+							href="#" class=""> <i class="fa fa-file-text icon"> <b class="bg-primary"></b>
+							</i> <span class="pull-right"> <i
+									class="fa fa-angle-down text"></i> <i
+									class="fa fa-angle-up text-active"></i>
+							</span> <span>Quản lý bài viết</span>
+						</a>
+							<ul class="nav lt">
+							
+								<li
+									class="<%=isActive(request.getContextPath() + "/system/article", request) ? "active" : ""%> "><a
+									href="<%=request.getContextPath()%>/system/article/list"
+									class=""> <i class="fa fa-angle-right"></i>
+										<span>Bài viết</span>
+								</a></li>
+								
+							</ul></li>
+					
+						<!-- Quan tri he thong -->
 						<sec:authorize
 							access="hasAnyRole('ROLE_SYSTEM_USER_VIEW','ROLE_SYSTEM_GROUP_VIEW','ROLE_SYSTEM_LOG_VIEW')">
 							<li

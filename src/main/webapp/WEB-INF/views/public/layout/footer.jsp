@@ -41,7 +41,7 @@
 				<div class="footer-widget">
 					<div class="educa-info">
 						<img src="<c:out value="${pageContext.servletContext.contextPath}"/>/assets/images/logo/logo-2.png" alt="">
-					
+						
 						<p>Viral megings photo booth farm tab McSweeney's Thundercats
 							til typewrite PBR food truck Kickstarter mumb ennui Tumblr. Jean
 							shorts hoodiele.</p>
@@ -107,7 +107,7 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="copyright-text">
-								<p>@ Copyright 2020 FPT Education</p>
+								<p>@ Copyright 2020 Fpt Juornal. All Rights Reserved</p>
 							</div>
 						</div>
 						

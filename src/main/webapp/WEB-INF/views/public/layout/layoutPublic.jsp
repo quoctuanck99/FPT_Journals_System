@@ -40,11 +40,25 @@
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/assets/css/layout.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/publicAssets/css/datatables.min.css'/>" />
+	href="<c:url value='/assets/css/datatables.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/publicAssets/css/modaal.min.css'/>" />
+	href="<c:url value='/assets/css/modaal.min.css'/>" />
 <link rel="stylesheet" type="text/css"
-	href="<c:url value='/assets/publicAssets/css/elements.css'/>" /> 
+	href="<c:url value='/assets/css/elements.css'/>" />
+
+	<link rel="stylesheet" href="<%=request.getContextPath()%>/assets/adminAssets/angularjs/autocomplete/autocomplete.css" type="text/css"/>
+
+	<script src="<%=request.getContextPath()%>/assets/adminAssets/angularjs/angular.min.js"></script>
+	<script src="<%=request.getContextPath()%>/assets/adminAssets/angularjs/angular-sanitize.min.js"></script>
+	<script src="<%=request.getContextPath()%>/assets/adminAssets/common.js"></script>
+	<script src="<%=request.getContextPath()%>/assets/adminAssets/js/CommonFunction.js"></script>
+	<script src="<%=request.getContextPath()%>/assets/adminAssets/js/croppie.js"></script>
+	<script src="<%=request.getContextPath()%>/assets/adminAssets/angularjs/autocomplete/autocomplete.js"></script>
+
+	<script>
+        var preUrl='<%=request.getContextPath()%>';
+	</script>
+
 </head>
 
 <body>
@@ -57,13 +71,14 @@
 			<div class="sidebar-menu-inner">
 
 				<tiles:insertAttribute name="userheader" />
+				<tiles:insertAttribute name="menuheader" />
 				<tiles:insertAttribute name="search" />
 
 				<section class="single-course"style="padding-bottom: 50px;">
 					<div class="container">
 						<div class="row" id="main-container"  style="padding-bottom: 50px;">
 							<div class="col-md-4">
-								<tiles:insertAttribute name="menu" />
+								<tiles:insertAttribute name="leftmenu" />
 							</div>
 							<div class="col-md-8">
 								<div class="item course-item">

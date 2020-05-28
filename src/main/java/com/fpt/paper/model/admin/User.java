@@ -11,6 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 
+
 @Entity
 @Data
 @Table(name = "adm_users")
